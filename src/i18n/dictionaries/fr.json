@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "description": "La foi dans chaque note. L'excellence dans chaque harmonie. Chorale catholique liturgique et gospel de la paroisse Regina Pacis, Remera, Kigali."
+  },
+  "common": {
+    "skipToContent": "Aller au contenu",
+    "donate": "Faire un don",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue",
+    "tagline": "La foi dans chaque note. L'excellence dans chaque harmonie.",
+    "parish": "Paroisse Regina Pacis, Remera, Kigali"
+  },
+  "nav": {
+    "about": "À propos",
+    "history": "Histoire",
+    "music": "Musique",
+    "events": "Événements",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "videos": "Vidéos",
+    "leadership": "Direction",
+    "news": "Actualités & presse",
+    "charity": "Actes d'amour",
+    "join": "Rejoindre la chorale"
+  },
+  "home": {
+    "intro": "Une chorale catholique liturgique et gospel qui chante à la paroisse Regina Pacis de Remera, à Kigali, depuis 2006.",
+    "ctaEvents": "Prochains concerts",
+    "ctaJoin": "Rejoindre la chorale",
+    "photoAlt": "La Chorale Christus Regnat en robes blanches à cols dorés devant des draperies blanches et dorées",
+    "photoCaption": "Événement et crédit photo à confirmer."
+  },
+  "practice": {
+    "eyebrow": "Priez et chantez avec nous",
+    "title": "Où nous trouver",
+    "rehearsalsTitle": "Répétitions hebdomadaires",
+    "rehearsalsDays": "Chaque mardi et vendredi",
+    "rehearsalsNote": "Vous aimeriez chanter avec nous ? Découvrez comment rejoindre la chorale.",
+    "massTitle": "Sainte Messe",
+    "massText": "Nous chantons à la messe dominicale selon un planning mensuel : à la paroisse Regina Pacis, au Centre Christus et à la paroisse Cathédrale Saint-Michel, et parfois aux messes matinales.",
+    "massNote": "La prochaine messe avec la chorale sera annoncée ici.",
+    "joinCta": "Rejoindre la chorale",
+    "followCta": "Suivez-nous sur YouTube"
+  },
+  "countdown": {
+    "eyebrow": "À ne pas manquer",
+    "days": "Jours",
+    "hours": "Heures",
+    "minutes": "Minutes",
+    "seconds": "Secondes",
+    "started": "La fête a commencé !",
+    "cta": "Détails du concert",
+    "venueTbc": "Lieu et billets à annoncer"
+  },
+  "committee": {
+    "eyebrow": "Direction",
+    "title": "Notre comité",
+    "subtitle": "Le comité exécutif au service de la chorale",
+    "viewAll": "Comité complet et historique",
+    "sampleBadge": "Noms fictifs",
+    "sampleNote": "Noms provisoires en attendant le vrai comité.",
+    "roles": {
+      "president": "Président",
+      "vicePresident": "Vice-président",
+      "technicalVicePresident": "Vice-président technique",
+      "secretary": "Secrétaire",
+      "accountant": "Comptable"
+    }
+  },
+  "events": {
+    "featuredSubtitle": "Concert du 20e anniversaire"
+  },
+  "footer": {
+    "singWithUs": "Chantez avec nous",
+    "bookChoir": "Inviter la chorale",
+    "about": "Une chorale catholique liturgique et gospel au service de la liturgie depuis 2006.",
+    "explore": "Explorer",
+    "getInvolved": "S'impliquer",
+    "joinChoir": "Rejoindre la chorale",
+    "bookEvent": "Nous inviter pour un mariage ou un événement",
+    "support": "Soutenir notre mission",
+    "actsOfLove": "Actes d'amour",
+    "saveTheDate": "À ne pas manquer",
+    "since": "Depuis",
+    "backToTop": "Retour en haut"
+  }
+}

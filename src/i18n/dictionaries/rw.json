@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "description": "Ukwemera muri buri nota. Ubuhanga muri buri ijwi. Korali gatolika iririmba muri liturujiya, muri Paruwasi Regina Pacis, Remera, i Kigali."
+  },
+  "common": {
+    "skipToContent": "Jya ku bikubiyemo",
+    "donate": "Tera inkunga",
+    "openMenu": "Fungura menu",
+    "closeMenu": "Funga menu",
+    "language": "Ururimi",
+    "tagline": "Ukwemera muri buri nota. Ubuhanga muri buri ijwi.",
+    "parish": "Paruwasi Regina Pacis, Remera, Kigali"
+  },
+  "nav": {
+    "about": "Abo turi bo",
+    "history": "Amateka",
+    "music": "Indirimbo",
+    "events": "Ibikorwa",
+    "gallery": "Amafoto",
+    "contact": "Twandikire",
+    "videos": "Amashusho",
+    "leadership": "Ubuyobozi",
+    "news": "Amakuru",
+    "charity": "Ibikorwa by'urukundo",
+    "join": "Injira muri korali"
+  },
+  "home": {
+    "intro": "Korali gatolika iririmba muri liturujiya n'indirimbo zisingiza Imana, muri Paruwasi Regina Pacis, Remera, i Kigali, kuva mu 2006.",
+    "ctaEvents": "Ibitaramo biri imbere",
+    "ctaJoin": "Injira muri korali",
+    "photoAlt": "Abaririmbyi ba Chorale Christus Regnat bambaye imyenda yera ifite amabara ya zahabu",
+    "photoCaption": "Igikorwa n'uwafashe ifoto bizemezwa nyuma."
+  },
+  "practice": {
+    "eyebrow": "Sengana natwe, uririmbane natwe",
+    "title": "Aho wadusanga",
+    "rehearsalsTitle": "Imyitozo ya buri cyumweru",
+    "rehearsalsDays": "Buri wa Kabiri no ku wa Gatanu",
+    "rehearsalsNote": "Wifuza kuririmbana natwe? Menya uko winjira muri korali.",
+    "massTitle": "Igitambo cya Misa",
+    "massText": "Turirimba mu Misa yo ku Cyumweru hakurikijwe gahunda ya buri kwezi: muri Paruwasi Regina Pacis, muri Centre Christus no muri Paruwasi Katedrali ya Mutagatifu Mikayile, rimwe na rimwe no mu Misa ya mu gitondo cya kare.",
+    "massNote": "Misa ikurikira tuzaririmbamo izatangarizwa hano.",
+    "joinCta": "Injira muri korali",
+    "followCta": "Dukurikire kuri YouTube"
+  },
+  "countdown": {
+    "eyebrow": "Ntuzabure",
+    "days": "Iminsi",
+    "hours": "Amasaha",
+    "minutes": "Iminota",
+    "seconds": "Amasegonda",
+    "started": "Ibirori byatangiye!",
+    "cta": "Ibisobanuro by'igitaramo",
+    "venueTbc": "Aho kizabera n'amatike bizatangazwa"
+  },
+  "committee": {
+    "eyebrow": "Ubuyobozi",
+    "title": "Menya komite yacu",
+    "subtitle": "Komite nyobozi ikorera korali",
+    "viewAll": "Komite yose n'amateka",
+    "sampleBadge": "Amazina y'icyitegererezo",
+    "sampleNote": "Amazina y'agateganyo kugeza komite nyayo yongewemo.",
+    "roles": {
+      "president": "Perezida",
+      "vicePresident": "Visi Perezida",
+      "technicalVicePresident": "Visi Perezida ushinzwe tekiniki",
+      "secretary": "Umunyamabanga",
+      "accountant": "Umucungamari"
+    }
+  },
+  "events": {
+    "featuredSubtitle": "Igitaramo cy'isabukuru y'imyaka 20"
+  },
+  "footer": {
+    "singWithUs": "Ririmba natwe",
+    "bookChoir": "Dutumire",
+    "about": "Korali gatolika ikorera liturujiya kuva mu 2006.",
+    "explore": "Sura",
+    "getInvolved": "Ifatanye natwe",
+    "joinChoir": "Injira muri korali",
+    "bookEvent": "Dutumire mu bukwe cyangwa mu birori",
+    "support": "Shyigikira ubutumwa bwacu",
+    "actsOfLove": "Ibikorwa by'urukundo",
+    "saveTheDate": "Ntuzabure",
+    "since": "Kuva",
+    "backToTop": "Subira hejuru"
+  }
+}
