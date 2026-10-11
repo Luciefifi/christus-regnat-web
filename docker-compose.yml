@@ -1,0 +1,23 @@
+name: ccr
+
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: ccr-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ccr
+      POSTGRES_PASSWORD: ccr_dev_password
+      POSTGRES_DB: ccr_website
+    ports:
+      - "5436:5432"
+    volumes:
+      - ccr_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ccr -d ccr_website"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  ccr_pgdata:
