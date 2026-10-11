@@ -31,6 +31,43 @@
     "photoAlt": "Abaririmbyi ba Chorale Christus Regnat bambaye imyenda yera ifite amabara ya zahabu",
     "photoCaption": "Igikorwa n'uwafashe ifoto bizemezwa nyuma."
   },
+  "practice": {
+    "eyebrow": "Sengana natwe, uririmbane natwe",
+    "title": "Aho wadusanga",
+    "rehearsalsTitle": "Imyitozo ya buri cyumweru",
+    "rehearsalsDays": "Buri wa Kabiri no ku wa Gatanu",
+    "rehearsalsNote": "Wifuza kuririmbana natwe? Menya uko winjira muri korali.",
+    "massTitle": "Igitambo cya Misa",
+    "massText": "Turirimba mu Misa yo ku Cyumweru muri Regina Pacis hakurikijwe gahunda ya paruwasi ya buri kwezi, rimwe na rimwe no mu Misa ya mu gitondo cya kare.",
+    "massNote": "Misa ikurikira tuzaririmbamo izatangarizwa hano.",
+    "joinCta": "Injira muri korali",
+    "followCta": "Dukurikire kuri YouTube"
+  },
+  "countdown": {
+    "eyebrow": "Ntuzabure",
+    "days": "Iminsi",
+    "hours": "Amasaha",
+    "minutes": "Iminota",
+    "seconds": "Amasegonda",
+    "started": "Ibirori byatangiye!",
+    "cta": "Ibisobanuro by'igitaramo",
+    "venueTbc": "Aho kizabera n'amatike bizatangazwa"
+  },
+  "committee": {
+    "eyebrow": "Ubuyobozi",
+    "title": "Menya komite yacu",
+    "subtitle": "Komite nyobozi ikorera korali",
+    "viewAll": "Komite yose n'amateka",
+    "sampleBadge": "Amazina y'icyitegererezo",
+    "sampleNote": "Amazina y'agateganyo kugeza komite nyayo yongewemo.",
+    "roles": {
+      "president": "Perezida",
+      "vicePresident": "Visi Perezida",
+      "technicalVicePresident": "Visi Perezida ushinzwe tekiniki",
+      "secretary": "Umunyamabanga",
+      "accountant": "Umucungamari"
+    }
+  },
   "events": {
     "featuredSubtitle": "Igitaramo cy'isabukuru y'imyaka 20"
   },

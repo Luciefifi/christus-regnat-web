@@ -12,11 +12,19 @@ export const site = {
     x: "https://x.com/CChristusRegnat",
     facebook: "https://www.facebook.com/choralechristusregnatrwanda/", // TODO: confirm with the choir
   },
+  // The fixed weekly rehearsals (source: choir member). Day names are translated in the dictionaries.
+  rehearsals: {
+    start: "18:00",
+    end: "20:00",
+    venue: "Ste Famille (JOC)",
+  },
   // Temporary: moves to the database (Event table) in Step 7.
   // Source: the choir's #iBweranganzo2026 announcement (venue and tickets not announced yet).
   featuredEvent: {
     title: "iBweranganzo 2026",
     date: "2026-11-29", // ISO date, formatted per language with formatDate()
+    // TODO: start time not announced; 18:00 Kigali time assumed (the 2023 edition started at 18:00)
+    startsAt: "2026-11-29T18:00:00+02:00",
     href: "/events",
   },
 } as const;
