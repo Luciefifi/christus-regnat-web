@@ -24,7 +24,9 @@ export default function HomePage() {
             {site.featuredEvent.title} · {site.featuredEvent.dateLabel}
           </Link>
 
-          <h1 className="mt-6 text-5xl font-semibold leading-[1.05] tracking-tight sm:text-7xl">{site.name}</h1>
+          <h1 className="mt-6 text-5xl leading-[1.05] font-semibold tracking-tight sm:text-7xl">
+            {site.name}
+          </h1>
 
           {/* The choir's call and response */}
           <p className="mt-5 font-display text-3xl italic sm:text-4xl">
@@ -33,7 +35,8 @@ export default function HomePage() {
           </p>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-muted">
-            {site.tagline} A Catholic liturgical and gospel choir singing at {site.parish} since {site.founded}.
+            {site.tagline} A Catholic liturgical and gospel choir singing at {site.parish} since{" "}
+            {site.founded}.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -53,9 +56,11 @@ export default function HomePage() {
             placeholder="blur"
             sizes="(min-width: 1024px) 50vw, 100vw"
             preload
-            className="h-auto w-full rounded-3xl shadow-2xl shadow-gold-900/10 ring-1 ring-gold-200"
+            className="h-auto w-full rounded-3xl shadow-2xl ring-1 shadow-gold-900/10 ring-gold-200"
           />
-          <figcaption className="mt-3 text-xs text-ink-muted">Event and photographer credit to be confirmed.</figcaption>
+          <figcaption className="mt-3 text-xs text-ink-muted">
+            Event and photographer credit to be confirmed.
+          </figcaption>
         </figure>
       </Container>
     </section>

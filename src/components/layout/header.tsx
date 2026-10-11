@@ -13,7 +13,9 @@ export function Header() {
         <Link href="/" className="flex items-center gap-3">
           {/* alt="" because the visible text next to it already names the choir */}
           <Image src="/logo.png" alt="" width={40} height={40} preload />
-          <span className="font-display text-xl font-semibold leading-none text-ink">{site.shortName}</span>
+          <span className="font-display text-xl leading-none font-semibold text-ink">
+            {site.shortName}
+          </span>
         </Link>
 
         <nav aria-label="Main" className="hidden items-center gap-1 lg:flex">

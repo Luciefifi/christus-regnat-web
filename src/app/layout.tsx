@@ -21,12 +21,10 @@ export const metadata: Metadata = {
   description: `${site.tagline} Catholic liturgical and gospel choir at ${site.parish}.`,
 };
 
-
 export const viewport: Viewport = {
   colorScheme: "only light",
   themeColor: "#ffffff",
 };
-
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -34,7 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-dvh flex-col">
         <a
           href="#main"
-          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-gold-400 focus:px-4 focus:py-2"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded-full focus:bg-gold-400 focus:px-4 focus:py-2"
         >
           Skip to content
         </a>
