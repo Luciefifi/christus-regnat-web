@@ -14,26 +14,25 @@
   --color-gold-800: #6e450f;
   --color-gold-900: #4a2e0b;
 
-  --color-cream: #fffbf2;      /* page background */
-  --color-ink: #2b2118;        /* body text: deep brown, not black/blue */
-  --color-ink-muted: #6b5d4f;  /* secondary text */
-    /* Logo accent colours: use sparingly (badges, icons, links, status), never large areas.
+  --color-cream: #fffbf2; /* page background */
+  --color-ink: #2b2118; /* body text: deep brown, not black/blue */
+  --color-ink-muted: #6b5d4f; /* secondary text */
+  /* Logo accent colours: use sparingly (badges, icons, links, status), never large areas.
      Each has a light tint (backgrounds of small badges) and a dark shade (text, readable on white). */
-  --color-grape: #133ab4;        /* grapes: links, info */
+  --color-grape: #133ab4; /* grapes: links, info */
   --color-grape-50: #eef2fd;
 
-  --color-leaf: #1f7a43;         /* leaves (darkened from #4BD678 for readable text): success, Ordinary Time */
+  --color-leaf: #1f7a43; /* leaves (darkened from #4BD678 for readable text): success, Ordinary Time */
   --color-leaf-50: #ecfaf1;
 
-  --color-cloth: #0f6b5a;        /* teal cloth (darkened from #91E8D4): secondary info */
+  --color-cloth: #0f6b5a; /* teal cloth (darkened from #91E8D4): secondary info */
   --color-cloth-50: #effbf8;
 
-  --color-jewel: #a12522;        /* red jewels: errors, "sold out", Pentecost/martyrs */
+  --color-jewel: #a12522; /* red jewels: errors, "sold out", Pentecost/martyrs */
   --color-jewel-50: #fdf0ef;
 
-  --color-wine: #5a0f5e;         /* wine: Advent and Lent */
+  --color-wine: #5a0f5e; /* wine: Advent and Lent */
   --color-wine-50: #f7eef8;
-
 }
 
 /* Fonts come from next/font as CSS variables (see layout.tsx).
@@ -44,14 +43,16 @@
 }
 
 @layer base {
-    :root {
+  :root {
     color-scheme: only light; /* tells browsers not to auto-darken this site */
   }
 
   body {
     @apply bg-cream font-sans text-ink antialiased;
   }
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     @apply font-display text-ink;
   }
   :focus-visible {

@@ -13,7 +13,9 @@ afterEach(cleanup);
 describe("MobileMenu", () => {
   it("starts closed", () => {
     render(<MobileMenu items={items} />);
-    expect(screen.getByRole("button", { name: "Open menu" }).getAttribute("aria-expanded")).toBe("false");
+    expect(screen.getByRole("button", { name: "Open menu" }).getAttribute("aria-expanded")).toBe(
+      "false",
+    );
     expect(screen.queryByRole("link", { name: "About" })).toBeNull();
   });
 
@@ -21,7 +23,9 @@ describe("MobileMenu", () => {
     render(<MobileMenu items={items} />);
     fireEvent.click(screen.getByRole("button", { name: "Open menu" }));
 
-    expect(screen.getByRole("button", { name: "Close menu" }).getAttribute("aria-expanded")).toBe("true");
+    expect(screen.getByRole("button", { name: "Close menu" }).getAttribute("aria-expanded")).toBe(
+      "true",
+    );
     fireEvent.click(screen.getByRole("link", { name: "About" }));
 
     expect(screen.queryByRole("link", { name: "About" })).toBeNull();

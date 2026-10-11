@@ -26,7 +26,13 @@ export function Footer() {
       {/* Motto band: the choir's call and response */}
       <div className="border-b border-white/10">
         <Container className="flex flex-col items-center gap-6 py-14 text-center">
-          <Image src="/logo.png" alt="" width={72} height={72} className="rounded-full ring-1 ring-gold-400/40" />
+          <Image
+            src="/logo.png"
+            alt=""
+            width={72}
+            height={72}
+            className="rounded-full ring-1 ring-gold-400/40"
+          />
           <p className="font-display text-3xl leading-tight sm:text-5xl">
             <span className="text-white">{site.motto.call}</span>{" "}
             <span className="text-gold-300">{site.motto.response}</span>
@@ -48,10 +54,18 @@ export function Footer() {
         <div className="lg:col-span-4">
           <p className="font-display text-2xl font-semibold text-white">{site.name}</p>
           <p className="mt-3 text-sm leading-relaxed text-gold-100/70">
-            {site.tagline} A Catholic liturgical and gospel choir serving the liturgy since {site.founded}.
+            {site.tagline} A Catholic liturgical and gospel choir serving the liturgy since{" "}
+            {site.founded}.
           </p>
           <p className="mt-5 flex items-start gap-2 text-sm text-gold-100/70">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-gold-400">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              aria-hidden="true"
+              className="mt-0.5 size-4 shrink-0 text-gold-400"
+            >
               <path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21Z" />
               <circle cx="12" cy="9.5" r="2.5" />
             </svg>
@@ -79,7 +93,9 @@ export function Footer() {
 
         {/* Featured event card */}
         <div className="lg:col-span-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">Save the date</p>
+          <p className="text-xs font-semibold tracking-[0.2em] text-gold-400 uppercase">
+            Save the date
+          </p>
           <Link
             href={site.featuredEvent.href}
             className="group mt-4 block rounded-2xl bg-linear-to-br from-gold-400/20 to-transparent p-5 ring-1 ring-gold-400/30 transition hover:ring-gold-400"
@@ -88,7 +104,10 @@ export function Footer() {
             <p className="mt-1 text-sm text-gold-100/80">{site.featuredEvent.subtitle}</p>
             <p className="mt-4 text-sm font-semibold text-gold-300">
               {site.featuredEvent.dateLabel}
-              <span aria-hidden="true" className="ml-2 inline-block transition group-hover:translate-x-1">
+              <span
+                aria-hidden="true"
+                className="ml-2 inline-block transition group-hover:translate-x-1"
+              >
                 →
               </span>
             </p>
@@ -122,7 +141,7 @@ function FooterColumn({
 }) {
   return (
     <nav aria-label={title} className={className}>
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">{title}</p>
+      <p className="text-xs font-semibold tracking-[0.2em] text-gold-400 uppercase">{title}</p>
       <ul className="mt-4 space-y-3 text-sm">
         {items.map((item) => (
           <li key={item.href}>
