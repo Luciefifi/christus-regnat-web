@@ -1,0 +1,32 @@
+name: Branch flow
+
+on:
+  pull_request:
+    branches: [main, staging]
+
+# This workflow only reads PR metadata; it needs no write access
+permissions: {}
+
+jobs:
+  check-source:
+    name: Enforce branch flow
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check where this PR comes from
+        # Pass PR values through env (never ${{ }} inside run:) to prevent script injection
+        env:
+          BASE: ${{ github.base_ref }}
+          HEAD: ${{ github.head_ref }}
+        run: |
+          if [ "$BASE" = "main" ] && [ "$HEAD" != "staging" ] && [[ "$HEAD" != hotfix/* ]]; then
+            echo "::error::PRs into main must come from staging (or hotfix/*). This PR comes from '$HEAD'."
+            exit 1
+          fi
+
+          if [ "$BASE" = "staging" ] && [ "$HEAD" != "development" ] && [[ "$HEAD" != hotfix/* ]]; then
+            echo "::error::PRs into staging must come from development (or hotfix/*). This PR comes from '$HEAD'."
+            exit 1
+          fi
+
+          echo "OK: $HEAD → $BASE follows the branch flow."
