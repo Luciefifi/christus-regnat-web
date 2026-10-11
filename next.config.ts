@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   experimental: {
     agentFeedback: true,
+    globalNotFound: true, // enables src/app/global-not-found.tsx (our root layout is under [locale])
   },
   cacheComponents: true,
   partialPrefetching: true,
