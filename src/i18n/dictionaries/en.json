@@ -31,6 +31,43 @@
     "photoAlt": "Chorale Christus Regnat in white robes with gold collars in front of white and gold drapes",
     "photoCaption": "Event and photographer credit to be confirmed."
   },
+  "practice": {
+    "eyebrow": "Pray and sing with us",
+    "title": "Where to find us",
+    "rehearsalsTitle": "Weekly rehearsals",
+    "rehearsalsDays": "Every Tuesday & Friday",
+    "rehearsalsNote": "Would you like to sing with us? Find out how to join the choir.",
+    "massTitle": "Holy Mass",
+    "massText": "We sing at Sunday Mass following a monthly plan: at Regina Pacis Parish, at Centre Christus and at St Michel Cathedral Parish, and sometimes at early-morning Masses.",
+    "massNote": "The next Mass with the choir will be announced here.",
+    "joinCta": "Join the choir",
+    "followCta": "Follow us on YouTube"
+  },
+  "countdown": {
+    "eyebrow": "Save the date",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "started": "The celebration has begun!",
+    "cta": "Concert details",
+    "venueTbc": "Venue and tickets to be announced"
+  },
+  "committee": {
+    "eyebrow": "Leadership",
+    "title": "Meet our committee",
+    "subtitle": "The executive committee serving the choir",
+    "viewAll": "Full committee & history",
+    "sampleBadge": "Sample names",
+    "sampleNote": "Placeholder names until the real committee is added.",
+    "roles": {
+      "president": "President",
+      "vicePresident": "Vice-President",
+      "technicalVicePresident": "Technical Vice-President",
+      "secretary": "Secretary",
+      "accountant": "Accountant"
+    }
+  },
   "events": {
     "featuredSubtitle": "20th anniversary concert"
   },
