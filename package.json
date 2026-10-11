@@ -11,7 +11,15 @@
     "test": "vitest",
     "test:ci": "vitest run",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,mjs}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{css,json,md,yml,yaml}": "prettier --write"
   },
   "dependencies": {
     "next": "16.4.0",
