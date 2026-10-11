@@ -5,7 +5,23 @@ import { useState } from "react";
 import type { NavItem } from "@/config/navigation";
 import { buttonClasses } from "@/components/ui/button";
 
-export function MobileMenu({ items }: { items: NavItem[] }) {
+type MobileMenuLabels = { open: string; close: string; donate: string };
+
+const englishLabels: MobileMenuLabels = {
+  open: "Open menu",
+  close: "Close menu",
+  donate: "Donate",
+};
+
+export function MobileMenu({
+  items,
+  labels = englishLabels,
+  donateHref = "/donate",
+}: {
+  items: NavItem[];
+  labels?: MobileMenuLabels;
+  donateHref?: string;
+}) {
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
 
@@ -15,7 +31,7 @@ export function MobileMenu({ items }: { items: NavItem[] }) {
         type="button"
         aria-expanded={open}
         aria-controls="mobile-menu"
-        aria-label={open ? "Close menu" : "Open menu"}
+        aria-label={open ? labels.close : labels.open}
         onClick={() => setOpen((o) => !o)}
         className="rounded-full p-2 hover:bg-gold-50"
       >
@@ -51,8 +67,12 @@ export function MobileMenu({ items }: { items: NavItem[] }) {
               </li>
             ))}
             <li className="pt-2">
-              <Link href="/donate" onClick={close} className={buttonClasses("primary", "w-full")}>
-                Donate
+              <Link
+                href={donateHref}
+                onClick={close}
+                className={buttonClasses("primary", "w-full")}
+              >
+                {labels.donate}
               </Link>
             </li>
           </ul>

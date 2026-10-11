@@ -1,3 +1,4 @@
+// Facts that are the same in every language. Translated text lives in src/i18n/dictionaries.
 export const site = {
   name: "Chorale Christus Regnat",
   shortName: "Christus Regnat",
@@ -5,9 +6,7 @@ export const site = {
     call: "Christus Regnat!", // the leader calls
     response: "Ishema Ridashonga!", // the members answer
   },
-  tagline: "Faith in every note. Excellence in every harmony.",
   founded: 2006,
-  parish: "Regina Pacis Parish, Remera, Kigali",
   socials: {
     youtube: "https://www.youtube.com/@IshemaRidashonga",
     x: "https://x.com/CChristusRegnat",
@@ -17,8 +16,7 @@ export const site = {
   // Source: the choir's #iBweranganzo2026 announcement (venue and tickets not announced yet).
   featuredEvent: {
     title: "iBweranganzo 2026",
-    subtitle: "20th anniversary concert",
-    dateLabel: "29 November 2026",
+    date: "2026-11-29", // ISO date, formatted per language with formatDate()
     href: "/events",
   },
 } as const;

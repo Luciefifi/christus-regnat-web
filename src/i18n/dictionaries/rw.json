@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "description": "Ukwemera muri buri nota. Ubuhanga muri buri ijwi. Korali gatolika iririmba muri liturujiya, muri Paruwasi Regina Pacis, Remera, i Kigali."
+  },
+  "common": {
+    "skipToContent": "Jya ku bikubiyemo",
+    "donate": "Tera inkunga",
+    "openMenu": "Fungura menu",
+    "closeMenu": "Funga menu",
+    "language": "Ururimi",
+    "tagline": "Ukwemera muri buri nota. Ubuhanga muri buri ijwi.",
+    "parish": "Paruwasi Regina Pacis, Remera, Kigali"
+  },
+  "nav": {
+    "about": "Abo turi bo",
+    "history": "Amateka",
+    "music": "Indirimbo",
+    "events": "Ibikorwa",
+    "gallery": "Amafoto",
+    "contact": "Twandikire",
+    "videos": "Amashusho",
+    "leadership": "Ubuyobozi",
+    "news": "Amakuru",
+    "charity": "Ibikorwa by'urukundo",
+    "join": "Injira muri korali"
+  },
+  "home": {
+    "intro": "Korali gatolika iririmba muri liturujiya n'indirimbo zisingiza Imana, muri Paruwasi Regina Pacis, Remera, i Kigali, kuva mu 2006.",
+    "ctaEvents": "Ibitaramo biri imbere",
+    "ctaJoin": "Injira muri korali",
+    "photoAlt": "Abaririmbyi ba Chorale Christus Regnat bambaye imyenda yera ifite amabara ya zahabu",
+    "photoCaption": "Igikorwa n'uwafashe ifoto bizemezwa nyuma."
+  },
+  "events": {
+    "featuredSubtitle": "Igitaramo cy'isabukuru y'imyaka 20"
+  },
+  "footer": {
+    "singWithUs": "Ririmba natwe",
+    "bookChoir": "Dutumire",
+    "about": "Korali gatolika ikorera liturujiya kuva mu 2006.",
+    "explore": "Sura",
+    "getInvolved": "Ifatanye natwe",
+    "joinChoir": "Injira muri korali",
+    "bookEvent": "Dutumire mu bukwe cyangwa mu birori",
+    "support": "Shyigikira ubutumwa bwacu",
+    "actsOfLove": "Ibikorwa by'urukundo",
+    "saveTheDate": "Ntuzabure",
+    "since": "Kuva",
+    "backToTop": "Subira hejuru"
+  }
+}

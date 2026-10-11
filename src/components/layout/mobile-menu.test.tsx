@@ -30,4 +30,19 @@ describe("MobileMenu", () => {
 
     expect(screen.queryByRole("link", { name: "About" })).toBeNull();
   });
+
+  it("uses translated labels when given", () => {
+    render(
+      <MobileMenu
+        items={items}
+        labels={{ open: "Fungura menu", close: "Funga menu", donate: "Tera inkunga" }}
+        donateHref="/rw/donate"
+      />,
+    );
+    fireEvent.click(screen.getByRole("button", { name: "Fungura menu" }));
+
+    expect(screen.getByRole("link", { name: "Tera inkunga" }).getAttribute("href")).toBe(
+      "/rw/donate",
+    );
+  });
 });

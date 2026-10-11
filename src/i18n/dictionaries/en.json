@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "description": "Faith in every note. Excellence in every harmony. A Catholic liturgical and gospel choir at Regina Pacis Parish, Remera, Kigali."
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "donate": "Donate",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "tagline": "Faith in every note. Excellence in every harmony.",
+    "parish": "Regina Pacis Parish, Remera, Kigali"
+  },
+  "nav": {
+    "about": "About",
+    "history": "History",
+    "music": "Music",
+    "events": "Events",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "videos": "Videos",
+    "leadership": "Leadership",
+    "news": "News & Press",
+    "charity": "Acts of Love",
+    "join": "Join the Choir"
+  },
+  "home": {
+    "intro": "A Catholic liturgical and gospel choir singing at Regina Pacis Parish, Remera, Kigali, since 2006.",
+    "ctaEvents": "Upcoming concerts",
+    "ctaJoin": "Join the choir",
+    "photoAlt": "Chorale Christus Regnat in white robes with gold collars in front of white and gold drapes",
+    "photoCaption": "Event and photographer credit to be confirmed."
+  },
+  "events": {
+    "featuredSubtitle": "20th anniversary concert"
+  },
+  "footer": {
+    "singWithUs": "Sing with us",
+    "bookChoir": "Book the choir",
+    "about": "A Catholic liturgical and gospel choir serving the liturgy since 2006.",
+    "explore": "Explore",
+    "getInvolved": "Get involved",
+    "joinChoir": "Join the choir",
+    "bookEvent": "Book us for a wedding or event",
+    "support": "Support our mission",
+    "actsOfLove": "Acts of Love",
+    "saveTheDate": "Save the date",
+    "since": "Since",
+    "backToTop": "Back to top"
+  }
+}
