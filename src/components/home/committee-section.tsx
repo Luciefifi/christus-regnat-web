@@ -8,8 +8,6 @@ import { Container } from "@/components/ui/container";
 
 export function CommitteeSection({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const t = dict.committee;
-  // Shown until every invented name has been replaced with a real one
-  const hasPlaceholders = executiveCommittee.some((member) => member.isPlaceholder);
 
   return (
     <section aria-labelledby="committee-heading" className="py-20">
@@ -31,13 +29,6 @@ export function CommitteeSection({ locale, dict }: { locale: Locale; dict: Dicti
             {t.viewAll} →
           </Link>
         </div>
-
-        {hasPlaceholders && (
-          <p className="mt-6 inline-flex flex-wrap items-center gap-x-2 rounded-full bg-jewel-50 px-3 py-1 text-xs text-jewel">
-            <span className="font-semibold">{t.sampleBadge}</span>
-            <span>{t.sampleNote}</span>
-          </p>
-        )}
 
         <ul className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
           {executiveCommittee.map((member) => (
