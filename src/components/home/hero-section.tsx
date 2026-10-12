@@ -17,7 +17,7 @@ export function HeroSection({ locale, dict }: { locale: Locale; dict: Dictionary
         className="pointer-events-none absolute -top-40 right-0 size-144 rounded-full bg-gold-200/40 blur-3xl"
       />
 
-      <Container className="relative grid items-center gap-12 py-16 lg:grid-cols-2 lg:py-24">
+      <Container className="relative grid items-center gap-8 py-10 sm:py-16 lg:grid-cols-2 lg:gap-12 lg:py-20">
         <div>
           <Link
             href={localePath(locale, site.featuredEvent.href)}
@@ -27,7 +27,7 @@ export function HeroSection({ locale, dict }: { locale: Locale; dict: Dictionary
             {site.featuredEvent.title} · {formatDate(site.featuredEvent.date, intlLocale[locale])}
           </Link>
 
-          <h1 className="mt-6 text-5xl leading-[1.05] font-semibold tracking-tight sm:text-7xl">
+          <h1 className="mt-5 text-5xl leading-[1.05] font-semibold tracking-tight sm:mt-6 sm:text-7xl">
             {site.name}
           </h1>
 
@@ -51,17 +51,14 @@ export function HeroSection({ locale, dict }: { locale: Locale; dict: Dictionary
           </div>
         </div>
 
-        <figure className="relative">
-          <Image
-            src={choirPhoto}
-            alt={dict.home.photoAlt}
-            placeholder="blur"
-            sizes="(min-width: 1024px) 50vw, 100vw"
-            preload
-            className="h-auto w-full rounded-3xl shadow-2xl ring-1 shadow-gold-900/10 ring-gold-200"
-          />
-          <figcaption className="mt-3 text-xs text-ink-muted">{dict.home.photoCaption}</figcaption>
-        </figure>
+        <Image
+          src={choirPhoto}
+          alt={dict.home.photoAlt}
+          placeholder="blur"
+          sizes="(min-width: 1024px) 50vw, 100vw"
+          preload
+          className="h-auto w-full rounded-3xl shadow-2xl ring-1 shadow-gold-900/10 ring-gold-200"
+        />
       </Container>
     </section>
   );

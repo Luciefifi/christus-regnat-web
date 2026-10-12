@@ -27,7 +27,7 @@ export function LanguageSwitcher({ current, label }: { current: Locale; label: s
                 title={localeNames[locale]}
                 aria-current={isCurrent ? "true" : undefined}
                 onClick={() => rememberLocale(locale)}
-                className={`block rounded-full px-2.5 py-1 text-xs font-semibold uppercase transition ${
+                className={`block rounded-full px-2 py-1 text-xs font-semibold uppercase transition sm:px-2.5 ${
                   isCurrent ? "bg-white text-ink shadow-sm" : "text-ink-muted hover:text-ink"
                 }`}
               >
