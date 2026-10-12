@@ -9,18 +9,18 @@ export function PracticeSection({ locale, dict }: { locale: Locale; dict: Dictio
   const t = dict.practice;
 
   return (
-    <section aria-labelledby="practice-heading" className="py-20">
+    <section aria-labelledby="practice-heading" className="py-12 sm:py-16 lg:py-20">
       <Container>
         <p className="text-xs font-semibold tracking-[0.2em] text-gold-700 uppercase">
           {t.eyebrow}
         </p>
-        <h2 id="practice-heading" className="mt-2 text-4xl font-semibold">
+        <h2 id="practice-heading" className="mt-2 text-3xl font-semibold sm:text-4xl">
           {t.title}
         </h2>
 
-        <div className="mt-10 grid gap-6 lg:grid-cols-2">
+        <div className="mt-6 grid gap-4 sm:mt-10 sm:gap-6 lg:grid-cols-2">
           {/* Weekly rehearsals: the one fixed activity every week */}
-          <article className="rounded-3xl bg-white p-8 shadow-sm ring-1 ring-gold-100">
+          <article className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-gold-100 sm:p-8">
             <IconCircle>
               <path d="M12 7v5l3 2" />
               <circle cx="12" cy="12" r="9" />
@@ -38,7 +38,7 @@ export function PracticeSection({ locale, dict }: { locale: Locale; dict: Dictio
           </article>
 
           {/* Holy Mass: follows the monthly plan, so no fixed date here (comes from data later) */}
-          <article className="rounded-3xl bg-linear-to-br from-gold-50 to-white p-8 ring-1 ring-gold-200">
+          <article className="rounded-3xl bg-linear-to-br from-gold-50 to-white p-6 ring-1 ring-gold-200 sm:p-8">
             <IconCircle>
               <path d="M12 3v18M7 8h10" />
             </IconCircle>

@@ -18,11 +18,18 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
 
   return (
     <header className="sticky top-0 z-40 border-b border-gold-200/60 bg-white">
-      <Container className="flex h-16 items-center justify-between gap-4">
-        <Link href={localePath(locale, "/")} className="flex items-center gap-3">
+      <Container className="flex h-16 items-center justify-between gap-3 sm:gap-4">
+        <Link href={localePath(locale, "/")} className="flex shrink-0 items-center gap-2 sm:gap-3">
           {/* alt="" because the visible text next to it already names the choir */}
-          <Image src="/logo.png" alt="" width={40} height={40} preload />
-          <span className="font-display text-xl leading-none font-semibold text-ink">
+          <Image
+            src="/logo.png"
+            alt=""
+            width={40}
+            height={40}
+            preload
+            className="size-9 sm:size-10"
+          />
+          <span className="font-display text-lg leading-none font-semibold whitespace-nowrap text-ink sm:text-xl">
             {site.shortName}
           </span>
         </Link>
@@ -39,11 +46,12 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2">
           <LanguageSwitcher current={locale} label={dict.common.language} />
           <Link
             href={localePath(locale, "/donate")}
-            className={buttonClasses("primary", "hidden sm:inline-flex")}
+            // max-sm:hidden (not "hidden"), because the button's own inline-flex would override "hidden"
+            className={buttonClasses("primary", "max-sm:hidden")}
           >
             {dict.common.donate}
           </Link>
