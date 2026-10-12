@@ -33,7 +33,7 @@ export function MobileMenu({
         aria-controls="mobile-menu"
         aria-label={open ? labels.close : labels.open}
         onClick={() => setOpen((o) => !o)}
-        className="rounded-full p-2 hover:bg-gold-50"
+        className="rounded-full p-1.5 hover:bg-gold-50 sm:p-2"
       >
         <svg
           width="24"

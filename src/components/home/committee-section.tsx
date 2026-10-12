@@ -8,18 +8,16 @@ import { Container } from "@/components/ui/container";
 
 export function CommitteeSection({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const t = dict.committee;
-  // Shown until every invented name has been replaced with a real one
-  const hasPlaceholders = executiveCommittee.some((member) => member.isPlaceholder);
 
   return (
-    <section aria-labelledby="committee-heading" className="py-20">
+    <section aria-labelledby="committee-heading" className="py-12 sm:py-16 lg:py-20">
       <Container>
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-xs font-semibold tracking-[0.2em] text-gold-700 uppercase">
               {t.eyebrow}
             </p>
-            <h2 id="committee-heading" className="mt-2 text-4xl font-semibold">
+            <h2 id="committee-heading" className="mt-2 text-3xl font-semibold sm:text-4xl">
               {t.title}
             </h2>
             <p className="mt-2 text-ink-muted">{t.subtitle}</p>
@@ -32,18 +30,11 @@ export function CommitteeSection({ locale, dict }: { locale: Locale; dict: Dicti
           </Link>
         </div>
 
-        {hasPlaceholders && (
-          <p className="mt-6 inline-flex flex-wrap items-center gap-x-2 rounded-full bg-jewel-50 px-3 py-1 text-xs text-jewel">
-            <span className="font-semibold">{t.sampleBadge}</span>
-            <span>{t.sampleNote}</span>
-          </p>
-        )}
-
-        <ul className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+        <ul className="mt-6 grid grid-cols-2 gap-3 sm:mt-10 sm:grid-cols-3 sm:gap-4 lg:grid-cols-5">
           {executiveCommittee.map((member) => (
             <li
               key={member.role}
-              className="rounded-2xl bg-white p-5 text-center shadow-sm ring-1 ring-gold-100 transition hover:-translate-y-1 hover:shadow-md hover:ring-gold-300"
+              className="rounded-2xl bg-white p-4 text-center shadow-sm ring-1 ring-gold-100 transition hover:-translate-y-1 hover:shadow-md hover:ring-gold-300 sm:p-5"
             >
               <Avatar member={member} />
               <p className="mt-4 text-xs font-semibold tracking-wider text-gold-700 uppercase">

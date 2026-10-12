@@ -15,13 +15,13 @@ export function CountdownSection({ locale, dict }: { locale: Locale; dict: Dicti
   return (
     <section aria-labelledby="countdown-heading" className="py-6">
       <Container>
-        <div className="relative overflow-hidden rounded-4xl bg-linear-to-br from-gold-100 via-gold-50 to-white p-8 ring-1 ring-gold-200 sm:p-12">
+        <div className="relative overflow-hidden rounded-4xl bg-linear-to-br from-gold-100 via-gold-50 to-white p-6 ring-1 ring-gold-200 sm:p-12">
           <div
             aria-hidden="true"
             className="pointer-events-none absolute -right-20 -bottom-20 size-80 rounded-full bg-gold-300/30 blur-3xl"
           />
 
-          <div className="relative grid items-center gap-10 lg:grid-cols-2">
+          <div className="relative grid items-center gap-8 lg:grid-cols-2 lg:gap-10">
             <div>
               <p className="text-xs font-semibold tracking-[0.2em] text-gold-700 uppercase">
                 {t.eyebrow}

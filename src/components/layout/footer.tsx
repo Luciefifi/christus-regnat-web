@@ -28,10 +28,10 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
 
   return (
     // Deep brown (our "ink" colour), not black or blue, so the gold accents glow
-    <footer className="mt-24 bg-ink text-gold-50">
+    <footer className="mt-12 bg-ink text-gold-50 sm:mt-16 lg:mt-24">
       {/* Motto band: the choir's call and response */}
       <div className="border-b border-white/10">
-        <Container className="flex flex-col items-center gap-6 py-14 text-center">
+        <Container className="flex flex-col items-center gap-5 py-10 text-center sm:gap-6 sm:py-14">
           <Image
             src="/logo.png"
             alt=""
@@ -56,8 +56,9 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
       </div>
 
       {/* Main columns */}
-      <Container className="grid gap-12 py-14 md:grid-cols-2 lg:grid-cols-12">
-        <div className="lg:col-span-4">
+      {/* Two columns from the smallest phones up, so the link lists sit side by side */}
+      <Container className="grid grid-cols-2 gap-x-6 gap-y-10 py-10 sm:py-14 lg:grid-cols-12 lg:gap-12">
+        <div className="col-span-2 lg:col-span-4">
           <p className="font-display text-2xl font-semibold text-white">{site.name}</p>
           <p className="mt-3 text-sm leading-relaxed text-gold-100/70">
             {dict.common.tagline} {dict.footer.about}
@@ -101,7 +102,7 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         />
 
         {/* Featured event card */}
-        <div className="lg:col-span-3">
+        <div className="col-span-2 lg:col-span-3">
           <p className="text-xs font-semibold tracking-[0.2em] text-gold-400 uppercase">
             {dict.footer.saveTheDate}
           </p>
