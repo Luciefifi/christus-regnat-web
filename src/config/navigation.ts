@@ -24,9 +24,11 @@ export const moreNav: NavLink[] = [
   { href: "/join", key: "join" },
 ];
 
-// coming soon pages
-export const comingSoonPages: NavLink[] = [
-  ...mainNav,
-  ...moreNav,
-  { href: "/donate", key: "donate" },
-];
+// Pages that have their own page.tsx, so they no longer need a "coming soon" placeholder
+const builtPages = ["/join"];
+
+// Every link the site has: the menus plus the Donate button
+const allPages: NavLink[] = [...mainNav, ...moreNav, { href: "/donate", key: "donate" }];
+
+// Every page not built yet shows the "coming soon" page from src/app/[locale]/[slug]/page.tsx
+export const comingSoonPages = allPages.filter((link) => !builtPages.includes(link.href));

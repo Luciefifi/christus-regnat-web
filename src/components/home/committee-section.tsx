@@ -10,7 +10,7 @@ export function CommitteeSection({ locale, dict }: { locale: Locale; dict: Dicti
   const t = dict.committee;
 
   return (
-    <section aria-labelledby="committee-heading" className="py-12 sm:py-16 lg:py-20">
+    <section aria-labelledby="committee-heading" className="pb-12 sm:pb-16 lg:pb-20">
       <Container>
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
