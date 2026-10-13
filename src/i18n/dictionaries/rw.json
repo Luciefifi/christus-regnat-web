@@ -72,13 +72,40 @@
     "featuredSubtitle": "Igitaramo cy'isabukuru y'imyaka 20"
   },
   "comingSoon": {
-    "eyebrow": "Biraza Vuba",
-    "text": "Iyi paji iracyategurwa, Mwihangane mugaruke mukanya",
+    "eyebrow": "Biraza vuba",
+    "text": "Iyi paji iracyategurwa. Mwihangane, mugaruke mu kanya.",
     "backHome": "Subira ahabanza",
-    "follow": "Dukurikire kumbuga nkoranyambaga zacu"
+    "follow": "Dukurikire kuri YouTube"
+  },
+  "join": {
+    "eyebrow": "Injira muri korali",
+    "title": "Ngwino turirimbane",
+    "intro": "Ukunda kuririmba no gukorera Imana binyuze mu ndirimbo? Chorale Christus Regnat yakira abanyamuryango bashya bifuza gusingiza Imana mu ndirimbo za liturujiya n'iza gospel.",
+    "stepsTitle": "Uko waba umunyamuryango",
+    "steps": [
+      {
+        "title": "Ngwino mu myitozo",
+        "text": "Udusure ku wa Kabiri cyangwa ku wa Gatanu nimugoroba kuri Ste Famille (JOC), utubwire ko wifuza kwinjira muri korali."
+      },
+      {
+        "title": "Hitamo ijwi ryawe",
+        "text": "Abenshi binjira muri korali basanzwe baririmba, bityo utangirira mu ijwi usanzwe uzi: soprano, alto, tenor cyangwa bass. Witoza nk'umunyamuryango mushya, korali igakurikirana uko witabira."
+      },
+      {
+        "title": "Isuzuma",
+        "text": "Itsinda rya tekiniki rirakusuzuma, kandi rishobora kukwimurira mu rindi jwi rikubereye. Niba utaritegura bihagije, ukomeza kwitoza ugasuzumwa nanone nyuma y'igihe."
+      },
+      {
+        "title": "Ba umunyamuryango wuzuye",
+        "text": "Numara gutsinda isuzuma, uba umunyamuryango wuzuye: witabira Inteko Rusange kandi ugatanga umusanzu wa buri kwezi."
+      }
+    ],
+    "rehearsalsTitle": "Ngwino mu myitozo",
+    "applyNote": "Vuba aha uzabasha kuzuza ifishi yo kwinjira kuri internet. Kugeza ubu, ngwino uduhure mu myitozo.",
+    "followCta": "Dukurikire kuri YouTube"
   },
   "footer": {
-    "singWithUs": "Ririmba natwe",
+    "singWithUs": "Ririmbana natwe",
     "bookChoir": "Dutumire",
     "about": "Korali gatolika ikorera liturujiya kuva mu 2006.",
     "explore": "Sura",

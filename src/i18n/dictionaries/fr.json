@@ -73,11 +73,37 @@
   },
   "comingSoon": {
     "eyebrow": "Bientôt disponible",
-    "text": "Nous préparons encore cette page. Revenez bientôt, ou suivez-nous sur YouTube pour les dernières nouvelles de la chorale.",
+    "text": "Nous préparons encore cette page. Merci de revenir bientôt.",
     "backHome": "Retour à l'accueil",
-    "follow": "Suivez-nous sur Social Media"
+    "follow": "Suivez-nous sur YouTube"
   },
-
+  "join": {
+    "eyebrow": "Rejoindre la chorale",
+    "title": "Chantez avec nous",
+    "intro": "Vous aimez chanter et servir Dieu par la musique ? La Chorale Christus Regnat accueille de nouveaux membres qui souhaitent louer Dieu par la musique liturgique et gospel.",
+    "stepsTitle": "Comment devenir membre",
+    "steps": [
+      {
+        "title": "Venez à une répétition",
+        "text": "Rendez-nous visite un mardi ou un vendredi soir à Ste Famille (JOC) et dites-nous que vous souhaitez rejoindre la chorale."
+      },
+      {
+        "title": "Choisissez votre pupitre",
+        "text": "La plupart des nouveaux membres chantent déjà : vous commencez donc dans le pupitre que vous connaissez (soprano, alto, ténor ou basse). Vous répétez comme nouveau membre pendant que la chorale suit votre assiduité."
+      },
+      {
+        "title": "Évaluation",
+        "text": "L'équipe technique vous évalue et peut vous orienter vers un pupitre qui vous convient mieux. Si vous n'êtes pas encore prêt, vous continuez à répéter et serez évalué à nouveau plus tard."
+      },
+      {
+        "title": "Devenez membre à part entière",
+        "text": "Après une évaluation réussie, vous devenez membre à part entière : vous participez à l'Assemblée générale et versez la cotisation mensuelle."
+      }
+    ],
+    "rehearsalsTitle": "Venez à une répétition",
+    "applyNote": "Un formulaire d'adhésion en ligne arrive bientôt. En attendant, venez nous rencontrer lors d'une répétition.",
+    "followCta": "Suivez-nous sur YouTube"
+  },
   "footer": {
     "singWithUs": "Chantez avec nous",
     "bookChoir": "Inviter la chorale",

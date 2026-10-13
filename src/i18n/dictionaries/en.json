@@ -75,7 +75,34 @@
     "eyebrow": "Coming soon",
     "text": "We are still working on this page. Please check back soon.",
     "backHome": "Back to home",
-    "follow": "Follow us on our social medias"
+    "follow": "Follow us on YouTube"
+  },
+  "join": {
+    "eyebrow": "Join the choir",
+    "title": "Sing with us",
+    "intro": "Do you love to sing and to serve God through music? Chorale Christus Regnat welcomes new members who want to praise God through liturgical and gospel music.",
+    "stepsTitle": "How to become a member",
+    "steps": [
+      {
+        "title": "Come to a rehearsal",
+        "text": "Visit us on a Tuesday or Friday evening at Ste Famille (JOC) and tell us you would like to join the choir."
+      },
+      {
+        "title": "Choose your section",
+        "text": "Most people who join already sing, so you start in the section you know: soprano, alto, tenor or bass. You rehearse as a new member while the choir follows your attendance."
+      },
+      {
+        "title": "Evaluation",
+        "text": "The technical team evaluates you and may move you to a section that suits you better. If you are not ready yet, you keep rehearsing and are evaluated again later."
+      },
+      {
+        "title": "Become a full member",
+        "text": "After a successful evaluation, you are a full member: you take part in the General Assembly and pay the monthly contribution."
+      }
+    ],
+    "rehearsalsTitle": "Come to a rehearsal",
+    "applyNote": "An online joining form is coming soon. Until then, come and meet us at a rehearsal.",
+    "followCta": "Follow us on YouTube"
   },
   "footer": {
     "singWithUs": "Sing with us",
