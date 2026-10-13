@@ -127,7 +127,7 @@ Join form on website ──► Applicant ──► Candidate (new members group)
 
 | Page                   | Status | Notes                                                                                                                             |
 | ---------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| Home                   | 🚧     | Hero with motto ✅, committee section ⬜, rehearsals and next Mass ⬜, next concert countdown ⬜, latest video ⬜, latest news ⬜ |
+| Home                   | 🚧     | Hero with motto ✅, committee section ✅, rehearsals and next Mass ✅, next concert countdown ✅, latest video ⬜, latest news ⬜ |
 | About                  | ⬜     | Mission, Regina Pacis, languages sung, activities, meaning of "Ishema Ridashonga" ❓                                              |
 | History                | ⬜     | Interactive timeline 2006 to today                                                                                                |
 | Leadership             | ⬜     | Executive (featured), full committee grouped by area, archive of committees since 2006                                            |
@@ -146,8 +146,8 @@ Join form on website ──► Applicant ──► Candidate (new members group)
 
 1. ✅ Hero: name, motto, featured event pill, choir photo
 2. ⬜ **Today at Christus Regnat** (only shown when there is something): today's **birthday flyer(s)** (consenting members only) and/or today's **feast-day flyer**, e.g. "Happy Feast of the Assumption"
-3. ⬜ **Next event** (see rule below) + weekly rehearsals (Tue & Fri 18:00–20:00, Ste Famille JOC)
-4. ⬜ **Meet our committee**: the 5 executive members (President, Vice-President, Technical Vice-President, Secretary, Accountant) ❓ exact titles and names
+3. 🚧 **Next event** (see rule below) + weekly rehearsals (Tue & Fri 18:00–20:00, Ste Famille JOC): rehearsals and the iBweranganzo countdown ✅; the pinning rule waits for the database
+4. 🚧 **Meet our committee**: the 5 executive members (President, Vice-President, Technical Vice-President, Secretary, Accountant). Section ✅, but it shows **placeholder names** (no "sample" badge any more) ❓ exact titles and real names
 5. ⬜ Featured video
 6. ⬜ Latest news
 7. ✅ Footer with motto band, links, socials, featured event
@@ -334,40 +334,43 @@ Join form on website ──► Applicant ──► Candidate (new members group)
 
 ## 11. Quality and technical requirements
 
-- ⬜ **Languages**: English first (complete), then Kinyarwanda and French
+- ✅ **Languages**: English, Kinyarwanda and French, with automatic language detection ❓ Kinyarwanda and French texts reviewed by a native speaker
 - 🚧 **Design**: white/cream backgrounds, gold accents, deep-brown text, logo accent colours used sparingly ✅
-- ⬜ **Mobile-first and fast** on slow networks; installable app (PWA); offline song sheets
+- 🚧 **Mobile-first and fast** on slow networks (homepage checked on phones ✅); installable app (PWA); offline song sheets
 - ⬜ **SEO**: share previews, sitemap, structured data for events and the organisation
 - ⬜ **Privacy**: consent for member data and photos, role-based access, Rwanda data-protection awareness
 - ⬜ Privacy-friendly analytics
 - ✅ CI: lint, typecheck, tests and build on every pull request
 - ✅ Local database with Docker (Postgres 17 on port 5436)
+- ✅ **Demo site on Vercel**: the live site follows the `staging` branch, so every merge into `staging` updates it
 
 ---
 
 ## 12. Roadmap (branches)
 
-| #   | Branch                                                                          | Status |
-| --- | ------------------------------------------------------------------------------- | ------ |
-| 1   | `chore/project-setup`                                                           | ✅     |
-| 2   | `chore/docker`                                                                  | ✅     |
-| 3   | `chore/ci`                                                                      | ✅     |
-| 4   | `feature/design-system`                                                         | 🚧     |
-| –   | `chore/git-hooks` (Husky, lint-staged, Prettier)                                | ⬜     |
-| 5   | `feature/i18n`                                                                  | ⬜     |
-| 6   | `feature/public-pages` (incl. homepage committee and rehearsals)                | ⬜     |
-| 7   | `chore/database` (Prisma schema, migrations, seed)                              | ⬜     |
-| 8   | `feature/music-videos-events`                                                   | ⬜     |
-| 9   | `feature/auth` (roles incl. technical team, section leader, candidate)          | ⬜     |
-| 10  | `feature/portal-*` (attendance, candidates, Mass planner, songs, announcements) | ⬜     |
-| –   | `feature/flyers` (Mass, birthday and feast-day flyers)                          | ⬜     |
-| –   | `feature/contributions` (monthly contributions, fines)                          | ⬜     |
-| –   | `feature/finance` (income, expenses, accounts, budgets, reports)                | ⬜     |
-| –   | `feature/analytics` (choir, section and member dashboards)                      | ⬜     |
-| –   | `feature/notifications` (email, app push, WhatsApp share; scheduled reminders)  | ⬜     |
-| 11  | `feature/admin`                                                                 | ⬜     |
-| 12  | `feature/tickets`                                                               | ⬜     |
-| 13  | `chore/deploy` (Dockerfile, staging, production, domain)                        | ⬜     |
+| #   | Branch                                                                           | Status |
+| --- | -------------------------------------------------------------------------------- | ------ |
+| 1   | `chore/project-setup`                                                            | ✅     |
+| 2   | `chore/docker`                                                                   | ✅     |
+| 3   | `chore/ci`                                                                       | ✅     |
+| 4   | `feature/design-system`                                                          | ✅     |
+| –   | `chore/git-hooks` (Husky, lint-staged, Prettier)                                 | ✅     |
+| 5   | `feature/i18n`                                                                   | ✅     |
+| –   | `feature/home-sections` (rehearsals, countdown, committee)                       | ✅     |
+| –   | `chore/deploy-prep` + `fix/mobile-layout` (Vercel demo, phone layout)            | ✅     |
+| 6   | `feature/public-pages` (About, History, Leadership, Join, Contact, …)            | ⬜     |
+| 7   | `chore/database` (Prisma schema, migrations, seed)                               | ⬜     |
+| 8   | `feature/music-videos-events`                                                    | ⬜     |
+| 9   | `feature/auth` (roles incl. technical team, section leader, candidate)           | ⬜     |
+| 10  | `feature/portal-*` (attendance, candidates, Mass planner, songs, announcements)  | ⬜     |
+| –   | `feature/flyers` (Mass, birthday and feast-day flyers)                           | ⬜     |
+| –   | `feature/contributions` (monthly contributions, fines)                           | ⬜     |
+| –   | `feature/finance` (income, expenses, accounts, budgets, reports)                 | ⬜     |
+| –   | `feature/analytics` (choir, section and member dashboards)                       | ⬜     |
+| –   | `feature/notifications` (email, app push, WhatsApp share; scheduled reminders)   | ⬜     |
+| 11  | `feature/admin`                                                                  | ⬜     |
+| 12  | `feature/tickets`                                                                | ⬜     |
+| 13  | `chore/deploy` (production on `main`, domain; Dockerfile/VPS if we leave Vercel) | ⬜     |
 
 ---
 
