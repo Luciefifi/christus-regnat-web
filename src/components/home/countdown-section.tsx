@@ -13,7 +13,7 @@ export function CountdownSection({ locale, dict }: { locale: Locale; dict: Dicti
   const event = site.featuredEvent;
 
   return (
-    <section aria-labelledby="countdown-heading" className="py-6">
+    <section aria-labelledby="countdown-heading" className="pb-10 sm:pb-12 lg:pb-14">
       <Container>
         <div className="relative overflow-hidden rounded-4xl bg-linear-to-br from-gold-100 via-gold-50 to-white p-6 ring-1 ring-gold-200 sm:p-12">
           <div
