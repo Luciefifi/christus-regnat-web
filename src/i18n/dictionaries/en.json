@@ -22,7 +22,8 @@
     "leadership": "Leadership",
     "news": "News & Press",
     "charity": "Acts of Love",
-    "join": "Join the Choir"
+    "join": "Join the Choir",
+    "donate": "Donate"
   },
   "home": {
     "intro": "A Catholic liturgical and gospel choir singing at Regina Pacis Parish, Remera, Kigali, since 2006.",
@@ -69,6 +70,12 @@
   },
   "events": {
     "featuredSubtitle": "20th anniversary concert"
+  },
+  "comingSoon": {
+    "eyebrow": "Coming soon",
+    "text": "We are still working on this page. Please check back soon.",
+    "backHome": "Back to home",
+    "follow": "Follow us on our social medias"
   },
   "footer": {
     "singWithUs": "Sing with us",
