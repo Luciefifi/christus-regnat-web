@@ -22,7 +22,8 @@
     "leadership": "Ubuyobozi",
     "news": "Amakuru",
     "charity": "Ibikorwa by'urukundo",
-    "join": "Injira muri korali"
+    "join": "Injira muri korali",
+    "donate": "Tera inkunga"
   },
   "home": {
     "intro": "Korali gatolika iririmba muri liturujiya n'indirimbo zisingiza Imana, muri Paruwasi Regina Pacis, Remera, i Kigali, kuva mu 2006.",
@@ -69,6 +70,12 @@
   },
   "events": {
     "featuredSubtitle": "Igitaramo cy'isabukuru y'imyaka 20"
+  },
+  "comingSoon": {
+    "eyebrow": "Biraza Vuba",
+    "text": "Iyi paji iracyategurwa, Mwihangane mugaruke mukanya",
+    "backHome": "Subira ahabanza",
+    "follow": "Dukurikire kumbuga nkoranyambaga zacu"
   },
   "footer": {
     "singWithUs": "Ririmba natwe",

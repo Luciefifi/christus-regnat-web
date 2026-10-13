@@ -23,3 +23,10 @@ export const moreNav: NavLink[] = [
   { href: "/charity", key: "charity" },
   { href: "/join", key: "join" },
 ];
+
+// coming soon pages
+export const comingSoonPages: NavLink[] = [
+  ...mainNav,
+  ...moreNav,
+  { href: "/donate", key: "donate" },
+];

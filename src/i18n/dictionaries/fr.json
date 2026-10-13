@@ -22,7 +22,8 @@
     "leadership": "Direction",
     "news": "Actualités & presse",
     "charity": "Actes d'amour",
-    "join": "Rejoindre la chorale"
+    "join": "Rejoindre la chorale",
+    "donate": "Faire un don"
   },
   "home": {
     "intro": "Une chorale catholique liturgique et gospel qui chante à la paroisse Regina Pacis de Remera, à Kigali, depuis 2006.",
@@ -70,6 +71,13 @@
   "events": {
     "featuredSubtitle": "Concert du 20e anniversaire"
   },
+  "comingSoon": {
+    "eyebrow": "Bientôt disponible",
+    "text": "Nous préparons encore cette page. Revenez bientôt, ou suivez-nous sur YouTube pour les dernières nouvelles de la chorale.",
+    "backHome": "Retour à l'accueil",
+    "follow": "Suivez-nous sur Social Media"
+  },
+
   "footer": {
     "singWithUs": "Chantez avec nous",
     "bookChoir": "Inviter la chorale",
