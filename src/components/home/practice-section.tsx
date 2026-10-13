@@ -9,7 +9,7 @@ export function PracticeSection({ locale, dict }: { locale: Locale; dict: Dictio
   const t = dict.practice;
 
   return (
-    <section aria-labelledby="practice-heading" className="py-12 sm:py-16 lg:py-20">
+    <section aria-labelledby="practice-heading" className="pb-10 sm:pb-12 lg:pb-14">
       <Container>
         <p className="text-xs font-semibold tracking-[0.2em] text-gold-700 uppercase">
           {t.eyebrow}

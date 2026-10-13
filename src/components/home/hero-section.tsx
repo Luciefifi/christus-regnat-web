@@ -17,7 +17,7 @@ export function HeroSection({ locale, dict }: { locale: Locale; dict: Dictionary
         className="pointer-events-none absolute -top-40 right-0 size-144 rounded-full bg-gold-200/40 blur-3xl"
       />
 
-      <Container className="relative grid items-center gap-8 py-10 sm:py-16 lg:grid-cols-2 lg:gap-12 lg:py-20">
+      <Container className="relative grid items-center gap-8 pt-10 pb-12 sm:pt-16 sm:pb-14 lg:grid-cols-2 lg:gap-12 lg:pt-20 lg:pb-16">
         <div>
           <Link
             href={localePath(locale, site.featuredEvent.href)}
