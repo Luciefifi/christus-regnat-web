@@ -51,8 +51,10 @@
     "seconds": "Amasegonda",
     "started": "Ibirori byatangiye!",
     "cta": "Ibisobanuro by'igitaramo",
-    "venueTbc": "Aho kizabera n'amatike bizatangazwa"
+    "tickets": "Gura itike",
+    "cause": "Amafaranga ava ku matike azashyigikira gahunda ya Dusangire Lunch, igaburira ku ishuri abana bo mu miryango itishoboye."
   },
+
   "committee": {
     "eyebrow": "Ubuyobozi",
     "title": "Menya komite yacu",
@@ -103,6 +105,26 @@
     "rehearsalsTitle": "Ngwino mu myitozo",
     "applyNote": "Vuba aha uzabasha kuzuza ifishi yo kwinjira kuri internet. Kugeza ubu, ngwino uduhure mu myitozo.",
     "followCta": "Dukurikire kuri YouTube"
+  },
+  "contact": {
+    "eyebrow": "Twandikire",
+    "title": "Tuvugishe",
+    "intro": "Ufite ikibazo, wifuza kudutumira mu bukwe, mu muhango wo gushyingura cyangwa mu birori, cyangwa wifuza kuririmbana natwe? Duhamagare, utwandikire kuri WhatsApp cyangwa kuri email.",
+    "callTitle": "Duhamagare",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Inzira yihuse yo kutugeraho.",
+    "whatsappCta": "Twandikire kuri WhatsApp",
+    "whatsappMessage": "Muraho Chorale Christus Regnat! Mbandikiye mvuye ku rubuga rwanyu.",
+    "emailTitle": "Email",
+    "bookTitle": "Dutumire",
+    "bookText": "Turirimba mu bukwe, mu mihango yo gushyingura no mu bindi birori. Tubwire itariki, aho bizabera n'ubwoko bw'ibirori, tuzagusubiza.",
+    "bookCta": "Dutumire kuri WhatsApp",
+    "bookMessage": "Muraho Chorale Christus Regnat! Nifuza kubatumira. Itariki: … Aho bizabera: … Ibirori: …",
+    "findTitle": "Aho wadusanga",
+    "parishLabel": "Paruwasi yacu",
+    "rehearsalsLabel": "Imyitozo",
+    "mapCta": "Fungura kuri Google Maps",
+    "followTitle": "Dukurikire"
   },
   "footer": {
     "singWithUs": "Ririmbana natwe",

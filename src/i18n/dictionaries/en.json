@@ -51,7 +51,8 @@
     "seconds": "Seconds",
     "started": "The celebration has begun!",
     "cta": "Concert details",
-    "venueTbc": "Venue and tickets to be announced"
+    "tickets": "Get tickets",
+    "cause": "Ticket sales support Dusangire Lunch, which gives school lunches to children from low-income families."
   },
   "committee": {
     "eyebrow": "Leadership",
@@ -103,6 +104,26 @@
     "rehearsalsTitle": "Come to a rehearsal",
     "applyNote": "An online joining form is coming soon. Until then, come and meet us at a rehearsal.",
     "followCta": "Follow us on YouTube"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "intro": "A question, a booking for a wedding, a funeral or an event, or would you like to sing with us? Call us, chat with us on WhatsApp or write to us.",
+    "callTitle": "Call us",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "The quickest way to reach us.",
+    "whatsappCta": "Chat on WhatsApp",
+    "whatsappMessage": "Hello Chorale Christus Regnat! I am writing from your website.",
+    "emailTitle": "Email",
+    "bookTitle": "Book the choir",
+    "bookText": "We sing at weddings, funerals and other celebrations. Tell us the date, the place and the kind of celebration, and we will get back to you.",
+    "bookCta": "Book on WhatsApp",
+    "bookMessage": "Hello Chorale Christus Regnat! I would like to book the choir. Date: … Place: … Celebration: …",
+    "findTitle": "Find us",
+    "parishLabel": "Our parish",
+    "rehearsalsLabel": "Rehearsals",
+    "mapCta": "Open in Google Maps",
+    "followTitle": "Follow us"
   },
   "footer": {
     "singWithUs": "Sing with us",
