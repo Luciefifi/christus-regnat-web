@@ -33,13 +33,23 @@ export function CountdownSection({ locale, dict }: { locale: Locale; dict: Dicti
               <p className="mt-4 font-semibold text-gold-800">
                 {formatDate(event.date, intlLocale[locale])}
               </p>
-              <p className="mt-1 text-sm text-ink-muted">{t.venueTbc}</p>
-              <Link
-                href={localePath(locale, event.href)}
-                className={buttonClasses("primary", "mt-6")}
-              >
-                {t.cta}
-              </Link>
+              <p className="mt-1 text-sm text-ink-muted">{event.venue}</p>
+              <p className="mt-4 max-w-md text-sm leading-relaxed text-ink-muted">{t.cause}</p>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                {/* Tickets are sold on the concert's own site, so this is an external link */}
+                <a
+                  href={event.ticketsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={buttonClasses("primary")}
+                >
+                  {t.tickets}
+                </a>
+                <Link href={localePath(locale, event.href)} className={buttonClasses("secondary")}>
+                  {t.cta}
+                </Link>
+              </div>
             </div>
 
             <Countdown

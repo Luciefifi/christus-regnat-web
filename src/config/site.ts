@@ -7,10 +7,18 @@ export const site = {
     response: "Ishema Ridashonga!", // the members answer
   },
   founded: 2006,
+  // Official choir contacts, as published on christusregnat.rw. Both numbers are on WhatsApp.
+  contact: {
+    phones: ["+250 788 472 859", "+250 788 302 207"],
+    whatsapp: "+250 788 472 859",
+    email: "christusregnat2006@gmail.com",
+    mapsQuery: "Paroisse Regina Pacis, Remera, Kigali", // what Google Maps searches for
+  },
   socials: {
     youtube: "https://www.youtube.com/@IshemaRidashonga",
-    x: "https://x.com/CChristusRegnat",
-    facebook: "https://www.facebook.com/choralechristusregnatrwanda/", // TODO: confirm with the choir
+    instagram: "https://www.instagram.com/christus_regnat_choir/",
+    facebook: "https://www.facebook.com/choralechristusregnatrwanda/",
+    x: "https://x.com/CChristusRegnat", // TODO: confirm @CChristusRegnat vs @IshemaRidashong
   },
   // The fixed weekly rehearsals (source: choir member). Day names are translated in the dictionaries.
   rehearsals: {
@@ -18,13 +26,14 @@ export const site = {
     end: "20:00",
     venue: "Ste Famille (JOC)",
   },
-  // Temporary: moves to the database (Event table) in Step 7.
-  // Source: the choir's #iBweranganzo2026 announcement (venue and tickets not announced yet).
+  // Temporary: moves to the database (Event table) in chore/database.
+  // Source: christusregnat.rw/ibweranganzo (3rd edition, 20th anniversary).
   featuredEvent: {
     title: "iBweranganzo 2026",
     date: "2026-11-29", // ISO date, formatted per language with formatDate()
-    // TODO: start time not announced; 18:00 Kigali time assumed (the 2023 edition started at 18:00)
-    startsAt: "2026-11-29T18:00:00+02:00",
+    startsAt: "2026-11-29T16:00:00+02:00", // 16:00 Kigali time (UTC+2)
+    venue: "Saint Famille Hotel, Kigali",
+    ticketsUrl: "https://www.christusregnat.rw/ibweranganzo",
     href: "/events",
   },
 } as const;
