@@ -51,7 +51,8 @@
     "seconds": "Secondes",
     "started": "La fête a commencé !",
     "cta": "Détails du concert",
-    "venueTbc": "Lieu et billets à annoncer"
+    "tickets": "Acheter un billet",
+    "cause": "La vente des billets soutient Dusangire Lunch, qui offre le repas de midi à l'école aux enfants de familles modestes."
   },
   "committee": {
     "eyebrow": "Direction",
@@ -103,6 +104,26 @@
     "rehearsalsTitle": "Venez à une répétition",
     "applyNote": "Un formulaire d'adhésion en ligne arrive bientôt. En attendant, venez nous rencontrer lors d'une répétition.",
     "followCta": "Suivez-nous sur YouTube"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Contactez-nous",
+    "intro": "Une question, une réservation pour un mariage, des funérailles ou un événement, ou l'envie de chanter avec nous ? Appelez-nous, écrivez-nous sur WhatsApp ou par e-mail.",
+    "callTitle": "Appelez-nous",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Le moyen le plus rapide de nous joindre.",
+    "whatsappCta": "Écrire sur WhatsApp",
+    "whatsappMessage": "Bonjour Chorale Christus Regnat ! Je vous écris depuis votre site web.",
+    "emailTitle": "E-mail",
+    "bookTitle": "Inviter la chorale",
+    "bookText": "Nous chantons aux mariages, aux funérailles et à d'autres célébrations. Indiquez-nous la date, le lieu et le type de célébration, et nous vous répondrons.",
+    "bookCta": "Réserver sur WhatsApp",
+    "bookMessage": "Bonjour Chorale Christus Regnat ! Je souhaite inviter la chorale. Date : … Lieu : … Célébration : …",
+    "findTitle": "Où nous trouver",
+    "parishLabel": "Notre paroisse",
+    "rehearsalsLabel": "Répétitions",
+    "mapCta": "Ouvrir dans Google Maps",
+    "followTitle": "Suivez-nous"
   },
   "footer": {
     "singWithUs": "Chantez avec nous",
