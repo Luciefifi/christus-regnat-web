@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "description": "Ukwemera muri buri nota. Ubuhanga muri buri ijwi. Korali gatolika iririmba muri liturujiya, muri Paruwasi Regina Pacis, Remera, i Kigali."
+  },
+  "common": {
+    "skipToContent": "Jya ku bikubiyemo",
+    "donate": "Tera inkunga",
+    "openMenu": "Fungura menu",
+    "closeMenu": "Funga menu",
+    "language": "Ururimi",
+    "tagline": "Ukwemera muri buri nota. Ubuhanga muri buri ijwi.",
+    "parish": "Paruwasi Regina Pacis, Remera, Kigali"
+  },
+  "nav": {
+    "about": "Abo turi bo",
+    "history": "Amateka",
+    "music": "Indirimbo",
+    "events": "Ibikorwa",
+    "gallery": "Amafoto",
+    "contact": "Twandikire",
+    "videos": "Amashusho",
+    "leadership": "Ubuyobozi",
+    "news": "Amakuru",
+    "charity": "Ibikorwa by'urukundo",
+    "join": "Injira muri korali",
+    "donate": "Tera inkunga"
+  },
+  "home": {
+    "intro": "Korali gatolika iririmba muri liturujiya n'indirimbo zisingiza Imana, muri Paruwasi Regina Pacis, Remera, i Kigali, kuva mu 2006.",
+    "ctaEvents": "Ibitaramo biri imbere",
+    "ctaJoin": "Injira muri korali",
+    "photoAlt": "Abaririmbyi ba Chorale Christus Regnat bambaye imyenda yera ifite amabara ya zahabu"
+  },
+  "practice": {
+    "eyebrow": "Sengana natwe, uririmbane natwe",
+    "title": "Aho wadusanga",
+    "rehearsalsTitle": "Imyitozo ya buri cyumweru",
+    "rehearsalsDays": "Buri wa Kabiri no ku wa Gatanu",
+    "rehearsalsNote": "Wifuza kuririmbana natwe? Menya uko winjira muri korali.",
+    "massTitle": "Igitambo cya Misa",
+    "massText": "Turirimba mu Misa yo ku Cyumweru hakurikijwe gahunda ya buri kwezi: muri Paruwasi Regina Pacis, muri Centre Christus no muri Paruwasi Katedrali ya Mutagatifu Mikayile, rimwe na rimwe no mu Misa ya mu gitondo cya kare.",
+    "massNote": "Misa ikurikira tuzaririmbamo izatangarizwa hano.",
+    "joinCta": "Injira muri korali",
+    "followCta": "Dukurikire kuri YouTube"
+  },
+  "countdown": {
+    "eyebrow": "Ntuzabure",
+    "days": "Iminsi",
+    "hours": "Amasaha",
+    "minutes": "Iminota",
+    "seconds": "Amasegonda",
+    "started": "Ibirori byatangiye!",
+    "cta": "Ibisobanuro by'igitaramo",
+    "tickets": "Gura itike",
+    "cause": "Amafaranga ava ku matike azashyigikira gahunda ya Dusangire Lunch, igaburira ku ishuri abana bo mu miryango itishoboye."
+  },
+
+  "committee": {
+    "eyebrow": "Ubuyobozi",
+    "title": "Menya komite yacu",
+    "subtitle": "Komite nyobozi ikorera korali",
+    "viewAll": "Komite yose n'amateka",
+    "sampleBadge": "Amazina y'icyitegererezo",
+    "sampleNote": "Amazina y'agateganyo kugeza komite nyayo yongewemo.",
+    "roles": {
+      "president": "Perezida",
+      "vicePresident": "Visi Perezida",
+      "technicalVicePresident": "Visi Perezida ushinzwe tekiniki",
+      "secretary": "Umunyamabanga",
+      "accountant": "Umucungamari"
+    }
+  },
+  "events": {
+    "featuredSubtitle": "Igitaramo cy'isabukuru y'imyaka 20"
+  },
+  "comingSoon": {
+    "eyebrow": "Biraza vuba",
+    "text": "Iyi paji iracyategurwa. Mwihangane, mugaruke mu kanya.",
+    "backHome": "Subira ahabanza",
+    "follow": "Dukurikire kuri YouTube"
+  },
+  "join": {
+    "eyebrow": "Injira muri korali",
+    "title": "Ngwino turirimbane",
+    "intro": "Ukunda kuririmba no gukorera Imana binyuze mu ndirimbo? Chorale Christus Regnat yakira abanyamuryango bashya bifuza gusingiza Imana mu ndirimbo za liturujiya n'iza gospel.",
+    "stepsTitle": "Uko waba umunyamuryango",
+    "steps": [
+      {
+        "title": "Ngwino mu myitozo",
+        "text": "Udusure ku wa Kabiri cyangwa ku wa Gatanu nimugoroba kuri Ste Famille (JOC), utubwire ko wifuza kwinjira muri korali."
+      },
+      {
+        "title": "Hitamo ijwi ryawe",
+        "text": "Abenshi binjira muri korali basanzwe baririmba, bityo utangirira mu ijwi usanzwe uzi: soprano, alto, tenor cyangwa bass. Witoza nk'umunyamuryango mushya, korali igakurikirana uko witabira."
+      },
+      {
+        "title": "Isuzuma",
+        "text": "Itsinda rya tekiniki rirakusuzuma, kandi rishobora kukwimurira mu rindi jwi rikubereye. Niba utaritegura bihagije, ukomeza kwitoza ugasuzumwa nanone nyuma y'igihe."
+      },
+      {
+        "title": "Ba umunyamuryango wuzuye",
+        "text": "Numara gutsinda isuzuma, uba umunyamuryango wuzuye: witabira Inteko Rusange kandi ugatanga umusanzu wa buri kwezi."
+      }
+    ],
+    "rehearsalsTitle": "Ngwino mu myitozo",
+    "applyNote": "Vuba aha uzabasha kuzuza ifishi yo kwinjira kuri internet. Kugeza ubu, ngwino uduhure mu myitozo.",
+    "followCta": "Dukurikire kuri YouTube"
+  },
+  "contact": {
+    "eyebrow": "Twandikire",
+    "title": "Tuvugishe",
+    "intro": "Ufite ikibazo, wifuza kudutumira mu bukwe, mu muhango wo gushyingura cyangwa mu birori, cyangwa wifuza kuririmbana natwe? Duhamagare, utwandikire kuri WhatsApp cyangwa kuri email.",
+    "callTitle": "Duhamagare",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Inzira yihuse yo kutugeraho.",
+    "whatsappCta": "Twandikire kuri WhatsApp",
+    "whatsappMessage": "Muraho Chorale Christus Regnat! Mbandikiye mvuye ku rubuga rwanyu.",
+    "emailTitle": "Email",
+    "bookTitle": "Dutumire",
+    "bookText": "Turirimba mu bukwe, mu mihango yo gushyingura no mu bindi birori. Tubwire itariki, aho bizabera n'ubwoko bw'ibirori, tuzagusubiza.",
+    "bookCta": "Dutumire kuri WhatsApp",
+    "bookMessage": "Muraho Chorale Christus Regnat! Nifuza kubatumira. Itariki: … Aho bizabera: … Ibirori: …",
+    "findTitle": "Aho wadusanga",
+    "parishLabel": "Paruwasi yacu",
+    "rehearsalsLabel": "Imyitozo",
+    "mapCta": "Fungura kuri Google Maps",
+    "followTitle": "Dukurikire"
+  },
+  "footer": {
+    "singWithUs": "Ririmbana natwe",
+    "bookChoir": "Dutumire",
+    "about": "Korali gatolika ikorera liturujiya kuva mu 2006.",
+    "explore": "Sura",
+    "getInvolved": "Ifatanye natwe",
+    "joinChoir": "Injira muri korali",
+    "bookEvent": "Dutumire mu bukwe cyangwa mu birori",
+    "support": "Shyigikira ubutumwa bwacu",
+    "actsOfLove": "Ibikorwa by'urukundo",
+    "saveTheDate": "Ntuzabure",
+    "since": "Kuva",
+    "backToTop": "Subira hejuru"
+  }
+}

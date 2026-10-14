@@ -10,37 +10,38 @@
 
 ## 1. How the choir works (facts the site must respect)
 
-| Topic                  | What we know                                                                                                                    | Source               |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| Name and motto         | Chorale Christus Regnat (CCR). Call and response: **"Christus Regnat!" / "Ishema Ridashonga!"**                                 | Choir member         |
-| Founded                | 2006, at Centre Christus, Remera                                                                                                | Press                |
-| Parish                 | Regina Pacis Parish, Remera, Kigali                                                                                             | Press, choir         |
-| **Rehearsals (fixed)** | **Every Tuesday and Friday, 18:00–20:00, at Ste Famille (JOC)**                                                                 | Choir member         |
-| Sunday Mass            | Follows a **monthly plan** (not every Sunday is the same)                                                                       | Choir member         |
-| Early-morning Mass     | Sometimes, following the **parish plan**                                                                                        | Choir member         |
-| Mass flyers            | A poster is published before each Mass, inviting supporters to come                                                             | Choir member         |
-| Attendance             | Taken at most activities; **section leaders** take attendance for their own section                                             | Choir member         |
-| Attendance rules       | **Below 70% (but 50% or more): fine.** **Below 50%:** ❓ consequence to confirm                                                 | Choir member         |
-| Monthly contribution   | **Students: 500 RWF/month. Others: 1,000 RWF/month.** Official members only (not candidates)                                    | Choir member         |
-| Birthday flyers        | A flyer is posted on social media for **every member's birthday**                                                               | Choir member         |
-| Feast-day flyers       | Flyers for special Catholic days (e.g. Assumption, Christmas)                                                                   | Choir member         |
-| Practice reminders     | Every Tuesday and Friday, a few hours before practice, the **secretary sends a WhatsApp reminder** to everyone                  | Choir member         |
-| New members            | Join a separate **new members group**, attendance tracked, then **exams by the technical team**, which makes the final decision | Choir member         |
-| Big annual concert     | **iBweranganzo**: 2023, 2024, and **29 November 2026** (20th anniversary)                                                       | Press, choir socials |
+| Topic                  | What we know                                                                                                                                                                                                                                                                                                      | Source               |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| Name and motto         | Chorale Christus Regnat (CCR). Call and response: **"Christus Regnat!" / "Ishema Ridashonga!"**                                                                                                                                                                                                                   | Choir member         |
+| Founded                | 2006, at Centre Christus, Remera                                                                                                                                                                                                                                                                                  | Press                |
+| Parish                 | Regina Pacis Parish, Remera, Kigali                                                                                                                                                                                                                                                                               | Press, choir         |
+| **Rehearsals (fixed)** | **Every Tuesday and Friday, 18:00–20:00, at Ste Famille (JOC)**                                                                                                                                                                                                                                                   | Choir member         |
+| Sunday Mass            | Follows a **monthly plan** (not every Sunday is the same)                                                                                                                                                                                                                                                         | Choir member         |
+| Early-morning Mass     | Sometimes, following the **parish plan**                                                                                                                                                                                                                                                                          | Choir member         |
+| Mass flyers            | A poster is published before each Mass, inviting supporters to come                                                                                                                                                                                                                                               | Choir member         |
+| Attendance             | Taken at most activities; **section leaders** take attendance for their own section                                                                                                                                                                                                                               | Choir member         |
+| Attendance rules       | **Below 70% (but 50% or more): fine.** **Below 50%:** ❓ consequence to confirm                                                                                                                                                                                                                                   | Choir member         |
+| Monthly contribution   | **Students: 500 RWF/month. Others: 1,000 RWF/month.** Full members only (not new members who haven't passed the evaluation yet)                                                                                                                                                                                   | Choir member         |
+| Birthday flyers        | A flyer is posted on social media for **every member's birthday**                                                                                                                                                                                                                                                 | Choir member         |
+| Feast-day flyers       | Flyers for special Catholic days (e.g. Assumption, Christmas)                                                                                                                                                                                                                                                     | Choir member         |
+| Practice reminders     | Every Tuesday and Friday, a few hours before practice, the **secretary sends a WhatsApp reminder** to everyone                                                                                                                                                                                                    | Choir member         |
+| New members            | Choose their own **voice section** from day one (most already sing) and rehearse with it; attendance is followed. Then an **evaluation by the technical team** (it covers much more than the voice), which can **move them to another section**. Not passing never removes anyone: they are evaluated again later | Choir member         |
+| Full members           | Passing the evaluation makes someone a **full member**: they attend the **General Assembly** and pay the **monthly contribution** (new members don't, yet)                                                                                                                                                        | Choir member         |
+| Big annual concert     | **iBweranganzo**: 2023, 2024, and **29 November 2026** (20th anniversary)                                                                                                                                                                                                                                         | Press, choir socials |
 
 ---
 
 ## 2. Roles and permissions
 
-| Role                  | Who                                | Can do                                                                            |
-| --------------------- | ---------------------------------- | --------------------------------------------------------------------------------- |
-| **Admin**             | 1–2 trusted people                 | Everything, including roles and settings                                          |
-| **Committee**         | Executive committee                | Content (news, events, gallery), member approval, finance, announcements          |
-| **Technical team** ❓ | Conductors / music leadership      | Repertoire, song library, **candidate exams and admission decisions**             |
-| **Section leader**    | Soprano, alto, tenor, bass leaders | **Take attendance for their section**, see section reports, section announcements |
-| **Member**            | Admitted choir members             | Portal: calendar, RSVP, songs, own attendance, own profile                        |
-| **Candidate**         | New members not yet admitted       | Limited portal: rehearsal calendar, practice songs, own attendance, exam info     |
-| **Public**            | Anyone                             | Public website                                                                    |
+| Role                  | Who                                   | Can do                                                                                             |
+| --------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Admin**             | 1–2 trusted people                    | Everything, including roles and settings                                                           |
+| **Committee**         | Executive committee                   | Content (news, events, gallery), member approval, finance, announcements                           |
+| **Technical team** ❓ | Conductors / music leadership         | Repertoire, song library, **evaluations of new members** (and moving someone to another section)   |
+| **Section leader**    | Soprano, alto, tenor, bass leaders    | **Take attendance for their section**, see section reports, section announcements                  |
+| **Full member**       | Members who passed the evaluation     | Portal: calendar, RSVP, songs, own attendance, own profile; General Assembly; monthly contribution |
+| **New member**        | Joined, not yet passed the evaluation | Portal: rehearsal calendar, practice songs, own attendance, own evaluations                        |
+| **Public**            | Anyone                                | Public website                                                                                     |
 
 A person can have more than one role (e.g. a section leader who is also on the committee).
 
@@ -48,28 +49,32 @@ A person can have more than one role (e.g. a section leader who is also on the c
 
 ## 3. Membership lifecycle (new members to full members) ⬜
 
+**Words we use:** _new member_ = joined, has not passed the evaluation yet; _full member_ = passed it. We never say "applicant", "exam" or "admission". Older parts of this file may still say _candidate_, which means _new member_.
+
 ```
-Join form on website ──► Applicant ──► Candidate (new members group) ──► Exam ──► Decision
-     (public)          (committee      (attendance tracked,          (technical   ├─ Admitted → Member
-                        reviews)        practice songs)               team)       ├─ Extend candidacy
-                                                                                  └─ Not admitted
+Joining form ──► New member ─────────────────────► Evaluation ──┬─ Passed ──► Full member
+ (Join page,     (in the section they chose;       (technical    │
+  or at a         attendance followed)              team)        └─ Not yet ──► keeps rehearsing,
+  rehearsal)                                                                   evaluated again later
 ```
 
-- ⬜ **Join form** creates an _applicant_ (name, phone, email, voice part if known, experience, parish).
-- ⬜ Committee or technical team accepts the applicant into a **candidate cohort** (e.g. "Candidates – Jan 2027").
-- ⬜ **Candidate attendance** is tracked at every activity they're expected at.
-- ⬜ **Eligibility for the exam** is shown automatically (e.g. "attendance 85%, eligible"), based on a threshold ❓.
-- ⬜ **Exams**: the technical team records results per part (e.g. voice test, sight-reading, theory, set pieces ❓) with scores and comments.
-- ⬜ **Decision** recorded by the technical team: admitted / extended / not admitted, with date and notes. Every decision goes in the **audit log**.
-- ⬜ On admission the person becomes a **Member** with a voice part and join year, and moves into their section's attendance list.
-- ⬜ Candidate and member see their own progress (attendance %, exam date, result) in the portal.
+- ✅ **Join page** explains these steps (rehearsal → choose your section → evaluation → full member).
+- ⬜ **Joining form** on the Join page: name, phone, email, the section they sing in, experience, parish. It creates a **new member** in that section.
+- ⬜ **Attendance** of new members is tracked at every activity, like everyone else.
+- ⬜ **Evaluations** are recorded by the technical team: date, result (passed / not yet), comments. **A person can have several evaluations**; not passing never removes them.
+- ⬜ An evaluation can **change the person's section** (e.g. alto → soprano); the section history is kept.
+- ⬜ Passing makes the person a **full member** from that date: they can attend the General Assembly and owe the monthly contribution.
+- ⬜ Every evaluation and section change goes in the **audit log**.
+- ⬜ New members see their own progress in the portal: attendance %, past evaluations, next evaluation date.
+
+💡 **Data model note:** `Evaluation` is its own table linked to the person (one person → many evaluations), not a single "exam result" field on the member, because people can be evaluated more than once.
 
 ❓ Questions for the choir:
 
-1. How long is a candidacy usually? Is there a minimum attendance % before the exam?
-2. What does the exam contain? Is it scored? Can it be retaken?
-3. Who takes attendance for the candidates group (a coordinator? the technical team?)
-4. Do candidates rehearse with the main choir (Tue/Fri) or separately?
+1. What does the evaluation cover (voice, music theory, attendance, behaviour, repertoire, …)? Is it scored?
+2. When is someone ready for a first evaluation (time, attendance %)? How long before another attempt?
+3. Does the joining form go straight in, or does someone (committee, technical team) confirm it first?
+4. Besides the General Assembly and the monthly contribution, what can new members not do yet?
 
 ---
 
@@ -127,7 +132,7 @@ Join form on website ──► Applicant ──► Candidate (new members group)
 
 | Page                   | Status | Notes                                                                                                                             |
 | ---------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| Home                   | 🚧     | Hero with motto ✅, committee section ⬜, rehearsals and next Mass ⬜, next concert countdown ⬜, latest video ⬜, latest news ⬜ |
+| Home                   | 🚧     | Hero with motto ✅, committee section ✅, rehearsals and next Mass ✅, next concert countdown ✅, latest video ⬜, latest news ⬜ |
 | About                  | ⬜     | Mission, Regina Pacis, languages sung, activities, meaning of "Ishema Ridashonga" ❓                                              |
 | History                | ⬜     | Interactive timeline 2006 to today                                                                                                |
 | Leadership             | ⬜     | Executive (featured), full committee grouped by area, archive of committees since 2006                                            |
@@ -138,7 +143,7 @@ Join form on website ──► Applicant ──► Candidate (new members group)
 | Gallery                | ⬜     | Albums by event and year, lightbox, credits                                                                                       |
 | News & Press           | ⬜     | Announcements and press links                                                                                                     |
 | Acts of Love (charity) | ⬜     | Dusangire Lunch and other initiatives                                                                                             |
-| Join the Choir         | ⬜     | Requirements, rehearsal times, **application form, which starts the membership lifecycle**                                        |
+| Join the Choir         | 🚧     | Page with rehearsal times and how joining works ✅; online **joining form** ⬜ (needs the database)                               |
 | Contact / Book us      | ⬜     | Form, map, bookings for weddings, funerals, events                                                                                |
 | Donate / Support       | ⬜     | Mobile Money details, sponsorship packages                                                                                        |
 
@@ -146,8 +151,8 @@ Join form on website ──► Applicant ──► Candidate (new members group)
 
 1. ✅ Hero: name, motto, featured event pill, choir photo
 2. ⬜ **Today at Christus Regnat** (only shown when there is something): today's **birthday flyer(s)** (consenting members only) and/or today's **feast-day flyer**, e.g. "Happy Feast of the Assumption"
-3. ⬜ **Next event** (see rule below) + weekly rehearsals (Tue & Fri 18:00–20:00, Ste Famille JOC)
-4. ⬜ **Meet our committee**: the 5 executive members (President, Vice-President, Technical Vice-President, Secretary, Accountant) ❓ exact titles and names
+3. 🚧 **Next event** (see rule below) + weekly rehearsals (Tue & Fri 18:00–20:00, Ste Famille JOC): rehearsals and the iBweranganzo countdown ✅; the pinning rule waits for the database
+4. 🚧 **Meet our committee**: the 5 executive members (President, Vice-President, Technical Vice-President, Secretary, Accountant). Section ✅, but it shows **placeholder names** (no "sample" badge any more) ❓ exact titles and real names
 5. ⬜ Featured video
 6. ⬜ Latest news
 7. ✅ Footer with motto band, links, socials, featured event
@@ -187,7 +192,7 @@ Join form on website ──► Applicant ──► Candidate (new members group)
 
 ### 8a. Monthly contributions and fines ⬜
 
-- ⬜ Every **official member** owes a monthly contribution: **500 RWF (student)** or **1,000 RWF (non-student)**. Candidates don't pay.
+- ⬜ Every **full member** owes a monthly contribution: **500 RWF (student)** or **1,000 RWF (non-student)**. New members who haven't passed the evaluation don't pay.
 - ⬜ Each member has a **category** (student / non-student) that the accountant can change (e.g. when someone finishes school), with the date it changed.
 - ⬜ Amounts are **settings**, not hard-coded, so the choir can change them later without a developer; past months keep the amount that applied then.
 - ⬜ The accountant records payments (amount, date, months covered, method: cash / MoMo, reference). One payment can cover several months.
@@ -243,7 +248,7 @@ Join form on website ──► Applicant ──► Candidate (new members group)
 
 - ⬜ **Attendance:** overall % per month, trend over the year, by activity type (practice / Mass / concert), by day (Tuesday vs Friday).
 - ⬜ **Sections:** attendance and size per section (soprano, alto, tenor, bass); balance between voices.
-- ⬜ **Membership:** number of members over time, new candidates, admissions, people who left; candidate pass rate.
+- ⬜ **Membership:** number of members over time, new members, new full members, people who left; evaluation pass rate.
 - ⬜ **Finance:** contributions collected vs. expected per month (% of members up to date), income vs. expenses, balance trend, concert results.
 - ⬜ **Activity:** number of Masses, concerts, services per month/year.
 - 💡 Website: visits, most-watched videos, ticket sales over time (privacy-friendly analytics).
@@ -254,7 +259,7 @@ Join form on website ──► Applicant ──► Candidate (new members group)
 
 **Member level**
 
-- ⬜ A **member profile card** with: attendance % (this period and trend), activities attended, excused/late counts, contributions paid/owed, fines, join year, voice part, roles held over the years, candidate exam result.
+- ⬜ A **member profile card** with: attendance % (this period and trend), activities attended, excused/late counts, contributions paid/owed, fines, join year, voice part, roles held over the years, evaluations and section changes.
 - ⬜ **Each member sees their own** dashboard (motivating: "you attended 92% this quarter").
 - ⬜ Leaders see members according to their role: section leaders see their section's attendance; the accountant sees everyone's finances; the committee sees everything.
 - 💡 Recognition: "most faithful attendance" of the year (opt-in), anniversaries of joining.
@@ -317,8 +322,8 @@ Join form on website ──► Applicant ──► Candidate (new members group)
 
 - ⬜ Manage members and roles; approve accounts
 - ⬜ Edit news, events, gallery, songs, history milestones, committee, press links
-- ⬜ Inbox: contact messages, bookings, join applications
-- ⬜ Audit log (who changed what, especially admissions and roles)
+- ⬜ Inbox: contact messages, bookings, joining forms
+- ⬜ Audit log (who changed what, especially evaluations, section changes and roles)
 - ⬜ Data export
 
 ---
@@ -334,40 +339,43 @@ Join form on website ──► Applicant ──► Candidate (new members group)
 
 ## 11. Quality and technical requirements
 
-- ⬜ **Languages**: English first (complete), then Kinyarwanda and French
+- ✅ **Languages**: English, Kinyarwanda and French, with automatic language detection ❓ Kinyarwanda and French texts reviewed by a native speaker
 - 🚧 **Design**: white/cream backgrounds, gold accents, deep-brown text, logo accent colours used sparingly ✅
-- ⬜ **Mobile-first and fast** on slow networks; installable app (PWA); offline song sheets
+- 🚧 **Mobile-first and fast** on slow networks (homepage checked on phones ✅); installable app (PWA); offline song sheets
 - ⬜ **SEO**: share previews, sitemap, structured data for events and the organisation
 - ⬜ **Privacy**: consent for member data and photos, role-based access, Rwanda data-protection awareness
 - ⬜ Privacy-friendly analytics
 - ✅ CI: lint, typecheck, tests and build on every pull request
 - ✅ Local database with Docker (Postgres 17 on port 5436)
+- ✅ **Demo site on Vercel**: the live site follows the `staging` branch, so every merge into `staging` updates it
 
 ---
 
 ## 12. Roadmap (branches)
 
-| #   | Branch                                                                          | Status |
-| --- | ------------------------------------------------------------------------------- | ------ |
-| 1   | `chore/project-setup`                                                           | ✅     |
-| 2   | `chore/docker`                                                                  | ✅     |
-| 3   | `chore/ci`                                                                      | ✅     |
-| 4   | `feature/design-system`                                                         | 🚧     |
-| –   | `chore/git-hooks` (Husky, lint-staged, Prettier)                                | ⬜     |
-| 5   | `feature/i18n`                                                                  | ⬜     |
-| 6   | `feature/public-pages` (incl. homepage committee and rehearsals)                | ⬜     |
-| 7   | `chore/database` (Prisma schema, migrations, seed)                              | ⬜     |
-| 8   | `feature/music-videos-events`                                                   | ⬜     |
-| 9   | `feature/auth` (roles incl. technical team, section leader, candidate)          | ⬜     |
-| 10  | `feature/portal-*` (attendance, candidates, Mass planner, songs, announcements) | ⬜     |
-| –   | `feature/flyers` (Mass, birthday and feast-day flyers)                          | ⬜     |
-| –   | `feature/contributions` (monthly contributions, fines)                          | ⬜     |
-| –   | `feature/finance` (income, expenses, accounts, budgets, reports)                | ⬜     |
-| –   | `feature/analytics` (choir, section and member dashboards)                      | ⬜     |
-| –   | `feature/notifications` (email, app push, WhatsApp share; scheduled reminders)  | ⬜     |
-| 11  | `feature/admin`                                                                 | ⬜     |
-| 12  | `feature/tickets`                                                               | ⬜     |
-| 13  | `chore/deploy` (Dockerfile, staging, production, domain)                        | ⬜     |
+| #   | Branch                                                                           | Status |
+| --- | -------------------------------------------------------------------------------- | ------ |
+| 1   | `chore/project-setup`                                                            | ✅     |
+| 2   | `chore/docker`                                                                   | ✅     |
+| 3   | `chore/ci`                                                                       | ✅     |
+| 4   | `feature/design-system`                                                          | ✅     |
+| –   | `chore/git-hooks` (Husky, lint-staged, Prettier)                                 | ✅     |
+| 5   | `feature/i18n`                                                                   | ✅     |
+| –   | `feature/home-sections` (rehearsals, countdown, committee)                       | ✅     |
+| –   | `chore/deploy-prep` + `fix/mobile-layout` (Vercel demo, phone layout)            | ✅     |
+| 6   | `feature/public-pages` (About, History, Leadership, Join, Contact, …)            | ⬜     |
+| 7   | `chore/database` (Prisma schema, migrations, seed)                               | ⬜     |
+| 8   | `feature/music-videos-events`                                                    | ⬜     |
+| 9   | `feature/auth` (roles incl. technical team, section leader, candidate)           | ⬜     |
+| 10  | `feature/portal-*` (attendance, candidates, Mass planner, songs, announcements)  | ⬜     |
+| –   | `feature/flyers` (Mass, birthday and feast-day flyers)                           | ⬜     |
+| –   | `feature/contributions` (monthly contributions, fines)                           | ⬜     |
+| –   | `feature/finance` (income, expenses, accounts, budgets, reports)                 | ⬜     |
+| –   | `feature/analytics` (choir, section and member dashboards)                       | ⬜     |
+| –   | `feature/notifications` (email, app push, WhatsApp share; scheduled reminders)   | ⬜     |
+| 11  | `feature/admin`                                                                  | ⬜     |
+| 12  | `feature/tickets`                                                                | ⬜     |
+| 13  | `chore/deploy` (production on `main`, domain; Dockerfile/VPS if we leave Vercel) | ⬜     |
 
 ---
 

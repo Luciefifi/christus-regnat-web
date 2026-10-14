@@ -2,30 +2,30 @@ import Image from "next/image";
 import Link from "next/link";
 import { mainNav } from "@/config/navigation";
 import { site } from "@/config/site";
+import { intlLocale, localePath, type Locale } from "@/i18n/config";
+import type { Dictionary } from "@/i18n/types";
+import { formatDate } from "@/lib/format";
 import { buttonClasses } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
-import { FacebookIcon, XIcon, YouTubeIcon } from "@/components/icons/social-icons";
+import { SocialLinks } from "./social-links";
 
-const getInvolved = [
-  { href: "/join", label: "Join the choir" },
-  { href: "/contact", label: "Book us for a wedding or event" },
-  { href: "/donate", label: "Support our mission" },
-  { href: "/charity", label: "Acts of Love" },
-];
+export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
+  const path = (href: string) => localePath(locale, href);
 
-const socials = [
-  { href: site.socials.youtube, label: "YouTube", Icon: YouTubeIcon },
-  { href: site.socials.x, label: "X (Twitter)", Icon: XIcon },
-  { href: site.socials.facebook, label: "Facebook", Icon: FacebookIcon },
-];
+  const explore = mainNav.map((link) => ({ href: path(link.href), label: dict.nav[link.key] }));
+  const getInvolved = [
+    { href: path("/join"), label: dict.footer.joinChoir },
+    { href: path("/contact"), label: dict.footer.bookEvent },
+    { href: path("/donate"), label: dict.footer.support },
+    { href: path("/charity"), label: dict.footer.actsOfLove },
+  ];
 
-export function Footer() {
   return (
     // Deep brown (our "ink" colour), not black or blue, so the gold accents glow
-    <footer className="mt-24 bg-ink text-gold-50">
+    <footer className="bg-ink text-gold-50">
       {/* Motto band: the choir's call and response */}
       <div className="border-b border-white/10">
-        <Container className="flex flex-col items-center gap-6 py-14 text-center">
+        <Container className="flex flex-col items-center gap-5 py-10 text-center sm:gap-6 sm:py-14">
           <Image
             src="/logo.png"
             alt=""
@@ -39,23 +39,23 @@ export function Footer() {
           </p>
           <div className="h-px w-24 bg-linear-to-r from-transparent via-gold-400 to-transparent" />
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/join" className={buttonClasses("primary")}>
-              Sing with us
+            <Link href={path("/join")} className={buttonClasses("primary")}>
+              {dict.footer.singWithUs}
             </Link>
-            <Link href="/contact" className={buttonClasses("onDark")}>
-              Book the choir
+            <Link href={path("/contact")} className={buttonClasses("onDark")}>
+              {dict.footer.bookChoir}
             </Link>
           </div>
         </Container>
       </div>
 
       {/* Main columns */}
-      <Container className="grid gap-12 py-14 md:grid-cols-2 lg:grid-cols-12">
-        <div className="lg:col-span-4">
+      {/* Two columns from the smallest phones up, so the link lists sit side by side */}
+      <Container className="grid grid-cols-2 gap-x-6 gap-y-10 py-10 sm:py-14 lg:grid-cols-12 lg:gap-12">
+        <div className="col-span-2 lg:col-span-4">
           <p className="font-display text-2xl font-semibold text-white">{site.name}</p>
           <p className="mt-3 text-sm leading-relaxed text-gold-100/70">
-            {site.tagline} A Catholic liturgical and gospel choir serving the liturgy since{" "}
-            {site.founded}.
+            {dict.common.tagline} {dict.footer.about}
           </p>
           <p className="mt-5 flex items-start gap-2 text-sm text-gold-100/70">
             <svg
@@ -69,41 +69,31 @@ export function Footer() {
               <path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21Z" />
               <circle cx="12" cy="9.5" r="2.5" />
             </svg>
-            {site.parish}
+            {dict.common.parish}
           </p>
-          <ul className="mt-6 flex gap-3">
-            {socials.map(({ href, label, Icon }) => (
-              <li key={label}>
-                <a
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="grid size-10 place-items-center rounded-full bg-white/5 text-gold-100 ring-1 ring-white/10 transition hover:bg-gold-400 hover:text-ink"
-                >
-                  <Icon />
-                </a>
-              </li>
-            ))}
-          </ul>
+          <SocialLinks className="mt-6" />
         </div>
 
-        <FooterColumn title="Explore" items={mainNav} className="lg:col-span-2" />
-        <FooterColumn title="Get involved" items={getInvolved} className="lg:col-span-3" />
+        <FooterColumn title={dict.footer.explore} items={explore} className="lg:col-span-2" />
+        <FooterColumn
+          title={dict.footer.getInvolved}
+          items={getInvolved}
+          className="lg:col-span-3"
+        />
 
         {/* Featured event card */}
-        <div className="lg:col-span-3">
+        <div className="col-span-2 lg:col-span-3">
           <p className="text-xs font-semibold tracking-[0.2em] text-gold-400 uppercase">
-            Save the date
+            {dict.footer.saveTheDate}
           </p>
           <Link
-            href={site.featuredEvent.href}
+            href={path(site.featuredEvent.href)}
             className="group mt-4 block rounded-2xl bg-linear-to-br from-gold-400/20 to-transparent p-5 ring-1 ring-gold-400/30 transition hover:ring-gold-400"
           >
             <p className="font-display text-2xl text-white">{site.featuredEvent.title}</p>
-            <p className="mt-1 text-sm text-gold-100/80">{site.featuredEvent.subtitle}</p>
+            <p className="mt-1 text-sm text-gold-100/80">{dict.events.featuredSubtitle}</p>
             <p className="mt-4 text-sm font-semibold text-gold-300">
-              {site.featuredEvent.dateLabel}
+              {formatDate(site.featuredEvent.date, intlLocale[locale])}
               <span
                 aria-hidden="true"
                 className="ml-2 inline-block transition group-hover:translate-x-1"
@@ -119,10 +109,10 @@ export function Footer() {
       <div className="border-t border-white/10">
         <Container className="flex flex-col gap-3 py-6 text-xs text-gold-100/60 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {site.name} · Since {site.founded}
+            © {site.name} · {dict.footer.since} {site.founded}
           </p>
           <a href="#main" className="hover:text-gold-300">
-            Back to top ↑
+            {dict.footer.backToTop} ↑
           </a>
         </Container>
       </div>
