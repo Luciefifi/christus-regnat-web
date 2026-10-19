@@ -125,6 +125,33 @@
     "mapCta": "Ouvrir dans Google Maps",
     "followTitle": "Suivez-nous"
   },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Chanter la gloire de Dieu depuis 2006",
+    "intro": "La Chorale Christus Regnat est une chorale catholique de la paroisse Regina Pacis à Remera, Kigali. Elle sert la liturgie avec une musique qui unit chant liturgique moderne, chant grégorien et mélodies traditionnelles rwandaises.",
+    "stats": {
+      "founded": "Fondée en",
+      "members": "Membres",
+      "songs": "Chants",
+      "sections": "Pupitres"
+    },
+    "storyTitle": "Notre histoire",
+    "story": [
+      "La chorale est née en 2006 au Centre Christus de Remera, fondée par des chrétiens qui souhaitaient une belle musique à la messe. Parents et enfants chantaient côte à côte, et des musiciens formés les ont bientôt rejoints.",
+      "Aujourd'hui, la chorale compte plus de 100 membres de tous âges. Elle chante à la messe à la paroisse Regina Pacis et dans d'autres églises de Kigali, et son concert annuel, iBweranganzo, réunit la foi, la musique et de nombreux talents."
+    ],
+    "musicTitle": "Notre musique",
+    "music": [
+      "Nous chantons en kinyarwanda, en français, en latin, en anglais et dans d'autres langues, et nous avons enregistré plusieurs albums.",
+      "Parmi nos chants les plus connus : « Mama Shenge », enregistré avec Yverry et Andy Bumuntu, et « Igipimo cy'Urukundo » de Cyprien Rugamba."
+    ],
+    "charityTitle": "Actes d'amour",
+    "charityText": "La foi se montre aussi en actes. La chorale rend visite aux malades, soutient les orphelins et les veuves, paie l'assurance maladie (mutuelle de santé) de personnes qui n'en ont pas les moyens, et soutient Dusangire Lunch, qui offre le repas de midi à l'école aux enfants.",
+    "charityCta": "En savoir plus",
+    "ctaTitle": "Chantez avec nous",
+    "ctaText": "Les répétitions sont ouvertes à tous ceux qui aiment chanter. Venez nous rencontrer."
+  },
+
   "footer": {
     "singWithUs": "Chantez avec nous",
     "bookChoir": "Inviter la chorale",

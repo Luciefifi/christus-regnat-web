@@ -2,9 +2,12 @@
 export const site = {
   name: "Chorale Christus Regnat",
   shortName: "Christus Regnat",
+  // "Christus Regnat! Ishema Ridashonga!": shown in the hero, footer and About page.
+  // Never translated: it stays the same in every language. (Not the choir's motto; the key keeps
+  // its old name until we know what the choir calls this phrase.)
   motto: {
-    call: "Christus Regnat!", // the leader calls
-    response: "Ishema Ridashonga!", // the members answer
+    call: "Christus Regnat!",
+    response: "Ishema Ridashonga!",
   },
   founded: 2006,
   // Official choir contacts, as published on christusregnat.rw. Both numbers are on WhatsApp.

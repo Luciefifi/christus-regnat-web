@@ -126,6 +126,33 @@
     "mapCta": "Fungura kuri Google Maps",
     "followTitle": "Dukurikire"
   },
+  "about": {
+    "eyebrow": "Abo turi bo",
+    "title": "Turirimbira ikuzo ry'Imana kuva mu 2006",
+    "intro": "Chorale Christus Regnat ni korali gatolika yo muri Paruwasi Regina Pacis i Remera, Kigali. Dukorera liturujiya turirimba indirimbo zihuza iza liturujiya zigezweho, Gregoriyani n'injyana gakondo z'u Rwanda.",
+    "stats": {
+      "founded": "Twashinzwe",
+      "members": "Abanyamuryango",
+      "songs": "Indirimbo",
+      "sections": "Amajwi"
+    },
+    "storyTitle": "Amateka yacu",
+    "story": [
+      "Korali yavutse mu 2006 muri Centre Christus i Remera, itangijwe n'abakristu bifuzaga indirimbo nziza mu Misa. Ababyeyi n'abana baririmbaga hamwe, nyuma abahanga mu muziki baza kubiyungaho.",
+      "Uyu munsi korali ifite abanyamuryango barenga 100 b'ingeri zose. Iririmba mu Misa muri Paruwasi Regina Pacis no mu zindi nsengero z'i Kigali, kandi igitaramo cyayo ngarukamwaka, iBweranganzo, gihuza ukwemera, umuziki n'impano nyinshi."
+    ],
+    "musicTitle": "Indirimbo zacu",
+    "music": [
+      "Turirimba mu Kinyarwanda, Igifaransa, Ikilatini, Icyongereza n'izindi ndimi, kandi twasohoye alubumu nyinshi.",
+      "Mu ndirimbo zacu zizwi cyane harimo “Mama Shenge”, twakoranye na Yverry na Andy Bumuntu, na “Igipimo cy'Urukundo” ya Rugamba Sipiriyani."
+    ],
+    "charityTitle": "Ibikorwa by'urukundo",
+    "charityText": "Ukwemera kugaragarira no mu bikorwa. Korali isura abarwayi, ifasha imfubyi n'abapfakazi, ishyurira ubwisungane mu kwivuza abatishoboye, kandi ishyigikira Dusangire Lunch, igaburira abana ku ishuri.",
+    "charityCta": "Menya byinshi",
+    "ctaTitle": "Ngwino turirimbane",
+    "ctaText": "Imyitozo yakira umuntu wese ukunda kuririmba. Ngwino uduhure."
+  },
+
   "footer": {
     "singWithUs": "Ririmbana natwe",
     "bookChoir": "Dutumire",
