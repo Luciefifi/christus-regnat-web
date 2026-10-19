@@ -23,7 +23,7 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   return (
     // Deep brown (our "ink" colour), not black or blue, so the gold accents glow
     <footer className="bg-ink text-gold-50">
-      {/* Motto band: the choir's call and response */}
+      {/* "Christus Regnat! Ishema Ridashonga!" band */}
       <div className="border-b border-white/10">
         <Container className="flex flex-col items-center gap-5 py-10 text-center sm:gap-6 sm:py-14">
           <Image

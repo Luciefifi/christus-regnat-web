@@ -31,7 +31,7 @@ export function HeroSection({ locale, dict }: { locale: Locale; dict: Dictionary
             {site.name}
           </h1>
 
-          {/* The choir's call and response (never translated) */}
+          {/* "Christus Regnat! Ishema Ridashonga!" (never translated) */}
           <p className="mt-5 font-display text-3xl italic sm:text-4xl">
             <span className="text-ink">{site.motto.call}</span>{" "}
             <span className="text-gold-600">{site.motto.response}</span>
