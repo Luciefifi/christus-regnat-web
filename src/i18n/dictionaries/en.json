@@ -125,6 +125,33 @@
     "mapCta": "Open in Google Maps",
     "followTitle": "Follow us"
   },
+  "about": {
+    "eyebrow": "About us",
+    "title": "Singing to the glory of God since 2006",
+    "intro": "Chorale Christus Regnat is a Catholic choir at Regina Pacis Parish in Remera, Kigali. We serve the liturgy with music that unites modern liturgical song, Gregorian chant and Rwandan traditional melodies.",
+    "stats": {
+      "founded": "Founded",
+      "members": "Members",
+      "songs": "Songs",
+      "sections": "Voice sections"
+    },
+    "storyTitle": "Our story",
+    "story": [
+      "The choir was born in 2006 at Centre Christus in Remera, started by Christians who wanted beautiful music at Mass. Parents and children sang side by side, and trained musicians soon joined them.",
+      "Today the choir counts more than 100 members of all ages. It sings at Mass at Regina Pacis Parish and in other churches of Kigali, and its annual concert, iBweranganzo, brings faith, music and many talents together."
+    ],
+    "musicTitle": "Our music",
+    "music": [
+      "We sing in Kinyarwanda, French, Latin, English and other languages, and we have recorded several albums.",
+      "Among our best-known songs are “Mama Shenge”, recorded with Yverry and Andy Bumuntu, and “Igipimo cy'Urukundo” by Cyprien Rugamba."
+    ],
+    "charityTitle": "Acts of Love",
+    "charityText": "Faith also shows in what we do. The choir visits the sick, supports orphans and widows, pays health insurance (mutuelle de santé) for people who cannot afford it, and supports Dusangire Lunch, which gives school lunches to children.",
+    "charityCta": "Learn more",
+    "ctaTitle": "Sing with us",
+    "ctaText": "Rehearsals are open to everyone who loves to sing. Come and meet us."
+  },
+
   "footer": {
     "singWithUs": "Sing with us",
     "bookChoir": "Book the choir",
