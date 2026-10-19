@@ -10,24 +10,28 @@
 
 ## 1. How the choir works (facts the site must respect)
 
-| Topic                  | What we know                                                                                                                                                                                                                                                                                                      | Source               |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| Name and motto         | Chorale Christus Regnat (CCR). Call and response: **"Christus Regnat!" / "Ishema Ridashonga!"**                                                                                                                                                                                                                   | Choir member         |
-| Founded                | 2006, at Centre Christus, Remera                                                                                                                                                                                                                                                                                  | Press                |
-| Parish                 | Regina Pacis Parish, Remera, Kigali                                                                                                                                                                                                                                                                               | Press, choir         |
-| **Rehearsals (fixed)** | **Every Tuesday and Friday, 18:00–20:00, at Ste Famille (JOC)**                                                                                                                                                                                                                                                   | Choir member         |
-| Sunday Mass            | Follows a **monthly plan** (not every Sunday is the same)                                                                                                                                                                                                                                                         | Choir member         |
-| Early-morning Mass     | Sometimes, following the **parish plan**                                                                                                                                                                                                                                                                          | Choir member         |
-| Mass flyers            | A poster is published before each Mass, inviting supporters to come                                                                                                                                                                                                                                               | Choir member         |
-| Attendance             | Taken at most activities; **section leaders** take attendance for their own section                                                                                                                                                                                                                               | Choir member         |
-| Attendance rules       | **Below 70% (but 50% or more): fine.** **Below 50%:** ❓ consequence to confirm                                                                                                                                                                                                                                   | Choir member         |
-| Monthly contribution   | **Students: 500 RWF/month. Others: 1,000 RWF/month.** Full members only (not new members who haven't passed the evaluation yet)                                                                                                                                                                                   | Choir member         |
-| Birthday flyers        | A flyer is posted on social media for **every member's birthday**                                                                                                                                                                                                                                                 | Choir member         |
-| Feast-day flyers       | Flyers for special Catholic days (e.g. Assumption, Christmas)                                                                                                                                                                                                                                                     | Choir member         |
-| Practice reminders     | Every Tuesday and Friday, a few hours before practice, the **secretary sends a WhatsApp reminder** to everyone                                                                                                                                                                                                    | Choir member         |
-| New members            | Choose their own **voice section** from day one (most already sing) and rehearse with it; attendance is followed. Then an **evaluation by the technical team** (it covers much more than the voice), which can **move them to another section**. Not passing never removes anyone: they are evaluated again later | Choir member         |
-| Full members           | Passing the evaluation makes someone a **full member**: they attend the **General Assembly** and pay the **monthly contribution** (new members don't, yet)                                                                                                                                                        | Choir member         |
-| Big annual concert     | **iBweranganzo**: 2023, 2024, and **29 November 2026** (20th anniversary)                                                                                                                                                                                                                                         | Press, choir socials |
+| Topic                  | What we know                                                                                                                                                                                                                                                                                                      | Source                          |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| Name                   | Chorale Christus Regnat (CCR), also known as **Ishema Ridashonga** (YouTube channel, music label, concert site). The site shows **"Christus Regnat! Ishema Ridashonga!"** exactly like that in every language: **never translated**, and it is **not a motto** (no motto known)                                   | Choir member, christusregnat.rw |
+| Founded                | 2006, at Centre Christus, Remera, by Christians who wanted beautiful music at Mass; parents and children first, trained musicians joined later                                                                                                                                                                    | Press                           |
+| Parish                 | Regina Pacis Parish, Remera, Kigali                                                                                                                                                                                                                                                                               | Press, choir                    |
+| The choir today        | **100+ members** of all ages; modern liturgical + Gregorian + Rwandan traditional; 80+ songs, 5 audio and 2 live video albums (2020); well-known songs: Mama Shenge (with Yverry, Andy Bumuntu), Igipimo cy'Urukundo (Cyprien Rugamba)                                                                            | christusregnat.rw, press        |
+| Official contacts      | **+250 788 472 859** and **+250 788 302 207** (both on WhatsApp), **christusregnat2006@gmail.com**; Instagram @christus_regnat_choir, Facebook, YouTube @IshemaRidashonga, X                                                                                                                                      | christusregnat.rw, choir member |
+| christusregnat.rw      | The **iBweranganzo 2026 concert site** (tickets), not the choir's website. Our site links to it for tickets                                                                                                                                                                                                       | Choir member                    |
+| Acts of Love           | Visiting the sick, supporting orphans and widows, paying mutuelle de santé for people who can't afford it, **Dusangire Lunch** (school lunches)                                                                                                                                                                   | Press, christusregnat.rw        |
+| **Rehearsals (fixed)** | **Every Tuesday and Friday, 18:00–20:00, at Ste Famille (JOC)**                                                                                                                                                                                                                                                   | Choir member                    |
+| Sunday Mass            | Follows a **monthly plan** (not every Sunday is the same)                                                                                                                                                                                                                                                         | Choir member                    |
+| Early-morning Mass     | Sometimes, following the **parish plan**                                                                                                                                                                                                                                                                          | Choir member                    |
+| Mass flyers            | A poster is published before each Mass, inviting supporters to come                                                                                                                                                                                                                                               | Choir member                    |
+| Attendance             | Taken at most activities; **section leaders** take attendance for their own section                                                                                                                                                                                                                               | Choir member                    |
+| Attendance rules       | **Below 70% (but 50% or more): fine.** **Below 50%:** ❓ consequence to confirm                                                                                                                                                                                                                                   | Choir member                    |
+| Monthly contribution   | **Students: 500 RWF/month. Others: 1,000 RWF/month.** Full members only (not new members who haven't passed the evaluation yet)                                                                                                                                                                                   | Choir member                    |
+| Birthday flyers        | A flyer is posted on social media for **every member's birthday**                                                                                                                                                                                                                                                 | Choir member                    |
+| Feast-day flyers       | Flyers for special Catholic days (e.g. Assumption, Christmas)                                                                                                                                                                                                                                                     | Choir member                    |
+| Practice reminders     | Every Tuesday and Friday, a few hours before practice, the **secretary sends a WhatsApp reminder** to everyone                                                                                                                                                                                                    | Choir member                    |
+| New members            | Choose their own **voice section** from day one (most already sing) and rehearse with it; attendance is followed. Then an **evaluation by the technical team** (it covers much more than the voice), which can **move them to another section**. Not passing never removes anyone: they are evaluated again later | Choir member                    |
+| Full members           | Passing the evaluation makes someone a **full member**: they attend the **General Assembly** and pay the **monthly contribution** (new members don't, yet)                                                                                                                                                        | Choir member                    |
+| Big annual concert     | **iBweranganzo**: 1st on 19 Nov 2023 (Camp Kigali, with Josh Ishimwe); 2nd on 3 Nov 2024 (Lemigo Hotel); **3rd on 29 Nov 2026, 16:00–20:00, Saint Famille Hotel** (20th anniversary, supports Dusangire Lunch). Earlier concerts: 2018 (songs of Cyprien Rugamba), 2019 (with Jean-Claude Gianadda)               | Press, christusregnat.rw        |
 
 ---
 
@@ -130,32 +134,32 @@ Joining form ──► New member ───────────────�
 
 ## 6. Public website
 
-| Page                   | Status | Notes                                                                                                                             |
-| ---------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| Home                   | 🚧     | Hero with motto ✅, committee section ✅, rehearsals and next Mass ✅, next concert countdown ✅, latest video ⬜, latest news ⬜ |
-| About                  | ⬜     | Mission, Regina Pacis, languages sung, activities, meaning of "Ishema Ridashonga" ❓                                              |
-| History                | ⬜     | Interactive timeline 2006 to today                                                                                                |
-| Leadership             | ⬜     | Executive (featured), full committee grouped by area, archive of committees since 2006                                            |
-| Music                  | ⬜     | Songs and albums, YouTube/Apple Music embeds, filters (language, season, occasion)                                                |
-| Videos                 | ⬜     | Official YouTube channel (@IshemaRidashonga), concerts, music videos, music-theory lessons                                        |
-| Events / Concerts      | ⬜     | Upcoming and past, detail pages, tickets, map, add-to-calendar (.ics)                                                             |
-| Masses                 | ⬜     | Upcoming Masses with the choir (from the Mass planner)                                                                            |
-| Gallery                | ⬜     | Albums by event and year, lightbox, credits                                                                                       |
-| News & Press           | ⬜     | Announcements and press links                                                                                                     |
-| Acts of Love (charity) | ⬜     | Dusangire Lunch and other initiatives                                                                                             |
-| Join the Choir         | 🚧     | Page with rehearsal times and how joining works ✅; online **joining form** ⬜ (needs the database)                               |
-| Contact / Book us      | ⬜     | Form, map, bookings for weddings, funerals, events                                                                                |
-| Donate / Support       | ⬜     | Mobile Money details, sponsorship packages                                                                                        |
+| Page                   | Status | Notes                                                                                                                                                                           |
+| ---------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Home                   | 🚧     | Hero ✅, committee section ✅, rehearsals and next Mass ✅, iBweranganzo countdown with venue, tickets link and cause ✅, latest video ⬜, latest news ⬜                       |
+| About                  | ✅     | Story since 2006, music, key figures, Acts of Love, "Christus Regnat! Ishema Ridashonga!" (not translated)                                                                      |
+| History                | ⬜     | **A page for every year since 2006**: that year's committee, events, photos and highlights (year-by-year archive, needs the database)                                           |
+| Leadership             | ⬜     | Executive (featured), full committee grouped by area; past committees live in the year-by-year archive (History)                                                                |
+| Music                  | ⬜     | Songs and albums, YouTube/Apple Music embeds, filters (language, season, occasion)                                                                                              |
+| Videos                 | ⬜     | Official YouTube channel (@IshemaRidashonga), concerts, music videos, music-theory lessons                                                                                      |
+| Events / Concerts      | ⬜     | Upcoming **and all past events since the start** (concerts like iBweranganzo 2023/2024/2026, the 2018 and 2019 concerts, …), detail pages, tickets, map, add-to-calendar (.ics) |
+| Masses                 | ⬜     | Upcoming Masses with the choir (from the Mass planner)                                                                                                                          |
+| Gallery                | ⬜     | Albums by event and year, lightbox, credits                                                                                                                                     |
+| News & Press           | ⬜     | Announcements and press links                                                                                                                                                   |
+| Acts of Love (charity) | ⬜     | Dusangire Lunch and other initiatives                                                                                                                                           |
+| Join the Choir         | 🚧     | Page with rehearsal times and how joining works ✅; online **joining form** ⬜ (needs the database)                                                                             |
+| Contact / Book us      | ✅     | Tap-to-call, WhatsApp (pre-filled message per language), email, bookings via WhatsApp, directions, socials. A contact form ⬜ needs the database                                |
+| Donate / Support       | ⬜     | Mobile Money details, sponsorship packages                                                                                                                                      |
 
 ### Homepage sections (planned order)
 
-1. ✅ Hero: name, motto, featured event pill, choir photo
+1. ✅ Hero: name, "Christus Regnat! Ishema Ridashonga!", featured event pill, choir photo
 2. ⬜ **Today at Christus Regnat** (only shown when there is something): today's **birthday flyer(s)** (consenting members only) and/or today's **feast-day flyer**, e.g. "Happy Feast of the Assumption"
 3. 🚧 **Next event** (see rule below) + weekly rehearsals (Tue & Fri 18:00–20:00, Ste Famille JOC): rehearsals and the iBweranganzo countdown ✅; the pinning rule waits for the database
-4. 🚧 **Meet our committee**: the 5 executive members (President, Vice-President, Technical Vice-President, Secretary, Accountant). Section ✅, but it shows **placeholder names** (no "sample" badge any more) ❓ exact titles and real names
+4. 🚧 **Meet our committee**: the 5 executive members (President, Vice-President, Technical Vice-President, Secretary, Accountant). Section ✅. **Alice La Douce Nyaruhirira** (Vice-President, previously President) is real; the other four names are **still placeholders** (no "sample" badge any more) ❓ real names
 5. ⬜ Featured video
 6. ⬜ Latest news
-7. ✅ Footer with motto band, links, socials, featured event
+7. ✅ Footer with the "Christus Regnat! Ishema Ridashonga!" band, links, socials (YouTube, Instagram, Facebook, X), featured event
 
 ### Rule: which event the homepage shows ⬜
 
@@ -170,8 +174,9 @@ Joining form ──► New member ───────────────�
 
 - ⬜ Current committee is a **big team**: grouped by area (Executive, Music & Technical, Administration & Finance, Communication & Media, Discipline/Social/Charity ❓ real structure).
 - ⬜ Homepage shows only members marked **featured** (the executive).
-- ⬜ Archive: committees for every term since 2006; unknown people shown as "To be confirmed", **never invented**.
+- ⬜ Archive: the committee of **every year since 2006**, shown in the year-by-year archive (§6 History); unknown people shown as "To be confirmed", **never invented**.
 - ⬜ Photos only with consent.
+- Known so far: **Alice La Douce Nyaruhirira**, President (around 2023), now Vice-President; **Bizimana Jérémie**, deputy for technical affairs and ethics (2023, press).
 - ❓ Term length, list of roles per area, current names, past committees.
 
 ---
@@ -363,7 +368,9 @@ Joining form ──► New member ───────────────�
 | 5   | `feature/i18n`                                                                   | ✅     |
 | –   | `feature/home-sections` (rehearsals, countdown, committee)                       | ✅     |
 | –   | `chore/deploy-prep` + `fix/mobile-layout` (Vercel demo, phone layout)            | ✅     |
-| 6   | `feature/public-pages` (About, History, Leadership, Join, Contact, …)            | ⬜     |
+| –   | `feature/coming-soon-pages` (placeholder page for every menu link)               | ✅     |
+| –   | `feature/join-page`, `feature/contact-page`, `feature/about-page`                | ✅     |
+| 6   | `feature/public-pages` (History, Leadership, Music, Gallery, News, …)            | ⬜     |
 | 7   | `chore/database` (Prisma schema, migrations, seed)                               | ⬜     |
 | 8   | `feature/music-videos-events`                                                    | ⬜     |
 | 9   | `feature/auth` (roles incl. technical team, section leader, candidate)           | ⬜     |
@@ -381,16 +388,16 @@ Joining form ──► New member ───────────────�
 
 ## 13. Open questions for the choir ❓
 
-1. English meaning of "Ishema Ridashonga" (for the About page).
+1. ✅ ~~English meaning of "Ishema Ridashonga"~~: "Glory that never fades", but the site never translates "Christus Regnat! Ishema Ridashonga!". Does the choir have a real motto?
 2. Exact committee titles (EN + Kinyarwanda), current names, term years, photo consent.
 3. Full committee structure (areas and roles) and past committees since 2006.
 4. Candidate process details (§3 questions).
 5. Who belongs to the technical team, and who may take candidate attendance.
 6. 1–2 past Mass flyers.
-7. Contact phone/email, Mobile Money details for donations.
-8. Official Instagram/TikTok/WhatsApp channel; confirm the Facebook page.
-9. Who owns the christusregnat.rw domain (it currently does not resolve).
-10. Details of iBweranganzo 2026: venue, guests, ticketing.
+7. ✅ Contact phone/email (see §1). Still open: Mobile Money details for donations.
+8. ✅ Instagram and Facebook confirmed. Still open: the **TikTok** handle, and which **X** account is current (@CChristusRegnat or @IshemaRidashong).
+9. ✅ christusregnat.rw is the iBweranganzo 2026 concert site. Still open: which domain our site will use.
+10. ✅ iBweranganzo 2026 venue and time (§1). Still open: guests and ticket prices.
 11. Attendance rules: what happens **below 50%**; fine amounts; the period; how excused/late count; which activities count (§4).
 12. Contributions: monthly deadline, exemptions, who may see balances (§8a).
 13. Birthday flyers: consent wording for members; the list of feast days the choir makes flyers for.
