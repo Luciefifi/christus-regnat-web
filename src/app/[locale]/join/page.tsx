@@ -5,6 +5,7 @@ import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { buttonClasses } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
+import { PageHeader } from "@/components/ui/page-header";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/join">): Promise<Metadata> {
   const { locale } = await params;
@@ -23,18 +24,7 @@ export default async function JoinPage({ params }: PageProps<"/[locale]/join">) 
 
   return (
     <>
-      {/* Intro */}
-      <section className="bg-linear-to-b from-white to-cream">
-        <Container className="pt-10 pb-8 sm:pt-14 sm:pb-10 lg:pt-16">
-          <div className="max-w-3xl">
-            <p className="text-xs font-semibold tracking-[0.2em] text-gold-700 uppercase">
-              {t.eyebrow}
-            </p>
-            <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-6xl">{t.title}</h1>
-            <p className="mt-5 text-lg leading-relaxed text-ink-muted">{t.intro}</p>
-          </div>
-        </Container>
-      </section>
+      <PageHeader eyebrow={t.eyebrow} title={t.title} intro={t.intro} />
 
       {/* Steps + rehearsal card */}
       <section aria-labelledby="steps-heading" className="pb-12 sm:pb-16">
