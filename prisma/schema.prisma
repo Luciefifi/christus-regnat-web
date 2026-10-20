@@ -1,0 +1,82 @@
+// Data model of the Chorale Christus Regnat website.
+// After editing: `npx prisma migrate dev --name <what-changed>` updates the database and the client.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── Events ───────────────────────────────────────────────
+
+enum EventType {
+  REHEARSAL // generated automatically from the weekly rule; not listed on the public Events page
+  MASS
+  CONCERT
+  WEDDING
+  FUNERAL
+  MEETING // e.g. General Assembly (members only)
+  OTHER
+}
+
+model Event {
+  id         Int       @id @default(autoincrement())
+  slug       String    @unique // used in the URL: /events/ibweranganzo-2026
+  type       EventType
+  title      String // a proper name, the same in every language: "iBweranganzo 2026"
+  startsAt   DateTime // stored in UTC, shown in Kigali time
+  endsAt     DateTime?
+  venue      String?
+  ticketsUrl String?
+  isFeatured Boolean   @default(false) // pinned on the homepage with a countdown
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  @@index([startsAt]) // the site mostly asks "what's next?" and "what happened in year X?"
+}
+
+// ─── People and committees ────────────────────────────────
+
+model Person {
+  id        Int      @id @default(autoincrement())
+  slug      String   @unique // used in the URL: /people/edwin
+  fullName  String
+  photoUrl  String? // only with the person's consent
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  committeeRoles CommitteeMember[]
+}
+
+// A committee mandate, e.g. 2024–2026. endYear is empty for the current committee.
+model Term {
+  id        Int  @id @default(autoincrement())
+  startYear Int  @unique
+  endYear   Int?
+
+  members CommitteeMember[]
+}
+
+enum CommitteeRole {
+  PRESIDENT
+  VICE_PRESIDENT
+  TECHNICAL_VICE_PRESIDENT
+  SECRETARY
+  ACCOUNTANT
+}
+
+// "Who held which role in which term". Joins Person and Term.
+model CommitteeMember {
+  id       Int           @id @default(autoincrement())
+  role     CommitteeRole
+  personId Int
+  person   Person        @relation(fields: [personId], references: [id])
+  termId   Int
+  term     Term          @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@unique([termId, role]) // one President (one Secretary, ...) per term
+  @@index([personId])
+}

@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "description": "La foi dans chaque note. L'excellence dans chaque harmonie. Chorale catholique liturgique et gospel de la paroisse Regina Pacis, Remera, Kigali."
+  },
+  "common": {
+    "skipToContent": "Aller au contenu",
+    "donate": "Faire un don",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue",
+    "tagline": "La foi dans chaque note. L'excellence dans chaque harmonie.",
+    "parish": "Paroisse Regina Pacis, Remera, Kigali"
+  },
+  "nav": {
+    "about": "À propos",
+    "history": "Histoire",
+    "music": "Musique",
+    "events": "Événements",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "videos": "Vidéos",
+    "leadership": "Direction",
+    "news": "Actualités & presse",
+    "charity": "Actes d'amour",
+    "join": "Rejoindre la chorale",
+    "donate": "Faire un don"
+  },
+  "home": {
+    "intro": "Une chorale catholique liturgique et gospel qui chante à la paroisse Regina Pacis de Remera, à Kigali, depuis 2006.",
+    "ctaEvents": "Prochains concerts",
+    "ctaJoin": "Rejoindre la chorale",
+    "photoAlt": "La Chorale Christus Regnat en robes blanches à cols dorés devant des draperies blanches et dorées"
+  },
+  "practice": {
+    "eyebrow": "Priez et chantez avec nous",
+    "title": "Où nous trouver",
+    "rehearsalsTitle": "Répétitions hebdomadaires",
+    "rehearsalsDays": "Chaque mardi et vendredi",
+    "rehearsalsNote": "Vous aimeriez chanter avec nous ? Découvrez comment rejoindre la chorale.",
+    "massTitle": "Sainte Messe",
+    "massText": "Nous chantons à la messe dominicale selon un planning mensuel : à la paroisse Regina Pacis, au Centre Christus et à la paroisse Cathédrale Saint-Michel, et parfois aux messes matinales.",
+    "massNote": "La prochaine messe avec la chorale sera annoncée ici.",
+    "joinCta": "Rejoindre la chorale",
+    "followCta": "Suivez-nous sur YouTube"
+  },
+  "countdown": {
+    "eyebrow": "À ne pas manquer",
+    "days": "Jours",
+    "hours": "Heures",
+    "minutes": "Minutes",
+    "seconds": "Secondes",
+    "started": "La fête a commencé !",
+    "cta": "Détails du concert",
+    "tickets": "Acheter un billet",
+    "cause": "La vente des billets soutient Dusangire Lunch, qui offre le repas de midi à l'école aux enfants de familles modestes."
+  },
+  "committee": {
+    "eyebrow": "Direction",
+    "title": "Notre comité",
+    "subtitle": "Le comité exécutif au service de la chorale",
+    "viewAll": "Comité complet et historique",
+    "sampleBadge": "Noms fictifs",
+    "sampleNote": "Noms provisoires en attendant le vrai comité.",
+    "roles": {
+      "president": "Président",
+      "vicePresident": "Vice-président",
+      "technicalVicePresident": "Vice-président technique",
+      "secretary": "Secrétaire",
+      "accountant": "Comptable"
+    }
+  },
+  "events": {
+    "featuredSubtitle": "Concert du 20e anniversaire"
+  },
+  "comingSoon": {
+    "eyebrow": "Bientôt disponible",
+    "text": "Nous préparons encore cette page. Merci de revenir bientôt.",
+    "backHome": "Retour à l'accueil",
+    "follow": "Suivez-nous sur YouTube"
+  },
+  "join": {
+    "eyebrow": "Rejoindre la chorale",
+    "title": "Chantez avec nous",
+    "intro": "Vous aimez chanter et servir Dieu par la musique ? La Chorale Christus Regnat accueille de nouveaux membres qui souhaitent louer Dieu par la musique liturgique et gospel.",
+    "stepsTitle": "Comment devenir membre",
+    "steps": [
+      {
+        "title": "Venez à une répétition",
+        "text": "Rendez-nous visite un mardi ou un vendredi soir à Ste Famille (JOC) et dites-nous que vous souhaitez rejoindre la chorale."
+      },
+      {
+        "title": "Choisissez votre pupitre",
+        "text": "La plupart des nouveaux membres chantent déjà : vous commencez donc dans le pupitre que vous connaissez (soprano, alto, ténor ou basse). Vous répétez comme nouveau membre pendant que la chorale suit votre assiduité."
+      },
+      {
+        "title": "Évaluation",
+        "text": "L'équipe technique vous évalue et peut vous orienter vers un pupitre qui vous convient mieux. Si vous n'êtes pas encore prêt, vous continuez à répéter et serez évalué à nouveau plus tard."
+      },
+      {
+        "title": "Devenez membre à part entière",
+        "text": "Après une évaluation réussie, vous devenez membre à part entière : vous participez à l'Assemblée générale et versez la cotisation mensuelle."
+      }
+    ],
+    "rehearsalsTitle": "Venez à une répétition",
+    "applyNote": "Un formulaire d'adhésion en ligne arrive bientôt. En attendant, venez nous rencontrer lors d'une répétition.",
+    "followCta": "Suivez-nous sur YouTube"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Contactez-nous",
+    "intro": "Une question, une réservation pour un mariage, des funérailles ou un événement, ou l'envie de chanter avec nous ? Appelez-nous, écrivez-nous sur WhatsApp ou par e-mail.",
+    "callTitle": "Appelez-nous",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Le moyen le plus rapide de nous joindre.",
+    "whatsappCta": "Écrire sur WhatsApp",
+    "whatsappMessage": "Bonjour Chorale Christus Regnat ! Je vous écris depuis votre site web.",
+    "emailTitle": "E-mail",
+    "bookTitle": "Inviter la chorale",
+    "bookText": "Nous chantons aux mariages, aux funérailles et à d'autres célébrations. Indiquez-nous la date, le lieu et le type de célébration, et nous vous répondrons.",
+    "bookCta": "Réserver sur WhatsApp",
+    "bookMessage": "Bonjour Chorale Christus Regnat ! Je souhaite inviter la chorale. Date : … Lieu : … Célébration : …",
+    "findTitle": "Où nous trouver",
+    "parishLabel": "Notre paroisse",
+    "rehearsalsLabel": "Répétitions",
+    "mapCta": "Ouvrir dans Google Maps",
+    "followTitle": "Suivez-nous"
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Chanter la gloire de Dieu depuis 2006",
+    "intro": "La Chorale Christus Regnat est une chorale catholique de la paroisse Regina Pacis à Remera, Kigali. Elle sert la liturgie avec une musique qui unit chant liturgique moderne, chant grégorien et mélodies traditionnelles rwandaises.",
+    "stats": {
+      "founded": "Fondée en",
+      "members": "Membres",
+      "songs": "Chants",
+      "sections": "Pupitres"
+    },
+    "storyTitle": "Notre histoire",
+    "story": [
+      "La chorale est née en 2006 au Centre Christus de Remera, fondée par des chrétiens qui souhaitaient une belle musique à la messe. Parents et enfants chantaient côte à côte, et des musiciens formés les ont bientôt rejoints.",
+      "Aujourd'hui, la chorale compte plus de 100 membres de tous âges. Elle chante à la messe à la paroisse Regina Pacis et dans d'autres églises de Kigali, et son concert annuel, iBweranganzo, réunit la foi, la musique et de nombreux talents."
+    ],
+    "musicTitle": "Notre musique",
+    "music": [
+      "Nous chantons en kinyarwanda, en français, en latin, en anglais et dans d'autres langues, et nous avons enregistré plusieurs albums.",
+      "Parmi nos chants les plus connus : « Mama Shenge », enregistré avec Yverry et Andy Bumuntu, et « Igipimo cy'Urukundo » de Cyprien Rugamba."
+    ],
+    "charityTitle": "Actes d'amour",
+    "charityText": "La foi se montre aussi en actes. La chorale rend visite aux malades, soutient les orphelins et les veuves, paie l'assurance maladie (mutuelle de santé) de personnes qui n'en ont pas les moyens, et soutient Dusangire Lunch, qui offre le repas de midi à l'école aux enfants.",
+    "charityCta": "En savoir plus",
+    "ctaTitle": "Chantez avec nous",
+    "ctaText": "Les répétitions sont ouvertes à tous ceux qui aiment chanter. Venez nous rencontrer."
+  },
+
+  "footer": {
+    "singWithUs": "Chantez avec nous",
+    "bookChoir": "Inviter la chorale",
+    "about": "Une chorale catholique liturgique et gospel au service de la liturgie depuis 2006.",
+    "explore": "Explorer",
+    "getInvolved": "S'impliquer",
+    "joinChoir": "Rejoindre la chorale",
+    "bookEvent": "Nous inviter pour un mariage ou un événement",
+    "support": "Soutenir notre mission",
+    "actsOfLove": "Actes d'amour",
+    "saveTheDate": "À ne pas manquer",
+    "since": "Depuis",
+    "backToTop": "Retour en haut"
+  }
+}

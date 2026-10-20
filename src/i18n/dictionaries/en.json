@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "description": "Faith in every note. Excellence in every harmony. A Catholic liturgical and gospel choir at Regina Pacis Parish, Remera, Kigali."
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "donate": "Donate",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "tagline": "Faith in every note. Excellence in every harmony.",
+    "parish": "Regina Pacis Parish, Remera, Kigali"
+  },
+  "nav": {
+    "about": "About",
+    "history": "History",
+    "music": "Music",
+    "events": "Events",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "videos": "Videos",
+    "leadership": "Leadership",
+    "news": "News & Press",
+    "charity": "Acts of Love",
+    "join": "Join the Choir",
+    "donate": "Donate"
+  },
+  "home": {
+    "intro": "A Catholic liturgical and gospel choir singing at Regina Pacis Parish, Remera, Kigali, since 2006.",
+    "ctaEvents": "Upcoming concerts",
+    "ctaJoin": "Join the choir",
+    "photoAlt": "Chorale Christus Regnat in white robes with gold collars in front of white and gold drapes"
+  },
+  "practice": {
+    "eyebrow": "Pray and sing with us",
+    "title": "Where to find us",
+    "rehearsalsTitle": "Weekly rehearsals",
+    "rehearsalsDays": "Every Tuesday & Friday",
+    "rehearsalsNote": "Would you like to sing with us? Find out how to join the choir.",
+    "massTitle": "Holy Mass",
+    "massText": "We sing at Sunday Mass following a monthly plan: at Regina Pacis Parish, at Centre Christus and at St Michel Cathedral Parish, and sometimes at early-morning Masses.",
+    "massNote": "The next Mass with the choir will be announced here.",
+    "joinCta": "Join the choir",
+    "followCta": "Follow us on YouTube"
+  },
+  "countdown": {
+    "eyebrow": "Save the date",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "started": "The celebration has begun!",
+    "cta": "Concert details",
+    "tickets": "Get tickets",
+    "cause": "Ticket sales support Dusangire Lunch, which gives school lunches to children from low-income families."
+  },
+  "committee": {
+    "eyebrow": "Leadership",
+    "title": "Meet our committee",
+    "subtitle": "The executive committee serving the choir",
+    "viewAll": "Full committee & history",
+    "sampleBadge": "Sample names",
+    "sampleNote": "Placeholder names until the real committee is added.",
+    "roles": {
+      "president": "President",
+      "vicePresident": "Vice-President",
+      "technicalVicePresident": "Technical Vice-President",
+      "secretary": "Secretary",
+      "accountant": "Accountant"
+    }
+  },
+  "events": {
+    "featuredSubtitle": "20th anniversary concert"
+  },
+  "comingSoon": {
+    "eyebrow": "Coming soon",
+    "text": "We are still working on this page. Please check back soon.",
+    "backHome": "Back to home",
+    "follow": "Follow us on YouTube"
+  },
+  "join": {
+    "eyebrow": "Join the choir",
+    "title": "Sing with us",
+    "intro": "Do you love to sing and to serve God through music? Chorale Christus Regnat welcomes new members who want to praise God through liturgical and gospel music.",
+    "stepsTitle": "How to become a member",
+    "steps": [
+      {
+        "title": "Come to a rehearsal",
+        "text": "Visit us on a Tuesday or Friday evening at Ste Famille (JOC) and tell us you would like to join the choir."
+      },
+      {
+        "title": "Choose your section",
+        "text": "Most people who join already sing, so you start in the section you know: soprano, alto, tenor or bass. You rehearse as a new member while the choir follows your attendance."
+      },
+      {
+        "title": "Evaluation",
+        "text": "The technical team evaluates you and may move you to a section that suits you better. If you are not ready yet, you keep rehearsing and are evaluated again later."
+      },
+      {
+        "title": "Become a full member",
+        "text": "After a successful evaluation, you are a full member: you take part in the General Assembly and pay the monthly contribution."
+      }
+    ],
+    "rehearsalsTitle": "Come to a rehearsal",
+    "applyNote": "An online joining form is coming soon. Until then, come and meet us at a rehearsal.",
+    "followCta": "Follow us on YouTube"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "intro": "A question, a booking for a wedding, a funeral or an event, or would you like to sing with us? Call us, chat with us on WhatsApp or write to us.",
+    "callTitle": "Call us",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "The quickest way to reach us.",
+    "whatsappCta": "Chat on WhatsApp",
+    "whatsappMessage": "Hello Chorale Christus Regnat! I am writing from your website.",
+    "emailTitle": "Email",
+    "bookTitle": "Book the choir",
+    "bookText": "We sing at weddings, funerals and other celebrations. Tell us the date, the place and the kind of celebration, and we will get back to you.",
+    "bookCta": "Book on WhatsApp",
+    "bookMessage": "Hello Chorale Christus Regnat! I would like to book the choir. Date: … Place: … Celebration: …",
+    "findTitle": "Find us",
+    "parishLabel": "Our parish",
+    "rehearsalsLabel": "Rehearsals",
+    "mapCta": "Open in Google Maps",
+    "followTitle": "Follow us"
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "Singing to the glory of God since 2006",
+    "intro": "Chorale Christus Regnat is a Catholic choir at Regina Pacis Parish in Remera, Kigali. We serve the liturgy with music that unites modern liturgical song, Gregorian chant and Rwandan traditional melodies.",
+    "stats": {
+      "founded": "Founded",
+      "members": "Members",
+      "songs": "Songs",
+      "sections": "Voice sections"
+    },
+    "storyTitle": "Our story",
+    "story": [
+      "The choir was born in 2006 at Centre Christus in Remera, started by Christians who wanted beautiful music at Mass. Parents and children sang side by side, and trained musicians soon joined them.",
+      "Today the choir counts more than 100 members of all ages. It sings at Mass at Regina Pacis Parish and in other churches of Kigali, and its annual concert, iBweranganzo, brings faith, music and many talents together."
+    ],
+    "musicTitle": "Our music",
+    "music": [
+      "We sing in Kinyarwanda, French, Latin, English and other languages, and we have recorded several albums.",
+      "Among our best-known songs are “Mama Shenge”, recorded with Yverry and Andy Bumuntu, and “Igipimo cy'Urukundo” by Cyprien Rugamba."
+    ],
+    "charityTitle": "Acts of Love",
+    "charityText": "Faith also shows in what we do. The choir visits the sick, supports orphans and widows, pays health insurance (mutuelle de santé) for people who cannot afford it, and supports Dusangire Lunch, which gives school lunches to children.",
+    "charityCta": "Learn more",
+    "ctaTitle": "Sing with us",
+    "ctaText": "Rehearsals are open to everyone who loves to sing. Come and meet us."
+  },
+
+  "footer": {
+    "singWithUs": "Sing with us",
+    "bookChoir": "Book the choir",
+    "about": "A Catholic liturgical and gospel choir serving the liturgy since 2006.",
+    "explore": "Explore",
+    "getInvolved": "Get involved",
+    "joinChoir": "Join the choir",
+    "bookEvent": "Book us for a wedding or event",
+    "support": "Support our mission",
+    "actsOfLove": "Acts of Love",
+    "saveTheDate": "Save the date",
+    "since": "Since",
+    "backToTop": "Back to top"
+  }
+}
