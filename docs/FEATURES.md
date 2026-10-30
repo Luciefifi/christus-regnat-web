@@ -156,7 +156,7 @@ Joining form ──► New member ───────────────�
 1. ✅ Hero: name, "Christus Regnat! Ishema Ridashonga!", featured event pill, choir photo
 2. ⬜ **Today at Christus Regnat** (only shown when there is something): today's **birthday flyer(s)** (consenting members only) and/or today's **feast-day flyer**, e.g. "Happy Feast of the Assumption"
 3. 🚧 **Next event** (see rule below) + weekly rehearsals (Tue & Fri 18:00–20:00, Ste Famille JOC): rehearsals and the iBweranganzo countdown ✅; the pinning rule waits for the database
-4. 🚧 **Meet our committee**: the 5 executive members (President, Vice-President, Technical Vice-President, Secretary, Accountant). Section ✅. **Alice La Douce Nyaruhirira** (Vice-President, previously President) is real; the other four names are **still placeholders** (no "sample" badge any more) ❓ real names
+4. 🚧 **Meet our committee**: the 5 executive members (President, Vice-President, Technical Vice-President, Secretary, Accountant). Section ✅, read from the database (the term that started most recently) ✅. **Alice La Douce Nyaruhirira** (Vice-President, previously President) is real; the other four names are **still placeholders** (no "sample" badge any more) ❓ real names
 5. ⬜ Featured video
 6. ⬜ Latest news
 7. ✅ Footer with the "Christus Regnat! Ishema Ridashonga!" band, links, socials (YouTube, Instagram, Facebook, X), featured event
@@ -371,7 +371,8 @@ Joining form ──► New member ───────────────�
 | –   | `feature/coming-soon-pages` (placeholder page for every menu link)               | ✅     |
 | –   | `feature/join-page`, `feature/contact-page`, `feature/about-page`                | ✅     |
 | 6   | `feature/public-pages` (History, Leadership, Music, Gallery, News, …)            | ⬜     |
-| 7   | `chore/database` (Prisma schema, migrations, seed)                               | ⬜     |
+| 7   | `chore/database-setup` (Prisma schema, migrations, seed)                         | ✅     |
+| –   | `feature/home-from-database` (committee and pinned event from the database)      | 🚧     |
 | 8   | `feature/music-videos-events`                                                    | ⬜     |
 | 9   | `feature/auth` (roles incl. technical team, section leader, candidate)           | ⬜     |
 | 10  | `feature/portal-*` (attendance, candidates, Mass planner, songs, announcements)  | ⬜     |
