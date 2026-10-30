@@ -3,12 +3,21 @@ import Link from "next/link";
 import { site } from "@/config/site";
 import { intlLocale, localePath, type Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
+import type { FeaturedEvent } from "@/lib/events";
 import { formatDate } from "@/lib/format";
 import { buttonClasses } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import choirPhoto from "../../../public/choir-group-photo.png";
 
-export function HeroSection({ locale, dict }: { locale: Locale; dict: Dictionary }) {
+export function HeroSection({
+  locale,
+  dict,
+  event,
+}: {
+  locale: Locale;
+  dict: Dictionary;
+  event: FeaturedEvent | null;
+}) {
   return (
     <section className="relative overflow-hidden bg-linear-to-b from-white to-cream">
       {/* Soft gold glow behind the hero (decorative) */}
@@ -19,15 +28,17 @@ export function HeroSection({ locale, dict }: { locale: Locale; dict: Dictionary
 
       <Container className="relative grid items-center gap-8 pt-10 pb-12 sm:pt-16 sm:pb-14 lg:grid-cols-2 lg:gap-12 lg:pt-20 lg:pb-16">
         <div>
-          <Link
-            href={localePath(locale, site.featuredEvent.href)}
-            className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-sm font-medium text-ink shadow-sm ring-1 ring-gold-200 transition hover:ring-gold-400"
-          >
-            <span className="size-2 rounded-full bg-gold-500" aria-hidden="true" />
-            {site.featuredEvent.title} · {formatDate(site.featuredEvent.date, intlLocale[locale])}
-          </Link>
+          {event && (
+            <Link
+              href={localePath(locale, event.href)}
+              className="mb-5 inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-sm font-medium text-ink shadow-sm ring-1 ring-gold-200 transition hover:ring-gold-400 sm:mb-6"
+            >
+              <span className="size-2 rounded-full bg-gold-500" aria-hidden="true" />
+              {event.title} · {formatDate(event.date, intlLocale[locale])}
+            </Link>
+          )}
 
-          <h1 className="mt-5 text-5xl leading-[1.05] font-semibold tracking-tight sm:mt-6 sm:text-7xl">
+          <h1 className="text-5xl leading-[1.05] font-semibold tracking-tight sm:text-7xl">
             {site.name}
           </h1>
 

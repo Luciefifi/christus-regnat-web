@@ -155,18 +155,18 @@ Joining form ──► New member ───────────────�
 
 1. ✅ Hero: name, "Christus Regnat! Ishema Ridashonga!", featured event pill, choir photo
 2. ⬜ **Today at Christus Regnat** (only shown when there is something): today's **birthday flyer(s)** (consenting members only) and/or today's **feast-day flyer**, e.g. "Happy Feast of the Assumption"
-3. 🚧 **Next event** (see rule below) + weekly rehearsals (Tue & Fri 18:00–20:00, Ste Famille JOC): rehearsals and the iBweranganzo countdown ✅; the pinning rule waits for the database
+3. 🚧 **Next event** (see rule below) + weekly rehearsals (Tue & Fri 18:00–20:00, Ste Famille JOC): rehearsals ✅; the countdown, hero pill and footer card show the soonest pinned event from the database ✅; the default (next Mass or rehearsal) ⬜
 4. 🚧 **Meet our committee**: the 5 executive members (President, Vice-President, Technical Vice-President, Secretary, Accountant). Section ✅, read from the database (the term that started most recently) ✅. **Alice La Douce Nyaruhirira** (Vice-President, previously President) is real; the other four names are **still placeholders** (no "sample" badge any more) ❓ real names
 5. ⬜ Featured video
 6. ⬜ Latest news
 7. ✅ Footer with the "Christus Regnat! Ishema Ridashonga!" band, links, socials (YouTube, Instagram, Facebook, X), featured event
 
-### Rule: which event the homepage shows ⬜
+### Rule: which event the homepage shows 🚧
 
 - **Default:** the next upcoming activity, i.e. the next Mass with the choir or the next rehearsal.
 - **Pinned big events:** an event (e.g. a concert like iBweranganzo) can be **pinned**. A pinned event stays on the homepage, with a countdown, **until it happens or until a "pin until" date** set by the admin, even if smaller activities come first.
-- Several pinned events: show the soonest one.
-- After the event: it disappears automatically, and the next pinned event or the default takes over (no one has to remember to remove it).
+- Several pinned events: show the soonest one. ✅
+- After the event: it disappears automatically, and the next pinned event or the default takes over (no one has to remember to remove it). ✅ for pinned events (within an hour); a "pin until" date ⬜
 
 ---
 

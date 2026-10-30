@@ -29,14 +29,4 @@ export const site = {
     end: "20:00",
     venue: "Ste Famille (JOC)",
   },
-  // Temporary: moves to the database (Event table) in chore/database.
-  // Source: christusregnat.rw/ibweranganzo (3rd edition, 20th anniversary).
-  featuredEvent: {
-    title: "iBweranganzo 2026",
-    date: "2026-11-29", // ISO date, formatted per language with formatDate()
-    startsAt: "2026-11-29T16:00:00+02:00", // 16:00 Kigali time (UTC+2)
-    venue: "Saint Famille Hotel, Kigali",
-    ticketsUrl: "https://www.christusregnat.rw/ibweranganzo",
-    href: "/events",
-  },
 } as const;

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { site } from "@/config/site";
+import { getFeaturedEvent } from "@/data/events";
 import { hasLocale, locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { fontVariables } from "../fonts";
@@ -33,7 +34,7 @@ export const viewport: Viewport = {
 export default async function LocaleLayout({ children, params }: LayoutProps<"/[locale]">) {
   const { locale } = await params;
   if (!hasLocale(locale)) notFound(); // e.g. /de/... is not a language we support
-  const dict = await getDictionary(locale);
+  const [dict, featuredEvent] = await Promise.all([getDictionary(locale), getFeaturedEvent()]);
 
   return (
     <html lang={locale} className={fontVariables}>
@@ -48,7 +49,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
         <main id="main" className="flex-1">
           {children}
         </main>
-        <Footer locale={locale} dict={dict} />
+        <Footer locale={locale} dict={dict} event={featuredEvent} />
       </body>
     </html>
   );
