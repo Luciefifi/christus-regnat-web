@@ -139,10 +139,10 @@ Joining form ──► New member ───────────────�
 | Home                   | 🚧     | Hero ✅, committee section ✅, rehearsals and next Mass ✅, iBweranganzo countdown with venue, tickets link and cause ✅, latest video ⬜, latest news ⬜                                                                                                                                                    |
 | About                  | ✅     | Story since 2006, music, key figures, Acts of Love, "Christus Regnat! Ishema Ridashonga!" (not translated)                                                                                                                                                                                                   |
 | History                | ⬜     | **A page for every year since 2006**: that year's committee, events, photos and highlights (year-by-year archive, needs the database)                                                                                                                                                                        |
-| Leadership             | ⬜     | Executive (featured), full committee grouped by area; past committees live in the year-by-year archive (History)                                                                                                                                                                                             |
+| Leadership             | ✅     | Current committee (from the database) and every committee since 2006, one card per term; areas ❓                                                                                                                                                                                                            |
 | Music                  | ⬜     | Songs and albums, YouTube/Apple Music embeds, filters (language, season, occasion)                                                                                                                                                                                                                           |
 | Videos                 | ⬜     | Official YouTube channel (@IshemaRidashonga), concerts, music videos, music-theory lessons                                                                                                                                                                                                                   |
-| Events / Concerts      | 🚧     | Upcoming **and all past events since the start** ✅ (from the database: a timeline by year with highlights in 3 languages, guest artists and the concert videos from YouTube) (concerts like iBweranganzo 2023/2024/2026, the 2018 and 2019 concerts, …), detail pages, tickets, map, add-to-calendar (.ics) |
+| Events / Concerts      | 🚧     | Upcoming **and all past events since the start** ✅ (from the database: a timeline by year with highlights in 3 languages, guest artists and the concert videos from YouTube) (concerts like iBweranganzo 2023/2024/2026, the 2018 and 2019 concerts, …), event pages ✅ with tickets, directions, .ics file |
 | Masses                 | ⬜     | Upcoming Masses with the choir (from the Mass planner)                                                                                                                                                                                                                                                       |
 | Gallery                | ⬜     | Albums by event and year, lightbox, credits                                                                                                                                                                                                                                                                  |
 | News & Press           | ⬜     | Announcements and press links                                                                                                                                                                                                                                                                                |
@@ -176,7 +176,7 @@ Joining form ──► New member ───────────────�
 - ⬜ Homepage shows only members marked **featured** (the executive).
 - ⬜ Archive: the committee of **every year since 2006**, shown in the year-by-year archive (§6 History); unknown people shown as "To be confirmed", **never invented**.
 - ⬜ Photos only with consent.
-- Known so far: **Alice La Douce Nyaruhirira**, President (around 2023), now Vice-President; **Bizimana Jérémie**, deputy for technical affairs and ethics (2023, press).
+- Known so far: **Alice La Douce Nyaruhirira**, President (around 2023), now Vice-President; **Bizimana Jérémie**, deputy for technical affairs and ethics (2023, press); **Jean Paul Mbarushimana**, President in November 2024 (AllAfrica). All other names in the seed are invented placeholders.
 - ❓ Term length, list of roles per area, current names, past committees.
 
 ---
@@ -372,7 +372,8 @@ Joining form ──► New member ───────────────�
 | –   | `feature/join-page`, `feature/contact-page`, `feature/about-page`                | ✅     |
 | 6   | `feature/public-pages` (History, Leadership, Music, Gallery, News, …)            | ⬜     |
 | 7   | `chore/database-setup` (Prisma schema, migrations, seed)                         | ✅     |
-| –   | `feature/home-from-database` (committee and pinned event from the database)      | 🚧     |
+| –   | `feature/events-from-database` (homepage committee, pinned event, Events page)   | ✅     |
+| –   | `feature/event-pages-and-leadership` (event pages, Leadership page)              | ✅     |
 | 8   | `feature/music-videos-events`                                                    | ⬜     |
 | 9   | `feature/auth` (roles incl. technical team, section leader, candidate)           | ⬜     |
 | 10  | `feature/portal-*` (attendance, candidates, Mass planner, songs, announcements)  | ⬜     |

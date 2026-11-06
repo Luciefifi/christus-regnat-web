@@ -40,6 +40,7 @@ model Event {
 
   translations EventTranslation[]
   videos       EventVideo[]
+  photos       EventPhoto[]
 
   @@index([startsAt]) // the site mostly asks "what's next?" and "what happened in year X?"
 }
@@ -56,11 +57,14 @@ model EventTranslation {
 
 // A YouTube video of the event. The first one (lowest position) is the main video and the cover.
 model EventVideo {
-  id        Int    @id @default(autoincrement())
+  id        Int     @id @default(autoincrement())
   eventId   Int
-  event     Event  @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  event     Event   @relation(fields: [eventId], references: [id], onDelete: Cascade)
   youtubeId String // the part after watch?v=, e.g. "QC89AZwvJ7U"
-  title     String // usually the song: "Rwagasabo (with Mani Martin)"
+  title     String // usually the song: "Rwagasabo"
+  composer  String? // e.g. "Rugamba Cyprien"
+  featuring String? // a guest or soloist, e.g. "Mani Martin"
+  isSong    Boolean @default(true) // false for a full concert or a trailer: not in "Songs performed"
   position  Int
 
   @@unique([eventId, position])
@@ -107,4 +111,15 @@ model CommitteeMember {
 
   @@unique([termId, role]) // one President (one Secretary, ...) per term
   @@index([personId])
+}
+
+// A photo from the event, in public/ ("/events/ibweranganzo-2023/01.jpg"), shown in its gallery
+model EventPhoto {
+  id       Int    @id @default(autoincrement())
+  eventId  Int
+  event    Event  @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  src      String
+  position Int
+
+  @@unique([eventId, position])
 }

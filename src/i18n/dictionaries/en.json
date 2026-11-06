@@ -96,7 +96,18 @@
     "watchTrailer": "Watch",
     "youtubeTitle": "There's much more on YouTube",
     "youtubeText": "Full concerts, Masses, music videos and music-theory lessons on our channel, Ishema Ridashonga.",
-    "youtubeCta": "Open our YouTube channel"
+    "youtubeCta": "Open our YouTube channel",
+    "allEvents": "All events",
+    "details": "Event details",
+    "videosTitle": "Watch",
+    "addToCalendar": "Add to my calendar",
+    "directions": "Get directions",
+    "songsTitle": "Songs performed",
+    "photosTitle": "Photos",
+    "photoLabel": "Photo {n} of {total}",
+    "closePhoto": "Close",
+    "previousPhoto": "Previous photo",
+    "nextPhoto": "Next photo"
   },
   "comingSoon": {
     "eyebrow": "Coming soon",
@@ -190,5 +201,13 @@
     "saveTheDate": "Save the date",
     "since": "Since",
     "backToTop": "Back to top"
+  },
+  "leadership": {
+    "eyebrow": "Leadership",
+    "title": "The people who serve the choir",
+    "intro": "The executive committee leads Chorale Christus Regnat, its music and its mission, together with every member of the choir.",
+    "currentTitle": "Current committee",
+    "pastTitle": "Every committee since {year}",
+    "pastIntro": "Twenty years of service. Thank you to everyone who has led the choir."
   }
 }

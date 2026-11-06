@@ -1,6 +1,7 @@
-import { intlLocale, type Locale } from "@/i18n/config";
+import Link from "next/link";
+import { intlLocale, localePath, type Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
-import { formatEdition, type EventListItem } from "@/lib/events";
+import { eventHref, formatEdition, type EventListItem } from "@/lib/events";
 import { formatDate } from "@/lib/format";
 import { buttonClasses } from "@/components/ui/button";
 import { EventVideos } from "./event-videos";
@@ -31,7 +32,11 @@ export function EventCard({
             videos={event.videos}
             eventTitle={event.title}
             cover={event.coverImage}
-            labels={{ play: t.play, moreVideos: past ? t.moreVideos : t.watchTrailer }}
+            labels={{
+              play: t.play,
+              moreVideos: past ? t.moreVideos : t.watchTrailer,
+              with: t.guests,
+            }}
             priority={priority}
           />
         ) : (
@@ -48,7 +53,11 @@ export function EventCard({
             </span>
           )}
         </p>
-        <Title className="mt-2 font-display text-3xl text-ink sm:text-4xl">{event.title}</Title>
+        <Title className="mt-2 font-display text-3xl text-ink sm:text-4xl">
+          <Link href={localePath(locale, eventHref(event.slug))} className="hover:text-gold-700">
+            {event.title}
+          </Link>
+        </Title>
 
         <dl className="mt-5 space-y-2 text-sm">
           <div className="flex gap-3">
@@ -86,9 +95,9 @@ export function EventCard({
           <p className="mt-6 leading-relaxed text-ink-muted">{event.highlight}</p>
         )}
 
-        {/* Tickets are sold on the concert's own site, so this is an external link */}
-        {event.ticketsUrl && !past && (
-          <div className="mt-auto pt-8">
+        <div className="mt-auto flex flex-wrap gap-3 pt-8">
+          {/* Tickets are sold on the concert's own site, so this is an external link */}
+          {event.ticketsUrl && !past && (
             <a
               href={event.ticketsUrl}
               target="_blank"
@@ -97,8 +106,14 @@ export function EventCard({
             >
               {t.tickets}
             </a>
-          </div>
-        )}
+          )}
+          <Link
+            href={localePath(locale, eventHref(event.slug))}
+            className={buttonClasses("secondary")}
+          >
+            {t.details} →
+          </Link>
+        </div>
       </div>
     </article>
   );
