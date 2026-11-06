@@ -263,7 +263,7 @@ const terms: SeedTerm[] = [
     startYear: 2024,
     endYear: 2026,
     members: [
-      [PRESIDENT, "Eric Mugisha"],
+      [PRESIDENT, "Jean Paul Mbarushimana"], // real: President at iBweranganzo, Nov 2024 (AllAfrica)
       [VICE_PRESIDENT, "Grace Uwase"],
       [TECHNICAL_VICE_PRESIDENT, "Patrick Habimana"],
       [SECRETARY, "Diane Mukamana"],

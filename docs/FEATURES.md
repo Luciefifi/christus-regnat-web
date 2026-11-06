@@ -176,7 +176,7 @@ Joining form ──► New member ───────────────�
 - ⬜ Homepage shows only members marked **featured** (the executive).
 - ⬜ Archive: the committee of **every year since 2006**, shown in the year-by-year archive (§6 History); unknown people shown as "To be confirmed", **never invented**.
 - ⬜ Photos only with consent.
-- Known so far: **Alice La Douce Nyaruhirira**, President (around 2023), now Vice-President; **Bizimana Jérémie**, deputy for technical affairs and ethics (2023, press).
+- Known so far: **Alice La Douce Nyaruhirira**, President (around 2023), now Vice-President; **Bizimana Jérémie**, deputy for technical affairs and ethics (2023, press); **Jean Paul Mbarushimana**, President in November 2024 (AllAfrica). All other names in the seed are invented placeholders.
 - ❓ Term length, list of roles per area, current names, past committees.
 
 ---
