@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+  calendarFile,
   formatEdition,
   groupByYear,
   toEventListItem,
@@ -8,6 +9,7 @@ import {
 } from "./events";
 
 const row = {
+  slug: "ibweranganzo-2026",
   title: "iBweranganzo 2026",
   startsAt: new Date("2026-11-29T16:00:00+02:00"),
   venue: "Saint Famille Hotel, Kigali",
@@ -22,7 +24,7 @@ describe("toFeaturedEvent", () => {
       startsAt: "2026-11-29T14:00:00.000Z",
       venue: "Saint Famille Hotel, Kigali",
       ticketsUrl: "https://www.christusregnat.rw/ibweranganzo",
-      href: "/events",
+      href: "/events/ibweranganzo-2026",
     });
   });
 
@@ -44,13 +46,17 @@ const listRow = {
   type: "CONCERT" as const,
   title: "iBweranganzo 2026",
   startsAt: new Date("2026-11-29T16:00:00+02:00"),
+  endsAt: new Date("2026-11-29T20:00:00+02:00"),
   venue: "Saint Famille Hotel, Kigali",
   ticketsUrl: null,
   edition: 3,
   guests: [],
   coverImage: null,
   translations: [{ highlight: "The 20th anniversary." }],
-  videos: [{ youtubeId: "fvq73O9uU1A", title: "Trailer" }],
+  videos: [
+    { youtubeId: "fvq73O9uU1A", title: "Trailer", composer: null, featuring: null, isSong: false },
+  ],
+  photos: [{ src: "/events/ibweranganzo-2026/01.jpg" }],
 };
 
 describe("toEventListItem", () => {
@@ -61,13 +67,24 @@ describe("toEventListItem", () => {
       title: "iBweranganzo 2026",
       date: "2026-11-29",
       time: "16:00",
+      startsAt: "2026-11-29T14:00:00.000Z",
+      endsAt: "2026-11-29T18:00:00.000Z",
       venue: "Saint Famille Hotel, Kigali",
       ticketsUrl: undefined,
       edition: 3,
       guests: [],
       coverImage: undefined,
       highlight: "The 20th anniversary.",
-      videos: [{ youtubeId: "fvq73O9uU1A", title: "Trailer" }],
+      videos: [
+        {
+          youtubeId: "fvq73O9uU1A",
+          title: "Trailer",
+          composer: undefined,
+          featuring: undefined,
+          isSong: false,
+        },
+      ],
+      photos: ["/events/ibweranganzo-2026/01.jpg"],
     });
   });
 
@@ -118,6 +135,26 @@ describe("toEventListItem without extras", () => {
   it("has no highlight when there is no text in this language", () => {
     expect(toEventListItem({ ...listRow, translations: [] }).highlight).toBeUndefined();
   });
+
+  it("has an empty gallery when the event has no photos", () => {
+    expect(toEventListItem({ ...listRow, photos: undefined }).photos).toEqual([]);
+  });
+
+  it("keeps a song's composer and soloist", () => {
+    const [song] = toEventListItem({
+      ...listRow,
+      videos: [
+        {
+          youtubeId: "nzFfWqynKVc",
+          title: "Lascia ch'io pianga",
+          composer: "G. F. Handel",
+          featuring: "Isimbi",
+          isSong: true,
+        },
+      ],
+    }).videos;
+    expect(song).toMatchObject({ composer: "G. F. Handel", featuring: "Isimbi", isSong: true });
+  });
 });
 
 describe("youtubeThumbnail", () => {
@@ -128,5 +165,37 @@ describe("youtubeThumbnail", () => {
     expect(youtubeThumbnail("QC89AZwvJ7U", "hq")).toBe(
       "https://i.ytimg.com/vi/QC89AZwvJ7U/hqdefault.jpg",
     );
+  });
+});
+
+describe("calendarFile", () => {
+  const event = toEventListItem(listRow);
+  const lines = (file: string) => file.split("\r\n");
+
+  it("writes the start and end in UTC, with the venue", () => {
+    const file = lines(calendarFile(event));
+    expect(file).toContain("DTSTART:20261129T140000Z");
+    expect(file).toContain("DTEND:20261129T180000Z");
+    expect(file).toContain("SUMMARY:iBweranganzo 2026");
+    // The comma is escaped: it separates values in calendar files
+    expect(file).toContain("LOCATION:Saint Famille Hotel\\, Kigali");
+    expect(file[0]).toBe("BEGIN:VCALENDAR");
+    expect(file.at(-1)).toBe("END:VCALENDAR");
+  });
+
+  it("lasts two hours when the end time is unknown", () => {
+    const file = lines(calendarFile({ ...event, endsAt: undefined }));
+    expect(file).toContain("DTEND:20261129T160000Z");
+  });
+
+  it("is an all-day event when the start time is unknown", () => {
+    const allDay = toEventListItem({
+      ...listRow,
+      startsAt: new Date("2024-11-03T00:00:00+02:00"),
+      endsAt: null,
+    });
+    const file = lines(calendarFile(allDay));
+    expect(file).toContain("DTSTART;VALUE=DATE:20241103");
+    expect(file.some((line) => line.startsWith("DTEND"))).toBe(false);
   });
 });

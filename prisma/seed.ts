@@ -68,14 +68,23 @@ const events: Prisma.EventCreateInput[] = [
   },
 ];
 
-// ─── Highlights and videos of each event ───
+// ─── Highlights, videos and photos of each event ───
 // Highlights: christusregnat.rw/ibweranganzo and press (AllAfrica, The New Times).
 // Videos: the choir's YouTube channel (@IshemaRidashonga). The first video is the main one and the cover.
+// Composers and soloists come from the video titles. Photos: christusregnat.rw.
 // The Kinyarwanda texts still need a review by a native speaker.
+type VideoDetails = { composer?: string; featuring?: string; isSong?: boolean };
+
 type EventDetails = {
   highlight: { en: string; fr: string; rw: string };
-  videos: [youtubeId: string, title: string][];
+  videos: [youtubeId: string, title: string, details?: VideoDetails][];
+  photos?: string[]; // files in public/, in the order the gallery shows them
 };
+
+const gianadda = { composer: "Jean-Claude Gianadda" };
+const rugamba = { composer: "Rugamba Cyprien" };
+const handel = { composer: "G. F. Handel" };
+const notASong = { isSong: false };
 
 const eventDetails: Record<string, EventDetails> = {
   "christus-regnat-jean-claude-gianadda-2019": {
@@ -85,14 +94,14 @@ const eventDetails: Record<string, EventDetails> = {
       rw: "Mu rugendo rwe mu Rwanda, umuhanzi w'Umufaransa Jean-Claude Gianadda yaririmbanye na korali indirimbo ze zikunzwe: Magnificat, Dieu seul suffit, Trouver dans ma vie ta présence n'izindi.",
     },
     videos: [
-      ["dLCNsAGNdSo", "Magnificat"],
-      ["U9dN-08D7qk", "Dieu seul suffit"],
-      ["WsBeBkDks9Q", "Trouver dans ma vie ta présence"],
-      ["5dhl49whOFc", "Tu es parti"],
-      ["Pg1W-xi7iGE", "Il y a quelque part"],
-      ["6d-_XcNOCAE", "Des ponts"],
-      ["6FXQS6II218", "Je bénirai le Seigneur"],
-      ["_EenArHPOMs", "Une chanson"],
+      ["dLCNsAGNdSo", "Magnificat", gianadda],
+      ["U9dN-08D7qk", "Dieu seul suffit", gianadda],
+      ["WsBeBkDks9Q", "Trouver dans ma vie ta présence", gianadda],
+      ["5dhl49whOFc", "Tu es parti", gianadda],
+      ["Pg1W-xi7iGE", "Il y a quelque part", gianadda],
+      ["6d-_XcNOCAE", "Des ponts", gianadda],
+      ["6FXQS6II218", "Je bénirai le Seigneur", gianadda],
+      ["_EenArHPOMs", "Une chanson", gianadda],
       ["HYlIUzF32mg", "Christus Regnat Hymn"],
     ],
   },
@@ -103,18 +112,22 @@ const eventDetails: Record<string, EventDetails> = {
       rw: "iBweranganzo ya mbere. Yatangije ubukangurambaga bwa Dusangire Lunch, inagaragaza umwihariko wa korali: indirimbo z'Imana, iz'umuco nyarwanda n'iza kera z'abahanga, kuva kuri Exultate kugeza kuri Mama Shenge hamwe na Andy Bumuntu.",
     },
     videos: [
-      ["87VU1FMNqTI", "Full concert"],
-      ["Hrz9OCUkSOA", "Mama Shenge (with Andy Bumuntu)"],
+      ["87VU1FMNqTI", "Full concert", notASong],
+      ["Hrz9OCUkSOA", "Mama Shenge", { featuring: "Andy Bumuntu" }],
       ["65AmarueA0A", "Exultate"],
-      ["nzFfWqynKVc", "Lascia ch'io pianga"],
-      ["0YowjyXfQAc", "Igipimo cy'Urukundo"],
+      ["nzFfWqynKVc", "Lascia ch'io pianga", { ...handel, featuring: "Isimbi" }],
+      ["0YowjyXfQAc", "Igipimo cy'Urukundo", rugamba],
       ["E90HIZUDlu4", "Nyaruguru"],
-      ["75vgHXc8YRE", "Uhoraho ni Umwami"],
+      ["75vgHXc8YRE", "Uhoraho ni Umwami", { composer: "N. Valens" }],
       ["C9fm2w8HhI0", "Roho yanjye"],
       ["u0IKsn1YLEs", "Icyishongoro cy'Ubucungurwe"],
       ["HQ25hWxncK0", "Inkotanyi cyane"],
       ["mv_3SpskAJw", "Igisingizo cya Bikiramariya"],
     ],
+    photos: Array.from(
+      { length: 12 },
+      (_, i) => `/events/ibweranganzo-2023/${String(i + 1).padStart(2, "0")}.jpg`,
+    ),
   },
   "ibweranganzo-2024": {
     highlight: {
@@ -123,16 +136,16 @@ const eventDetails: Record<string, EventDetails> = {
       rw: "Ku nshuro ya kabiri, igitaramo cyabereye ahantu hagutse kandi kiririmbwamo indirimbo mu Kinyarwanda, Icyongereza n'Igifaransa, kuva kuri Hallelujah ya Handel na O Fortuna kugeza ku ndirimbo za Rugamba Cyprien. Abantu amagana baje gushyigikira Dusangire Lunch, kandi Padiri Innocent Consolateur yari ahagarariye Antoine Cardinal Kambanda.",
     },
     videos: [
-      ["QC89AZwvJ7U", "Rwagasabo (with Mani Martin)"],
-      ["PVhZnoOjbn0", "Rejoice O Judah & Hallelujah, Amen (Handel)"],
-      ["RMvUQJbJMCQ", "O Fortuna"],
-      ["pxtvArPhZUw", "Amakombe y'u Rwanda (Rugamba Cyprien)"],
-      ["-KnxFccM8Ww", "Shimirwa Mukiza (Rugamba Cyprien)"],
-      ["iUOT2JqDFdE", "Igipimo cy'Urukundo"],
+      ["QC89AZwvJ7U", "Rwagasabo", { featuring: "Mani Martin" }],
+      ["PVhZnoOjbn0", "Rejoice O Judah & Hallelujah, Amen", handel],
+      ["RMvUQJbJMCQ", "O Fortuna", { composer: "Carl Orff" }],
+      ["pxtvArPhZUw", "Amakombe y'u Rwanda", rugamba],
+      ["-KnxFccM8Ww", "Shimirwa Mukiza", rugamba],
+      ["iUOT2JqDFdE", "Igipimo cy'Urukundo", rugamba],
       ["q1pTUOI0XnM", "Urahirwa Bikiramariya"],
-      ["kqvqlyZm-nU", "Igicumbi cy'Uburere"],
+      ["kqvqlyZm-nU", "Igicumbi cy'Uburere", { composer: "Oreste Niyonzima" }],
       ["iwinBS2Ep_U", "Paradizo"],
-      ["klSJXO9abYs", "Trouver dans ma vie"],
+      ["klSJXO9abYs", "Trouver dans ma vie ta présence", gianadda],
       ["lTOcLdAYkns", "Come let us sing"],
       ["vyHMBMyaOB0", "Twigishe gusenga"],
     ],
@@ -143,7 +156,7 @@ const eventDetails: Record<string, EventDetails> = {
       fr: "La troisième édition célèbre les 20 ans de la chorale. La vente des billets soutient Dusangire Lunch, qui offre le repas de midi à l'école aux enfants de familles modestes.",
       rw: "Igitaramo cya gatatu cyizihiza isabukuru y'imyaka 20 ya korali. Amafaranga ava ku matike azashyigikira Dusangire Lunch, igaburira ku ishuri abana bo mu miryango itishoboye.",
     },
-    videos: [["fvq73O9uU1A", "iBweranganzo 2026 trailer"]],
+    videos: [["fvq73O9uU1A", "iBweranganzo 2026 trailer", notASong]],
   },
 };
 
@@ -305,15 +318,21 @@ async function main() {
       });
     }
 
-    // Videos are replaced as a whole, so reordering or removing one in this file just works
+    // Videos and photos are replaced as a whole, so reordering or removing one here just works
     await prisma.eventVideo.deleteMany({ where: { eventId: saved.id } });
     await prisma.eventVideo.createMany({
-      data: details.videos.map(([youtubeId, title], position) => ({
+      data: details.videos.map(([youtubeId, title, extra], position) => ({
         eventId: saved.id,
         youtubeId,
         title,
+        ...extra,
         position,
       })),
+    });
+
+    await prisma.eventPhoto.deleteMany({ where: { eventId: saved.id } });
+    await prisma.eventPhoto.createMany({
+      data: (details.photos ?? []).map((src, position) => ({ eventId: saved.id, src, position })),
     });
   }
 

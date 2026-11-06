@@ -96,7 +96,18 @@
     "watchTrailer": "Reba",
     "youtubeTitle": "Ibindi byinshi biri kuri YouTube",
     "youtubeText": "Ibitaramo byose, Misa, amashusho y'indirimbo n'amasomo y'umuziki kuri shene yacu, Ishema Ridashonga.",
-    "youtubeCta": "Fungura shene yacu ya YouTube"
+    "youtubeCta": "Fungura shene yacu ya YouTube",
+    "allEvents": "Ibikorwa byose",
+    "details": "Ibisobanuro birambuye",
+    "videosTitle": "Reba amashusho",
+    "addToCalendar": "Bishyire kuri kalendari yanjye",
+    "directions": "Erekana inzira",
+    "songsTitle": "Indirimbo zaririmbwe",
+    "photosTitle": "Amafoto",
+    "photoLabel": "Ifoto ya {n} kuri {total}",
+    "closePhoto": "Funga",
+    "previousPhoto": "Ifoto ibanza",
+    "nextPhoto": "Ifoto ikurikira"
   },
   "comingSoon": {
     "eyebrow": "Biraza vuba",

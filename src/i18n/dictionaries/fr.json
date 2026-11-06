@@ -96,7 +96,18 @@
     "watchTrailer": "Regarder",
     "youtubeTitle": "Encore plus sur YouTube",
     "youtubeText": "Concerts complets, messes, clips et cours de théorie musicale sur notre chaîne, Ishema Ridashonga.",
-    "youtubeCta": "Voir notre chaîne YouTube"
+    "youtubeCta": "Voir notre chaîne YouTube",
+    "allEvents": "Tous les événements",
+    "details": "Voir l'événement",
+    "videosTitle": "Regarder",
+    "addToCalendar": "Ajouter à mon agenda",
+    "directions": "Itinéraire",
+    "songsTitle": "Chants interprétés",
+    "photosTitle": "Photos",
+    "photoLabel": "Photo {n} sur {total}",
+    "closePhoto": "Fermer",
+    "previousPhoto": "Photo précédente",
+    "nextPhoto": "Photo suivante"
   },
   "comingSoon": {
     "eyebrow": "Bientôt disponible",
