@@ -70,7 +70,33 @@
     }
   },
   "events": {
-    "featuredSubtitle": "Concert du 20e anniversaire"
+    "featuredSubtitle": "Concert du 20e anniversaire",
+    "eyebrow": "Concerts et célébrations",
+    "title": "Événements",
+    "intro": "Concerts, messes spéciales et célébrations de la Chorale Christus Regnat, des prochains aux tout premiers depuis 2006.",
+    "upcomingTitle": "À venir",
+    "noUpcoming": "Aucun nouvel événement annoncé pour l'instant. Suivez-nous sur YouTube ou Instagram pour être informé en premier.",
+    "pastTitle": "Événements passés",
+    "tickets": "Acheter un billet",
+    "types": {
+      "concert": "Concert",
+      "mass": "Messe",
+      "wedding": "Mariage",
+      "funeral": "Funérailles",
+      "meeting": "Réunion",
+      "rehearsal": "Répétition",
+      "other": "Événement"
+    },
+    "pastIntro": "Vingt ans de chant. Lancez une vidéo pour revivre les concerts, chant après chant.",
+    "when": "Quand",
+    "where": "Où",
+    "guests": "Avec",
+    "play": "Lire",
+    "moreVideos": "Les chants de ce concert",
+    "watchTrailer": "Regarder",
+    "youtubeTitle": "Encore plus sur YouTube",
+    "youtubeText": "Concerts complets, messes, clips et cours de théorie musicale sur notre chaîne, Ishema Ridashonga.",
+    "youtubeCta": "Voir notre chaîne YouTube"
   },
   "comingSoon": {
     "eyebrow": "Bientôt disponible",
@@ -151,7 +177,6 @@
     "ctaTitle": "Chantez avec nous",
     "ctaText": "Les répétitions sont ouvertes à tous ceux qui aiment chanter. Venez nous rencontrer."
   },
-
   "footer": {
     "singWithUs": "Chantez avec nous",
     "bookChoir": "Inviter la chorale",

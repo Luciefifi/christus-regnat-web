@@ -34,6 +34,7 @@ const events: Prisma.EventCreateInput[] = [
     title: "Christus Regnat & Jean-Claude Gianadda",
     startsAt: new Date("2019-10-05T00:00:00+02:00"), // announced for 5 and 6 October 2019
     endsAt: new Date("2019-10-06T23:59:00+02:00"),
+    guests: ["Jean-Claude Gianadda"],
   },
   {
     slug: "ibweranganzo-2023",
@@ -41,6 +42,8 @@ const events: Prisma.EventCreateInput[] = [
     title: "iBweranganzo 2023",
     startsAt: new Date("2023-11-19T16:00:00+02:00"), // the press gives both 16:00 and 18:00
     venue: "Camp Kigali (Kigali Conference and Exhibition Village)",
+    edition: 1,
+    guests: ["Andy Bumuntu", "Josh Ishimwe"],
   },
   {
     slug: "ibweranganzo-2024",
@@ -48,6 +51,8 @@ const events: Prisma.EventCreateInput[] = [
     title: "iBweranganzo 2024",
     startsAt: new Date("2024-11-03T00:00:00+02:00"), // start time unknown
     venue: "Lemigo Hotel, Kigali",
+    edition: 2,
+    guests: ["Mani Martin"],
   },
   {
     slug: "ibweranganzo-2026",
@@ -58,8 +63,89 @@ const events: Prisma.EventCreateInput[] = [
     venue: "Saint Famille Hotel, Kigali",
     ticketsUrl: "https://www.christusregnat.rw/ibweranganzo",
     isFeatured: true,
+    edition: 3,
+    coverImage: "/events/choir-in-concert.jpg", // from christusregnat.rw; the trailer's still is mostly text
   },
 ];
+
+// ─── Highlights and videos of each event ───
+// Highlights: christusregnat.rw/ibweranganzo and press (AllAfrica, The New Times).
+// Videos: the choir's YouTube channel (@IshemaRidashonga). The first video is the main one and the cover.
+// The Kinyarwanda texts still need a review by a native speaker.
+type EventDetails = {
+  highlight: { en: string; fr: string; rw: string };
+  videos: [youtubeId: string, title: string][];
+};
+
+const eventDetails: Record<string, EventDetails> = {
+  "christus-regnat-jean-claude-gianadda-2019": {
+    highlight: {
+      en: "French singer-songwriter Jean-Claude Gianadda brought his Rwanda tour to Kigali and sang his best-loved songs with the choir: Magnificat, Dieu seul suffit, Trouver dans ma vie ta présence and more.",
+      fr: "Lors de sa tournée au Rwanda, l'auteur-compositeur français Jean-Claude Gianadda a chanté ses chants les plus aimés avec la chorale : Magnificat, Dieu seul suffit, Trouver dans ma vie ta présence et bien d'autres.",
+      rw: "Mu rugendo rwe mu Rwanda, umuhanzi w'Umufaransa Jean-Claude Gianadda yaririmbanye na korali indirimbo ze zikunzwe: Magnificat, Dieu seul suffit, Trouver dans ma vie ta présence n'izindi.",
+    },
+    videos: [
+      ["dLCNsAGNdSo", "Magnificat"],
+      ["U9dN-08D7qk", "Dieu seul suffit"],
+      ["WsBeBkDks9Q", "Trouver dans ma vie ta présence"],
+      ["5dhl49whOFc", "Tu es parti"],
+      ["Pg1W-xi7iGE", "Il y a quelque part"],
+      ["6d-_XcNOCAE", "Des ponts"],
+      ["6FXQS6II218", "Je bénirai le Seigneur"],
+      ["_EenArHPOMs", "Une chanson"],
+      ["HYlIUzF32mg", "Christus Regnat Hymn"],
+    ],
+  },
+  "ibweranganzo-2023": {
+    highlight: {
+      en: "The very first iBweranganzo. It launched the Dusangire Lunch campaign and set the choir's signature blend of gospel, Rwandan traditional music and classical works, from Exultate to Mama Shenge with Andy Bumuntu.",
+      fr: "Le tout premier iBweranganzo. Il a lancé la campagne Dusangire Lunch et posé le style de la chorale : gospel, musique traditionnelle rwandaise et œuvres classiques, d'Exultate à Mama Shenge avec Andy Bumuntu.",
+      rw: "iBweranganzo ya mbere. Yatangije ubukangurambaga bwa Dusangire Lunch, inagaragaza umwihariko wa korali: indirimbo z'Imana, iz'umuco nyarwanda n'iza kera z'abahanga, kuva kuri Exultate kugeza kuri Mama Shenge hamwe na Andy Bumuntu.",
+    },
+    videos: [
+      ["87VU1FMNqTI", "Full concert"],
+      ["Hrz9OCUkSOA", "Mama Shenge (with Andy Bumuntu)"],
+      ["65AmarueA0A", "Exultate"],
+      ["nzFfWqynKVc", "Lascia ch'io pianga"],
+      ["0YowjyXfQAc", "Igipimo cy'Urukundo"],
+      ["E90HIZUDlu4", "Nyaruguru"],
+      ["75vgHXc8YRE", "Uhoraho ni Umwami"],
+      ["C9fm2w8HhI0", "Roho yanjye"],
+      ["u0IKsn1YLEs", "Icyishongoro cy'Ubucungurwe"],
+      ["HQ25hWxncK0", "Inkotanyi cyane"],
+      ["mv_3SpskAJw", "Igisingizo cya Bikiramariya"],
+    ],
+  },
+  "ibweranganzo-2024": {
+    highlight: {
+      en: "The second edition moved to a bigger venue and sang in Kinyarwanda, English and French, from Handel's Hallelujah and O Fortuna to the classics of Rugamba Cyprien. Hundreds came in support of Dusangire Lunch, and Father Innocent Consolateur represented Cardinal Antoine Kambanda.",
+      fr: "La deuxième édition a changé de salle pour accueillir plus de monde et a chanté en kinyarwanda, en anglais et en français, de l'Alléluia de Haendel et O Fortuna aux classiques de Rugamba Cyprien. Des centaines de personnes sont venues soutenir Dusangire Lunch, et l'abbé Innocent Consolateur représentait le cardinal Antoine Kambanda.",
+      rw: "Ku nshuro ya kabiri, igitaramo cyabereye ahantu hagutse kandi kiririmbwamo indirimbo mu Kinyarwanda, Icyongereza n'Igifaransa, kuva kuri Hallelujah ya Handel na O Fortuna kugeza ku ndirimbo za Rugamba Cyprien. Abantu amagana baje gushyigikira Dusangire Lunch, kandi Padiri Innocent Consolateur yari ahagarariye Antoine Cardinal Kambanda.",
+    },
+    videos: [
+      ["QC89AZwvJ7U", "Rwagasabo (with Mani Martin)"],
+      ["PVhZnoOjbn0", "Rejoice O Judah & Hallelujah, Amen (Handel)"],
+      ["RMvUQJbJMCQ", "O Fortuna"],
+      ["pxtvArPhZUw", "Amakombe y'u Rwanda (Rugamba Cyprien)"],
+      ["-KnxFccM8Ww", "Shimirwa Mukiza (Rugamba Cyprien)"],
+      ["iUOT2JqDFdE", "Igipimo cy'Urukundo"],
+      ["q1pTUOI0XnM", "Urahirwa Bikiramariya"],
+      ["kqvqlyZm-nU", "Igicumbi cy'Uburere"],
+      ["iwinBS2Ep_U", "Paradizo"],
+      ["klSJXO9abYs", "Trouver dans ma vie"],
+      ["lTOcLdAYkns", "Come let us sing"],
+      ["vyHMBMyaOB0", "Twigishe gusenga"],
+    ],
+  },
+  "ibweranganzo-2026": {
+    highlight: {
+      en: "The third edition celebrates the choir's 20th anniversary. Ticket sales support Dusangire Lunch, which gives school lunches to children from families in need.",
+      fr: "La troisième édition célèbre les 20 ans de la chorale. La vente des billets soutient Dusangire Lunch, qui offre le repas de midi à l'école aux enfants de familles modestes.",
+      rw: "Igitaramo cya gatatu cyizihiza isabukuru y'imyaka 20 ya korali. Amafaranga ava ku matike azashyigikira Dusangire Lunch, igaburira ku ishuri abana bo mu miryango itishoboye.",
+    },
+    videos: [["fvq73O9uU1A", "iBweranganzo 2026 trailer"]],
+  },
+};
 
 // ─── Committees, one per 2-year mandate since the choir was founded ───
 // Real people are marked "real:". All other names are invented for now
@@ -202,7 +288,33 @@ const names = [...new Set(terms.flatMap((term) => term.members.map(([, name]) =>
 
 async function main() {
   for (const event of events) {
-    await prisma.event.upsert({ where: { slug: event.slug }, update: event, create: event });
+    const saved = await prisma.event.upsert({
+      where: { slug: event.slug },
+      update: event,
+      create: event,
+    });
+
+    const details = eventDetails[event.slug];
+    if (!details) continue;
+
+    for (const [locale, highlight] of Object.entries(details.highlight)) {
+      await prisma.eventTranslation.upsert({
+        where: { eventId_locale: { eventId: saved.id, locale } },
+        update: { highlight },
+        create: { eventId: saved.id, locale, highlight },
+      });
+    }
+
+    // Videos are replaced as a whole, so reordering or removing one in this file just works
+    await prisma.eventVideo.deleteMany({ where: { eventId: saved.id } });
+    await prisma.eventVideo.createMany({
+      data: details.videos.map(([youtubeId, title], position) => ({
+        eventId: saved.id,
+        youtubeId,
+        title,
+        position,
+      })),
+    });
   }
 
   for (const fullName of names) {
