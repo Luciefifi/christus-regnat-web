@@ -201,5 +201,13 @@
     "saveTheDate": "Ntuzabure",
     "since": "Kuva",
     "backToTop": "Subira hejuru"
+  },
+  "leadership": {
+    "eyebrow": "Ubuyobozi",
+    "title": "Abitangira korali",
+    "intro": "Komite nyobozi iyobora Korali Christus Regnat, umuziki wayo n'ubutumwa bwayo, ifatanyije n'abanyamuryango bose ba korali.",
+    "currentTitle": "Komite iriho ubu",
+    "pastTitle": "Komite zose kuva mu {year}",
+    "pastIntro": "Imyaka makumyabiri y'ubwitange. Turashimira abayoboye korali bose."
   }
 }

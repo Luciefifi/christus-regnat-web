@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { toCommitteeMembers } from "./committee";
+import { termYears, toCommitteeMembers } from "./committee";
 
 const person = (fullName: string, photoUrl: string | null = null) => ({ fullName, photoUrl });
 
@@ -29,5 +29,15 @@ describe("toCommitteeMembers", () => {
 
   it("returns an empty list when there is no committee", () => {
     expect(toCommitteeMembers([])).toEqual([]);
+  });
+});
+
+describe("termYears", () => {
+  it("joins the first and last year", () => {
+    expect(termYears(2024, 2026)).toBe("2024–2026");
+  });
+
+  it("leaves the end open when it is not set", () => {
+    expect(termYears(2026, null)).toBe("2026–");
   });
 });

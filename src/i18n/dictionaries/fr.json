@@ -201,5 +201,13 @@
     "saveTheDate": "À ne pas manquer",
     "since": "Depuis",
     "backToTop": "Retour en haut"
+  },
+  "leadership": {
+    "eyebrow": "Direction",
+    "title": "Celles et ceux qui servent la chorale",
+    "intro": "Le comité exécutif conduit la Chorale Christus Regnat, sa musique et sa mission, avec chacun des membres de la chorale.",
+    "currentTitle": "Le comité actuel",
+    "pastTitle": "Tous les comités depuis {year}",
+    "pastIntro": "Vingt ans de service. Merci à toutes celles et tous ceux qui ont conduit la chorale."
   }
 }

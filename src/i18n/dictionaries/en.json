@@ -201,5 +201,13 @@
     "saveTheDate": "Save the date",
     "since": "Since",
     "backToTop": "Back to top"
+  },
+  "leadership": {
+    "eyebrow": "Leadership",
+    "title": "The people who serve the choir",
+    "intro": "The executive committee leads Chorale Christus Regnat, its music and its mission, together with every member of the choir.",
+    "currentTitle": "Current committee",
+    "pastTitle": "Every committee since {year}",
+    "pastIntro": "Twenty years of service. Thank you to everyone who has led the choir."
   }
 }

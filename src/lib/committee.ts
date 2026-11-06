@@ -21,6 +21,11 @@ const roleKeys: Record<DbCommitteeRole, CommitteeRole> = {
 
 const roleOrder = Object.values(roleKeys);
 
+/** A term's years: (2024, 2026) → "2024–2026"; a term with no end yet → "2026–" */
+export function termYears(startYear: number, endYear: number | null): string {
+  return `${startYear}–${endYear ?? ""}`;
+}
+
 /** Turns database rows into what the site shows, President first. */
 export function toCommitteeMembers(
   rows: { role: DbCommitteeRole; person: { fullName: string; photoUrl: string | null } }[],
