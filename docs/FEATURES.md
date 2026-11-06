@@ -373,7 +373,7 @@ Joining form ──► New member ───────────────�
 | 6   | `feature/public-pages` (History, Leadership, Music, Gallery, News, …)            | ⬜     |
 | 7   | `chore/database-setup` (Prisma schema, migrations, seed)                         | ✅     |
 | –   | `feature/events-from-database` (homepage committee, pinned event, Events page)   | ✅     |
-| –   | `feature/event-pages-and-leadership` (event pages, Leadership page)              | 🚧     |
+| –   | `feature/event-pages-and-leadership` (event pages, Leadership page)              | ✅     |
 | 8   | `feature/music-videos-events`                                                    | ⬜     |
 | 9   | `feature/auth` (roles incl. technical team, section leader, candidate)           | ⬜     |
 | 10  | `feature/portal-*` (attendance, candidates, Mass planner, songs, announcements)  | ⬜     |
