@@ -54,7 +54,6 @@
     "tickets": "Gura itike",
     "cause": "Amafaranga ava ku matike azashyigikira gahunda ya Dusangire Lunch, igaburira ku ishuri abana bo mu miryango itishoboye."
   },
-
   "committee": {
     "eyebrow": "Ubuyobozi",
     "title": "Menya komite yacu",
@@ -71,7 +70,33 @@
     }
   },
   "events": {
-    "featuredSubtitle": "Igitaramo cy'isabukuru y'imyaka 20"
+    "featuredSubtitle": "Igitaramo cy'isabukuru y'imyaka 20",
+    "eyebrow": "Ibitaramo n'ibirori",
+    "title": "Ibikorwa",
+    "intro": "Ibitaramo, Misa zidasanzwe n'ibirori bya Korali Christus Regnat, kuva ku bizaza kugeza ku bya mbere byo mu 2006.",
+    "upcomingTitle": "Ibiri imbere",
+    "noUpcoming": "Nta gikorwa gishya kiratangazwa. Dukurikire kuri YouTube cyangwa Instagram kugira ngo ubimenye mbere.",
+    "pastTitle": "Ibyabaye",
+    "tickets": "Gura itike",
+    "types": {
+      "concert": "Igitaramo",
+      "mass": "Misa",
+      "wedding": "Ubukwe",
+      "funeral": "Gushyingura",
+      "meeting": "Inama",
+      "rehearsal": "Imyitozo",
+      "other": "Igikorwa"
+    },
+    "pastIntro": "Imyaka makumyabiri turirimba. Kanda urebe ibitaramo byacu, indirimbo ku yindi.",
+    "when": "Igihe",
+    "where": "Aho",
+    "guests": "Hamwe na",
+    "play": "Reba",
+    "moreVideos": "Indirimbo z'iki gitaramo",
+    "watchTrailer": "Reba",
+    "youtubeTitle": "Ibindi byinshi biri kuri YouTube",
+    "youtubeText": "Ibitaramo byose, Misa, amashusho y'indirimbo n'amasomo y'umuziki kuri shene yacu, Ishema Ridashonga.",
+    "youtubeCta": "Fungura shene yacu ya YouTube"
   },
   "comingSoon": {
     "eyebrow": "Biraza vuba",
@@ -152,7 +177,6 @@
     "ctaTitle": "Ngwino turirimbane",
     "ctaText": "Imyitozo yakira umuntu wese ukunda kuririmba. Ngwino uduhure."
   },
-
   "footer": {
     "singWithUs": "Ririmbana natwe",
     "bookChoir": "Dutumire",

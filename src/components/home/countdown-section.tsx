@@ -1,16 +1,24 @@
 import Link from "next/link";
-import { site } from "@/config/site";
 import { intlLocale, localePath, type Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
+import type { FeaturedEvent } from "@/lib/events";
 import { formatDate } from "@/lib/format";
 import { buttonClasses } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { Countdown } from "./countdown";
 
 // Server Component: renders the static parts; only <Countdown> runs in the browser
-export function CountdownSection({ locale, dict }: { locale: Locale; dict: Dictionary }) {
+export function CountdownSection({
+  locale,
+  dict,
+  event,
+}: {
+  locale: Locale;
+  dict: Dictionary;
+  event: FeaturedEvent | null;
+}) {
+  if (!event) return null; // no pinned event coming up
   const t = dict.countdown;
-  const event = site.featuredEvent;
 
   return (
     <section aria-labelledby="countdown-heading" className="pb-10 sm:pb-12 lg:pb-14">
@@ -33,19 +41,21 @@ export function CountdownSection({ locale, dict }: { locale: Locale; dict: Dicti
               <p className="mt-4 font-semibold text-gold-800">
                 {formatDate(event.date, intlLocale[locale])}
               </p>
-              <p className="mt-1 text-sm text-ink-muted">{event.venue}</p>
+              {event.venue && <p className="mt-1 text-sm text-ink-muted">{event.venue}</p>}
               <p className="mt-4 max-w-md text-sm leading-relaxed text-ink-muted">{t.cause}</p>
 
               <div className="mt-6 flex flex-wrap gap-3">
                 {/* Tickets are sold on the concert's own site, so this is an external link */}
-                <a
-                  href={event.ticketsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={buttonClasses("primary")}
-                >
-                  {t.tickets}
-                </a>
+                {event.ticketsUrl && (
+                  <a
+                    href={event.ticketsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={buttonClasses("primary")}
+                  >
+                    {t.tickets}
+                  </a>
+                )}
                 <Link href={localePath(locale, event.href)} className={buttonClasses("secondary")}>
                   {t.cta}
                 </Link>

@@ -6,6 +6,10 @@ const nextConfig: NextConfig = {
     agentFeedback: true,
     globalNotFound: true, // enables src/app/global-not-found.tsx (our root layout is under [locale])
   },
+  images: {
+    // Video stills from YouTube, used as event photos on the Events page
+    remotePatterns: [new URL("https://i.ytimg.com/vi/**")],
+  },
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {

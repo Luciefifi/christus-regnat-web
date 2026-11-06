@@ -70,7 +70,33 @@
     }
   },
   "events": {
-    "featuredSubtitle": "20th anniversary concert"
+    "featuredSubtitle": "20th anniversary concert",
+    "eyebrow": "Concerts and celebrations",
+    "title": "Events",
+    "intro": "Concerts, special Masses and celebrations with Chorale Christus Regnat, from the next ones to the very first since 2006.",
+    "upcomingTitle": "Coming up",
+    "noUpcoming": "No new events announced yet. Follow us on YouTube or Instagram to hear first.",
+    "pastTitle": "Past events",
+    "tickets": "Buy a ticket",
+    "types": {
+      "concert": "Concert",
+      "mass": "Mass",
+      "wedding": "Wedding",
+      "funeral": "Funeral",
+      "meeting": "Meeting",
+      "rehearsal": "Rehearsal",
+      "other": "Event"
+    },
+    "pastIntro": "Twenty years of singing. Press play to relive the concerts, song by song.",
+    "when": "When",
+    "where": "Where",
+    "guests": "With",
+    "play": "Play",
+    "moreVideos": "Songs from this concert",
+    "watchTrailer": "Watch",
+    "youtubeTitle": "There's much more on YouTube",
+    "youtubeText": "Full concerts, Masses, music videos and music-theory lessons on our channel, Ishema Ridashonga.",
+    "youtubeCta": "Open our YouTube channel"
   },
   "comingSoon": {
     "eyebrow": "Coming soon",
@@ -151,7 +177,6 @@
     "ctaTitle": "Sing with us",
     "ctaText": "Rehearsals are open to everyone who loves to sing. Come and meet us."
   },
-
   "footer": {
     "singWithUs": "Sing with us",
     "bookChoir": "Book the choir",

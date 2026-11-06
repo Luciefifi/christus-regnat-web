@@ -134,39 +134,39 @@ Joining form ──► New member ───────────────�
 
 ## 6. Public website
 
-| Page                   | Status | Notes                                                                                                                                                                           |
-| ---------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Home                   | 🚧     | Hero ✅, committee section ✅, rehearsals and next Mass ✅, iBweranganzo countdown with venue, tickets link and cause ✅, latest video ⬜, latest news ⬜                       |
-| About                  | ✅     | Story since 2006, music, key figures, Acts of Love, "Christus Regnat! Ishema Ridashonga!" (not translated)                                                                      |
-| History                | ⬜     | **A page for every year since 2006**: that year's committee, events, photos and highlights (year-by-year archive, needs the database)                                           |
-| Leadership             | ⬜     | Executive (featured), full committee grouped by area; past committees live in the year-by-year archive (History)                                                                |
-| Music                  | ⬜     | Songs and albums, YouTube/Apple Music embeds, filters (language, season, occasion)                                                                                              |
-| Videos                 | ⬜     | Official YouTube channel (@IshemaRidashonga), concerts, music videos, music-theory lessons                                                                                      |
-| Events / Concerts      | ⬜     | Upcoming **and all past events since the start** (concerts like iBweranganzo 2023/2024/2026, the 2018 and 2019 concerts, …), detail pages, tickets, map, add-to-calendar (.ics) |
-| Masses                 | ⬜     | Upcoming Masses with the choir (from the Mass planner)                                                                                                                          |
-| Gallery                | ⬜     | Albums by event and year, lightbox, credits                                                                                                                                     |
-| News & Press           | ⬜     | Announcements and press links                                                                                                                                                   |
-| Acts of Love (charity) | ⬜     | Dusangire Lunch and other initiatives                                                                                                                                           |
-| Join the Choir         | 🚧     | Page with rehearsal times and how joining works ✅; online **joining form** ⬜ (needs the database)                                                                             |
-| Contact / Book us      | ✅     | Tap-to-call, WhatsApp (pre-filled message per language), email, bookings via WhatsApp, directions, socials. A contact form ⬜ needs the database                                |
-| Donate / Support       | ⬜     | Mobile Money details, sponsorship packages                                                                                                                                      |
+| Page                   | Status | Notes                                                                                                                                                                                                                                                                                                        |
+| ---------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Home                   | 🚧     | Hero ✅, committee section ✅, rehearsals and next Mass ✅, iBweranganzo countdown with venue, tickets link and cause ✅, latest video ⬜, latest news ⬜                                                                                                                                                    |
+| About                  | ✅     | Story since 2006, music, key figures, Acts of Love, "Christus Regnat! Ishema Ridashonga!" (not translated)                                                                                                                                                                                                   |
+| History                | ⬜     | **A page for every year since 2006**: that year's committee, events, photos and highlights (year-by-year archive, needs the database)                                                                                                                                                                        |
+| Leadership             | ⬜     | Executive (featured), full committee grouped by area; past committees live in the year-by-year archive (History)                                                                                                                                                                                             |
+| Music                  | ⬜     | Songs and albums, YouTube/Apple Music embeds, filters (language, season, occasion)                                                                                                                                                                                                                           |
+| Videos                 | ⬜     | Official YouTube channel (@IshemaRidashonga), concerts, music videos, music-theory lessons                                                                                                                                                                                                                   |
+| Events / Concerts      | 🚧     | Upcoming **and all past events since the start** ✅ (from the database: a timeline by year with highlights in 3 languages, guest artists and the concert videos from YouTube) (concerts like iBweranganzo 2023/2024/2026, the 2018 and 2019 concerts, …), detail pages, tickets, map, add-to-calendar (.ics) |
+| Masses                 | ⬜     | Upcoming Masses with the choir (from the Mass planner)                                                                                                                                                                                                                                                       |
+| Gallery                | ⬜     | Albums by event and year, lightbox, credits                                                                                                                                                                                                                                                                  |
+| News & Press           | ⬜     | Announcements and press links                                                                                                                                                                                                                                                                                |
+| Acts of Love (charity) | ⬜     | Dusangire Lunch and other initiatives                                                                                                                                                                                                                                                                        |
+| Join the Choir         | 🚧     | Page with rehearsal times and how joining works ✅; online **joining form** ⬜ (needs the database)                                                                                                                                                                                                          |
+| Contact / Book us      | ✅     | Tap-to-call, WhatsApp (pre-filled message per language), email, bookings via WhatsApp, directions, socials. A contact form ⬜ needs the database                                                                                                                                                             |
+| Donate / Support       | ⬜     | Mobile Money details, sponsorship packages                                                                                                                                                                                                                                                                   |
 
 ### Homepage sections (planned order)
 
 1. ✅ Hero: name, "Christus Regnat! Ishema Ridashonga!", featured event pill, choir photo
 2. ⬜ **Today at Christus Regnat** (only shown when there is something): today's **birthday flyer(s)** (consenting members only) and/or today's **feast-day flyer**, e.g. "Happy Feast of the Assumption"
-3. 🚧 **Next event** (see rule below) + weekly rehearsals (Tue & Fri 18:00–20:00, Ste Famille JOC): rehearsals and the iBweranganzo countdown ✅; the pinning rule waits for the database
-4. 🚧 **Meet our committee**: the 5 executive members (President, Vice-President, Technical Vice-President, Secretary, Accountant). Section ✅. **Alice La Douce Nyaruhirira** (Vice-President, previously President) is real; the other four names are **still placeholders** (no "sample" badge any more) ❓ real names
+3. 🚧 **Next event** (see rule below) + weekly rehearsals (Tue & Fri 18:00–20:00, Ste Famille JOC): rehearsals ✅; the countdown, hero pill and footer card show the soonest pinned event from the database ✅; the default (next Mass or rehearsal) ⬜
+4. 🚧 **Meet our committee**: the 5 executive members (President, Vice-President, Technical Vice-President, Secretary, Accountant). Section ✅, read from the database (the term that started most recently) ✅. **Alice La Douce Nyaruhirira** (Vice-President, previously President) is real; the other four names are **still placeholders** (no "sample" badge any more) ❓ real names
 5. ⬜ Featured video
 6. ⬜ Latest news
 7. ✅ Footer with the "Christus Regnat! Ishema Ridashonga!" band, links, socials (YouTube, Instagram, Facebook, X), featured event
 
-### Rule: which event the homepage shows ⬜
+### Rule: which event the homepage shows 🚧
 
 - **Default:** the next upcoming activity, i.e. the next Mass with the choir or the next rehearsal.
 - **Pinned big events:** an event (e.g. a concert like iBweranganzo) can be **pinned**. A pinned event stays on the homepage, with a countdown, **until it happens or until a "pin until" date** set by the admin, even if smaller activities come first.
-- Several pinned events: show the soonest one.
-- After the event: it disappears automatically, and the next pinned event or the default takes over (no one has to remember to remove it).
+- Several pinned events: show the soonest one. ✅
+- After the event: it disappears automatically, and the next pinned event or the default takes over (no one has to remember to remove it). ✅ for pinned events (within an hour); a "pin until" date ⬜
 
 ---
 
@@ -371,7 +371,8 @@ Joining form ──► New member ───────────────�
 | –   | `feature/coming-soon-pages` (placeholder page for every menu link)               | ✅     |
 | –   | `feature/join-page`, `feature/contact-page`, `feature/about-page`                | ✅     |
 | 6   | `feature/public-pages` (History, Leadership, Music, Gallery, News, …)            | ⬜     |
-| 7   | `chore/database` (Prisma schema, migrations, seed)                               | ⬜     |
+| 7   | `chore/database-setup` (Prisma schema, migrations, seed)                         | ✅     |
+| –   | `feature/home-from-database` (committee and pinned event from the database)      | 🚧     |
 | 8   | `feature/music-videos-events`                                                    | ⬜     |
 | 9   | `feature/auth` (roles incl. technical team, section leader, candidate)           | ⬜     |
 | 10  | `feature/portal-*` (attendance, candidates, Mass planner, songs, announcements)  | ⬜     |

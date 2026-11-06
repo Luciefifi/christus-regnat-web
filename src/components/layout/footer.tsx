@@ -4,12 +4,21 @@ import { mainNav } from "@/config/navigation";
 import { site } from "@/config/site";
 import { intlLocale, localePath, type Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
+import type { FeaturedEvent } from "@/lib/events";
 import { formatDate } from "@/lib/format";
 import { buttonClasses } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { SocialLinks } from "./social-links";
 
-export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
+export function Footer({
+  locale,
+  dict,
+  event,
+}: {
+  locale: Locale;
+  dict: Dictionary;
+  event: FeaturedEvent | null;
+}) {
   const path = (href: string) => localePath(locale, href);
 
   const explore = mainNav.map((link) => ({ href: path(link.href), label: dict.nav[link.key] }));
@@ -81,28 +90,30 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           className="lg:col-span-3"
         />
 
-        {/* Featured event card */}
-        <div className="col-span-2 lg:col-span-3">
-          <p className="text-xs font-semibold tracking-[0.2em] text-gold-400 uppercase">
-            {dict.footer.saveTheDate}
-          </p>
-          <Link
-            href={path(site.featuredEvent.href)}
-            className="group mt-4 block rounded-2xl bg-linear-to-br from-gold-400/20 to-transparent p-5 ring-1 ring-gold-400/30 transition hover:ring-gold-400"
-          >
-            <p className="font-display text-2xl text-white">{site.featuredEvent.title}</p>
-            <p className="mt-1 text-sm text-gold-100/80">{dict.events.featuredSubtitle}</p>
-            <p className="mt-4 text-sm font-semibold text-gold-300">
-              {formatDate(site.featuredEvent.date, intlLocale[locale])}
-              <span
-                aria-hidden="true"
-                className="ml-2 inline-block transition group-hover:translate-x-1"
-              >
-                →
-              </span>
+        {/* Featured event card, only when a pinned event is coming up */}
+        {event && (
+          <div className="col-span-2 lg:col-span-3">
+            <p className="text-xs font-semibold tracking-[0.2em] text-gold-400 uppercase">
+              {dict.footer.saveTheDate}
             </p>
-          </Link>
-        </div>
+            <Link
+              href={path(event.href)}
+              className="group mt-4 block rounded-2xl bg-linear-to-br from-gold-400/20 to-transparent p-5 ring-1 ring-gold-400/30 transition hover:ring-gold-400"
+            >
+              <p className="font-display text-2xl text-white">{event.title}</p>
+              <p className="mt-1 text-sm text-gold-100/80">{dict.events.featuredSubtitle}</p>
+              <p className="mt-4 text-sm font-semibold text-gold-300">
+                {formatDate(event.date, intlLocale[locale])}
+                <span
+                  aria-hidden="true"
+                  className="ml-2 inline-block transition group-hover:translate-x-1"
+                >
+                  →
+                </span>
+              </p>
+            </Link>
+          </div>
+        )}
       </Container>
 
       {/* Bottom bar */}

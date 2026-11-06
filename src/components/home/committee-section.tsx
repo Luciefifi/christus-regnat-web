@@ -1,13 +1,22 @@
 import Image from "next/image";
 import Link from "next/link";
-import { executiveCommittee, type CommitteeMember } from "@/config/committee";
 import { localePath, type Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
+import type { CommitteeMember } from "@/lib/committee";
 import { initials } from "@/lib/initials";
 import { Container } from "@/components/ui/container";
 
-export function CommitteeSection({ locale, dict }: { locale: Locale; dict: Dictionary }) {
+export function CommitteeSection({
+  locale,
+  dict,
+  members,
+}: {
+  locale: Locale;
+  dict: Dictionary;
+  members: CommitteeMember[];
+}) {
   const t = dict.committee;
+  if (members.length === 0) return null; // no committee in the database yet
 
   return (
     <section aria-labelledby="committee-heading" className="pb-12 sm:pb-16 lg:pb-20">
@@ -31,7 +40,7 @@ export function CommitteeSection({ locale, dict }: { locale: Locale; dict: Dicti
         </div>
 
         <ul className="mt-6 grid grid-cols-2 gap-3 sm:mt-10 sm:grid-cols-3 sm:gap-4 lg:grid-cols-5">
-          {executiveCommittee.map((member) => (
+          {members.map((member) => (
             <li
               key={member.role}
               className="rounded-2xl bg-white p-4 text-center shadow-sm ring-1 ring-gold-100 transition hover:-translate-y-1 hover:shadow-md hover:ring-gold-300 sm:p-5"

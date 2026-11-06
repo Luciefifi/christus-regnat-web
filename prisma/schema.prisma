@@ -32,10 +32,38 @@ model Event {
   venue      String?
   ticketsUrl String?
   isFeatured Boolean   @default(false) // pinned on the homepage with a countdown
+  edition    Int? // iBweranganzo 2023 is edition 1; empty for one-off events
+  guests     String[] // guest artists, e.g. ["Mani Martin"]: names are the same in every language
+  coverImage String? // a photo in public/ ("/events/x.jpg"); without one, the main video's still is used
   createdAt  DateTime  @default(now())
   updatedAt  DateTime  @updatedAt
 
+  translations EventTranslation[]
+  videos       EventVideo[]
+
   @@index([startsAt]) // the site mostly asks "what's next?" and "what happened in year X?"
+}
+
+// The text of an event in one language ("en", "fr", "rw"). The title stays in Event: it's a name.
+model EventTranslation {
+  eventId   Int
+  event     Event  @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  locale    String
+  highlight String // a few sentences: what made this event special
+
+  @@id([eventId, locale])
+}
+
+// A YouTube video of the event. The first one (lowest position) is the main video and the cover.
+model EventVideo {
+  id        Int    @id @default(autoincrement())
+  eventId   Int
+  event     Event  @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  youtubeId String // the part after watch?v=, e.g. "QC89AZwvJ7U"
+  title     String // usually the song: "Rwagasabo (with Mani Martin)"
+  position  Int
+
+  @@unique([eventId, position])
 }
 
 // ─── People and committees ────────────────────────────────
